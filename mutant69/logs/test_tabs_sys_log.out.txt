@@ -1,0 +1,837 @@
+--------- beginning of main
+12-14 01:13:23.011 I/chatty  ( 1732): uid=10028(u0_a28) com.android.systemui expire 2 lines
+--------- beginning of system
+12-14 01:13:23.022 W/ActivityManager( 1628): Finishing task with all activities already finished
+12-14 01:13:23.022 W/ActivityManager( 1628): Duplicate finish request for ActivityRecord{91cfd5b u0 com.evancharlton.mileage/.Mileage t685 f}
+12-14 01:13:23.026 W/ActivityManager( 1628): Finishing task with all activities already finished
+12-14 01:13:23.026 W/ActivityManager( 1628): Duplicate finish request for ActivityRecord{91cfd5b u0 com.evancharlton.mileage/.Mileage t685 f}
+12-14 01:13:23.027 W/ActivityManager( 1628): Finishing task with all activities already finished
+12-14 01:13:23.027 W/ActivityManager( 1628): Duplicate finish request for ActivityRecord{91cfd5b u0 com.evancharlton.mileage/.Mileage t685 f}
+12-14 01:13:23.028 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:23.037 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.037 W/ActivityManager( 1628): Finishing task with all activities already finished
+12-14 01:13:23.038 W/ActivityManager( 1628): Duplicate finish request for ActivityRecord{91cfd5b u0 com.evancharlton.mileage/.Mileage t685 f}
+12-14 01:13:23.065 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.076 W/audio_hw_generic( 1390): Not supplying enough data to HAL, expected position 838493 , only wrote 597600
+12-14 01:13:23.077 D/SurfaceFlinger( 1406): duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+12-14 01:13:23.087 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.095 I/NetworkScheduler.Stats( 1941): Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 87 [CONTEXT service_id=218 ]
+12-14 01:13:23.110 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:23.111 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.247 I/chatty  ( 1396): uid=1000(system) allocator@2.0-s identical 2 lines
+12-14 01:13:23.353 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.428 I/zygote  ( 2176): Do full code cache collection, code=124KB, data=82KB
+12-14 01:13:23.430 I/zygote  ( 2176): After code cache collection, code=116KB, data=70KB
+12-14 01:13:23.455 D/EGL_emulation( 2176): eglMakeCurrent: 0x9d0853c0: ver 3 0 (tinfo 0x9d083350)
+12-14 01:13:23.488 D/EGL_emulation( 2211): eglMakeCurrent: 0x9d085840: ver 3 0 (tinfo 0x9d083680)
+12-14 01:13:23.491 D/EGL_emulation( 2176): eglMakeCurrent: 0x9d0853c0: ver 3 0 (tinfo 0x9d083350)
+12-14 01:13:23.495 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.539 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.574 I/NetworkScheduler.Stats( 1941): Task com.google.android.gms/com.google.android.gms.ads.social.GcmSchedulerWakeupService started execution. cause:4 exec_start_elapsed_seconds: 87 [CONTEXT service_id=218 ]
+12-14 01:13:23.609 I/NetworkScheduler.Stats( 1941): Task com.google.android.gms/com.google.android.gms.icing.service.IcingGcmTaskService finished executing. cause:4 result: 1 elapsed_millis: 628 uptime_millis: 628 exec_start_elapsed_seconds: 87 [CONTEXT service_id=218 ]
+12-14 01:13:23.650 D/EGL_emulation( 2176): eglMakeCurrent: 0x9d0853c0: ver 3 0 (tinfo 0x9d083350)
+12-14 01:13:23.657 I/NetworkScheduler.Stats( 1941): Task com.google.android.gms/com.google.android.gms.ads.social.GcmSchedulerWakeupService finished executing. cause:4 result: 1 elapsed_millis: 295 uptime_millis: 294 exec_start_elapsed_seconds: 87 [CONTEXT service_id=218 ]
+12-14 01:13:23.659 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 01:13:23.688 I/Finsky  ( 2556): [115] nmi.run(36): Stats for Executor: BlockingExecutor non@e5fdeef[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 18]
+12-14 01:13:23.695 I/Finsky  ( 2556): [115] nmi.run(36): Stats for Executor: LightweightExecutor non@98edfc[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 71]
+12-14 01:13:23.698 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.740 W/ActivityManager( 1628): Unable to start service Intent { act=com.google.android.gms.speech.service.START pkg=com.google.android.gms } U=0: not found
+12-14 01:13:23.741 W/ActivityManager( 1628): Unbind failed: could not find connection for android.os.BinderProxy@9ad1990
+12-14 01:13:23.742 E/GmsClient( 2211): unable to connect to service: com.google.android.gms.speech.service.START on com.google.android.gms
+12-14 01:13:23.744 W/SessionLifecycleManager( 2211): Handover failed. Creating new session controller.
+12-14 01:13:23.754 I/OptInState( 2211): There is a new client and it does not support opt-in. Dropping request.
+12-14 01:13:23.798 E/hw-IPCThreadState( 1406): binder thread pool (1 threads) starved for 126 ms
+12-14 01:13:23.831 I/MicroDetectionWorker( 2211): #updateMicroDetector [detectionMode: [mDetectionMode: [1]]]
+12-14 01:13:23.831 I/MicroDetectionWorker( 2211): #startMicroDetector [speakerMode: 0]
+12-14 01:13:23.832 I/AudioController( 2211): Using mInputStreamFactoryBuilder
+12-14 01:13:23.836 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:23.912 W/OpenGLRenderer( 2176): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-14 01:13:23.919 I/MicroRecognitionRunner( 2211): Starting detection.
+12-14 01:13:23.919 I/MicrophoneInputStream( 2211): mic_starting com.google.android.apps.gsa.staticplugins.aa.c@5da7c95
+12-14 01:13:23.925 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:23.940 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:23.953 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:23.956 I/MicrophoneInputStream( 2211): mic_started com.google.android.apps.gsa.staticplugins.aa.c@5da7c95
+12-14 01:13:23.958 I/MicroDetectionWorker( 2211): onReady
+12-14 01:13:23.959 E/ActivityThread( 2211): Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+12-14 01:13:23.961 I/MicrophoneInputStream( 2211): mic_close com.google.android.apps.gsa.staticplugins.aa.c@5da7c95
+12-14 01:13:23.962 I/MicroDetectionWorker( 2211): onReady
+12-14 01:13:23.963 I/MicroRecognitionRunner( 2211): Detection finished
+12-14 01:13:23.963 W/ErrorReporter( 2211): reportError [type: 211, code: 524300]: Error reading from input stream
+12-14 01:13:23.963 I/MicroRecognitionRunner( 2211): Stopping hotword detection.
+12-14 01:13:23.964 W/ErrorProcessor( 2211): onFatalError, processing error from engine(4)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): com.google.android.apps.gsa.shared.speech.b.g: Error reading from input stream
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.staticplugins.recognizer.j.a.a(SourceFile:28)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.staticplugins.recognizer.j.b.run(SourceFile:15)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:14)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.shared.util.concurrent.a.bl.run(SourceFile:4)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.shared.util.concurrent.a.bl.run(SourceFile:4)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at java.lang.Thread.run(Thread.java:764)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.shared.util.concurrent.a.ai.run(SourceFile:6)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.speech.audio.Tee.f(SourceFile:103)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.speech.audio.au.read(SourceFile:2)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at java.io.InputStream.read(InputStream.java:101)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.speech.audio.ao.run(SourceFile:18)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	at com.google.android.apps.gsa.speech.audio.an.run(SourceFile:2)
+12-14 01:13:23.964 W/ErrorProcessor( 2211): 	... 9 more
+12-14 01:13:23.964 I/AudioController( 2211): internalShutdown
+12-14 01:13:23.964 I/AudioFlinger( 1476): AudioFlinger's thread 0xa9703840 tid=4552 ready to run
+12-14 01:13:23.975 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:23.978 I/MicroDetector( 2211): Keeping mic open: false
+12-14 01:13:23.978 I/MicroDetectionWorker( 2211): #onError(false)
+12-14 01:13:23.982 I/DeviceStateChecker( 2211): DeviceStateChecker cancelled
+12-14 01:13:23.985 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:24.068 I/chatty  ( 1732): uid=10028(u0_a28) RenderThread identical 4 lines
+12-14 01:13:24.075 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:24.081 I/zygote  ( 2211): Background concurrent copying GC freed 7245(533KB) AllocSpace objects, 7(188KB) LOS objects, 50% free, 4MB/8MB, paused 35.261ms total 160.542ms
+12-14 01:13:24.086 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:24.162 I/chatty  ( 1732): uid=10028(u0_a28) RenderThread identical 5 lines
+12-14 01:13:24.166 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:24.217 I/zygote  ( 2211): Do full code cache collection, code=501KB, data=353KB
+12-14 01:13:24.218 I/zygote  ( 2211): After code cache collection, code=495KB, data=315KB
+12-14 01:13:24.230 I/NetworkScheduler.Stats( 1941): Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 88 [CONTEXT service_id=218 ]
+12-14 01:13:24.253 I/OpenGLRenderer( 1628): Initialized EGL, version 1.4
+12-14 01:13:24.253 D/OpenGLRenderer( 1628): Swap behavior 1
+12-14 01:13:24.253 W/OpenGLRenderer( 1628): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-14 01:13:24.253 D/OpenGLRenderer( 1628): Swap behavior 0
+12-14 01:13:24.257 I/NetworkScheduler.Stats( 1941): Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService finished executing. cause:5 result: 1 elapsed_millis: 140 uptime_millis: 140 exec_start_elapsed_seconds: 88 [CONTEXT service_id=218 ]
+12-14 01:13:24.260 D/EGL_emulation( 1628): eglCreateContext: 0x9cdafb80: maj 3 min 0 rcv 3
+12-14 01:13:24.264 D/EGL_emulation( 1628): eglMakeCurrent: 0x9cdafb80: ver 3 0 (tinfo 0x9a58d370)
+12-14 01:13:24.265 E/eglCodecCommon( 1628): glUtilsParamSize: unknow param 0x00008cdf
+12-14 01:13:24.265 E/eglCodecCommon( 1628): glUtilsParamSize: unknow param 0x00008cdf
+12-14 01:13:24.265 E/eglCodecCommon( 1628): glUtilsParamSize: unknow param 0x00008824
+12-14 01:13:24.265 E/eglCodecCommon( 1628): glUtilsParamSize: unknow param 0x00008824
+12-14 01:13:24.322 D/AndroidRuntime( 4546): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-14 01:13:24.374 W/app_process( 4546): Unexpected CPU variant for X86 using defaults: x86
+12-14 01:13:24.392 D/AndroidRuntime( 4546): Calling main entry com.android.commands.am.Am
+12-14 01:13:24.396 I/ActivityManager( 1628): Force stopping com.evancharlton.mileage appid=10272 user=0: start instr
+12-14 01:13:24.396 I/ActivityManager( 1628): Killing 4461:com.evancharlton.mileage/u0a272 (adj 0): stop com.evancharlton.mileage
+12-14 01:13:24.396 W/ActivityManager( 1628): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner}
+12-14 01:13:24.396 I/ActivityManager( 1628): Force stopping com.evancharlton.mileage appid=10272 user=0: finished inst
+12-14 01:13:24.406 I/zygote  ( 4561): Not late-enabling -Xcheck:jni (already on)
+12-14 01:13:24.413 I/ActivityManager( 1628): Start proc 4561:com.evancharlton.mileage/u0a272 for added application com.evancharlton.mileage
+12-14 01:13:24.415 D/AndroidRuntime( 4546): Shutting down VM
+12-14 01:13:24.427 W/ActivityManager( 1628): setHasOverlayUi called on unknown pid: 4461
+12-14 01:13:24.428 W/zygote  ( 4561): Unexpected CPU variant for X86 using defaults: x86
+12-14 01:13:24.439 E/adbd    ( 1383): failed to connect to socket 'tcp:7102': Connection refused
+12-14 01:13:24.445 E/adbd    ( 1383): failed to connect to socket 'tcp:7102': Connection refused
+12-14 01:13:24.448 W/zygote  ( 4561): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-N1PiKABFxNd12x4Xq2jrMg==/base.apk
+12-14 01:13:24.448 W/zygote  ( 4561): NOTE: This wastes RAM and hurts startup performance.
+12-14 01:13:24.448 W/zygote  ( 4561): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-N1PiKABFxNd12x4Xq2jrMg==/base.apk and /system/framework/android.test.runner.jar
+12-14 01:13:24.448 W/zygote  ( 4561): 
+12-14 01:13:24.461 I/Finsky  ( 2556): [115] nmi.run(36): Stats for Executor: bgExecutor non@6884c85[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 78]
+12-14 01:13:24.484 W/System  ( 4561): ClassLoader referenced unknown path: 
+12-14 01:13:24.499 I/System.out( 4561): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+12-14 01:13:24.500 I/System.out( 4561): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+12-14 01:13:24.500 I/calabash( 4561): Test server port: 7102
+12-14 01:13:24.501 I/InstrumentationBackend( 4561): Added:'GetPreferences', with key:'get_preferences'
+12-14 01:13:24.552 E/adbd    ( 1383): failed to connect to socket 'tcp:7102': Connection refused
+12-14 01:13:24.554 E/adbd    ( 1383): failed to connect to socket 'tcp:7102': Connection refused
+12-14 01:13:24.566 I/InstrumentationBackend( 4561): Added:'SetPreferences', with key:'set_preferences'
+12-14 01:13:24.566 I/InstrumentationBackend( 4561): Added:'ClearPreferences', with key:'clear_preferences'
+12-14 01:13:24.567 I/InstrumentationBackend( 4561): Added:'PressElement', with key:'press_l10n_element'
+12-14 01:13:24.567 I/InstrumentationBackend( 4561): Added:'WaitForElement', with key:'wait_for_l10n_element'
+12-14 01:13:24.567 I/InstrumentationBackend( 4561): Added:'NullAction', with key:'nullAction'
+12-14 01:13:24.568 I/InstrumentationBackend( 4561): Added:'PressKey', with key:'press_key'
+12-14 01:13:24.568 I/InstrumentationBackend( 4561): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+12-14 01:13:24.568 I/InstrumentationBackend( 4561): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+12-14 01:13:24.569 I/InstrumentationBackend( 4561): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+12-14 01:13:24.569 I/InstrumentationBackend( 4561): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+12-14 01:13:24.570 I/InstrumentationBackend( 4561): Added:'GetUrl', with key:'get_url'
+12-14 01:13:24.572 I/InstrumentationBackend( 4561): Added:'ScrollTo', with key:'scroll_to'
+12-14 01:13:24.573 I/InstrumentationBackend( 4561): Added:'GetLoadProgress', with key:'get_load_progress'
+12-14 01:13:24.573 I/InstrumentationBackend( 4561): Added:'DumpHtml', with key:'dump_html'
+12-14 01:13:24.573 I/InstrumentationBackend( 4561): Added:'DumpBodyHtml', with key:'dump_body_html'
+12-14 01:13:24.574 I/InstrumentationBackend( 4561): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+12-14 01:13:24.579 I/InstrumentationBackend( 4561): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+12-14 01:13:24.579 I/InstrumentationBackend( 4561): Added:'Version', with key:'version'
+12-14 01:13:24.579 I/InstrumentationBackend( 4561): Added:'Drag', with key:'drag'
+12-14 01:13:24.579 I/InstrumentationBackend( 4561): Added:'TouchCoordinates', with key:'touch_coordinate'
+12-14 01:13:24.580 I/InstrumentationBackend( 4561): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+12-14 01:13:24.580 I/InstrumentationBackend( 4561): Added:'DragCoordinates', with key:'drag_coordinates'
+12-14 01:13:24.580 I/InstrumentationBackend( 4561): Added:'ResumeApplication', with key:'resume_application'
+12-14 01:13:24.581 I/InstrumentationBackend( 4561): Added:'Swipe', with key:'swipe'
+12-14 01:13:24.581 I/InstrumentationBackend( 4561): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+12-14 01:13:24.581 I/InstrumentationBackend( 4561): Added:'ClickOnScreen', with key:'click_on_screen'
+12-14 01:13:24.582 I/InstrumentationBackend( 4561): Added:'GetActivityName', with key:'get_activity_name'
+12-14 01:13:24.583 I/InstrumentationBackend( 4561): Added:'ScrollToView', with key:'scroll_to_view'
+12-14 01:13:24.583 I/InstrumentationBackend( 4561): Added:'ViewConfiguration', with key:'view_configuration'
+12-14 01:13:24.583 I/InstrumentationBackend( 4561): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+12-14 01:13:24.584 I/InstrumentationBackend( 4561): Added:'SendTcp', with key:'send_tcp'
+12-14 01:13:24.585 I/InstrumentationBackend( 4561): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+12-14 01:13:24.586 I/InstrumentationBackend( 4561): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+12-14 01:13:24.586 I/InstrumentationBackend( 4561): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+12-14 01:13:24.586 I/InstrumentationBackend( 4561): Added:'SetComposingRegion', with key:'set_composing_region'
+12-14 01:13:24.587 I/InstrumentationBackend( 4561): Added:'SetSelection', with key:'set_selection'
+12-14 01:13:24.587 I/InstrumentationBackend( 4561): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+12-14 01:13:24.587 I/InstrumentationBackend( 4561): Added:'PressUserActionButton', with key:'press_user_action_button'
+12-14 01:13:24.588 I/InstrumentationBackend( 4561): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+12-14 01:13:24.589 I/InstrumentationBackend( 4561): Added:'ListActions', with key:'list_actions'
+12-14 01:13:24.589 I/calabash( 4561): Instantiating http server at 7102
+12-14 01:13:24.590 I/System.out( 4561): HTTP Daemon listening on: 7102
+12-14 01:13:24.685 I/System.out( 4561): URI: //ping
+12-14 01:13:24.685 I/System.out( 4561): params: {json={}
+12-14 01:13:24.685 I/System.out( 4561): }
+12-14 01:13:24.700 I/System.out( 4561): URI: //ping
+12-14 01:13:24.701 I/System.out( 4561): params: {json={}
+12-14 01:13:24.701 I/System.out( 4561): }
+12-14 01:13:24.709 I/System.out( 4561): URI: //ready
+12-14 01:13:24.709 I/System.out( 4561): params: {json={}
+12-14 01:13:24.709 I/System.out( 4561): }
+12-14 01:13:24.720 I/System.out( 4561): URI: //
+12-14 01:13:24.720 I/System.out( 4561): params: {json={"command":"version","arguments":[]}
+12-14 01:13:24.720 I/System.out( 4561): }
+12-14 01:13:24.720 I/System.out( 4561): header: {content-type=application/json;charset=utf-8, date=Mon, 14 Dec 2020 06:13:24 GMT, accept=*/*, host=127.0.0.1:34777, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.8 (2020-03-31))}
+12-14 01:13:24.720 I/System.out( 4561): params: {json={"command":"version","arguments":[]}
+12-14 01:13:24.720 I/System.out( 4561): }
+12-14 01:13:24.720 I/System.out( 4561): ProP json = {"command":"version","arguments":[]}
+12-14 01:13:24.720 I/System.out( 4561): files: {}
+12-14 01:13:24.720 I/System.out( 4561): command: {"command":"version","arguments":[]}
+12-14 01:13:24.751 I/InstrumentationBackend( 4561): Got command:'Command:'Line:null,version', arguments:'[]'
+12-14 01:13:24.785 I/System.out( 4561): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+12-14 01:13:24.790 I/System.out( 4561): URI: //start-application
+12-14 01:13:24.790 I/System.out( 4561): params: {json={"intent":null}
+12-14 01:13:24.790 I/System.out( 4561): }
+12-14 01:13:24.829 I/ActivityManager( 1628): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 10272
+12-14 01:13:24.866 I/calabash( 4561): newActivity1
+12-14 01:13:24.879 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 01:13:24.906 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@be7c4bb
+12-14 01:13:24.906 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:24.906 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:24.906 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:24.906 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:24.906 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-14 01:13:24.906 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-14 01:13:24.906 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:24.906 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:24.907 I/calabash( 4561): newActivity1
+12-14 01:13:24.925 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@be7c4bb
+12-14 01:13:24.925 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:24.925 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:24.925 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:24.925 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-14 01:13:24.925 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-14 01:13:24.925 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:24.925 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:24.926 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@be7c4bb
+12-14 01:13:24.926 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:24.926 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:24.926 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:24.926 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:24.926 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-14 01:13:24.926 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-14 01:13:24.926 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:24.926 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:24.949 D/EGL_emulation( 2211): eglMakeCurrent: 0x9d085840: ver 3 0 (tinfo 0x9d083680)
+12-14 01:13:24.951 D/EGL_emulation( 2176): eglMakeCurrent: 0x9d0853c0: ver 3 0 (tinfo 0x9d083350)
+12-14 01:13:24.951 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:24.955 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:24.980 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:24.993 I/chatty  ( 1732): uid=10028(u0_a28) RenderThread identical 1 line
+12-14 01:13:24.997 E/ContentStoreEUAS( 2211): Failed to commit the deferred actions
+12-14 01:13:24.997 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:25.009 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:25.013 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.015 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:25.072 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@be7c4bb
+12-14 01:13:25.072 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:25.072 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@be7c4bb
+12-14 01:13:25.072 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:25.072 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:25.156 I/chatty  ( 1732): uid=10028(u0_a28) RenderThread identical 17 lines
+12-14 01:13:25.166 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:25.171 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.233 I/zygote  ( 4561): Do partial code cache collection, code=28KB, data=30KB
+12-14 01:13:25.233 I/zygote  ( 4561): After code cache collection, code=28KB, data=30KB
+12-14 01:13:25.234 I/zygote  ( 4561): Increasing code cache capacity to 128KB
+12-14 01:13:25.234 I/zygote  ( 4561): Do partial code cache collection, code=28KB, data=48KB
+12-14 01:13:25.235 I/zygote  ( 4561): After code cache collection, code=28KB, data=48KB
+12-14 01:13:25.235 I/zygote  ( 4561): Increasing code cache capacity to 256KB
+12-14 01:13:25.236 I/zygote  ( 4561): JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-14 01:13:25.236 I/zygote  ( 4561): Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-14 01:13:25.244 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.249 I/chatty  ( 1732): uid=10028(u0_a28) com.android.systemui identical 1 line
+12-14 01:13:25.250 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.281 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 01:13:25.304 D/        ( 4561): HostConnection::get() New Host Connection established 0x9a4b0c40, tid 4561
+12-14 01:13:25.355 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.357 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.357 I/ActivityManager( 1628): Displayed com.evancharlton.mileage/.Mileage: +509ms
+12-14 01:13:25.359 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.383 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.384 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 01:13:25.482 E/memtrack( 1628): Couldn't load memtrack module
+12-14 01:13:25.483 W/android.os.Debug( 1628): failed to get memory consumption info: -1
+12-14 01:13:25.558 I/System.out( 4561): URI: //gesture
+12-14 01:13:25.558 I/System.out( 4561): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:1","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 01:13:25.558 I/System.out( 4561): }
+12-14 01:13:25.566 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.573 I/zygote  ( 4561): Do full code cache collection, code=125KB, data=72KB
+12-14 01:13:25.573 I/zygote  ( 4561): After code cache collection, code=112KB, data=46KB
+12-14 01:13:25.583 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.667 I/chatty  ( 1732): uid=10028(u0_a28) com.android.systemui identical 2 lines
+12-14 01:13:25.675 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:25.690 W/SurfaceFlinger( 1406): couldn't log to binary event log: overflow.
+12-14 01:13:25.778 I/PBSessionCacheImpl( 2211): Deleted sessionId[6269551647014] from persistence.
+12-14 01:13:25.800 W/SearchService( 2211): Abort, client detached.
+12-14 01:13:25.943 W/audio_hw_generic( 1390): Not supplying enough data to HAL, expected position 597856 , only wrote 597600
+12-14 01:13:25.953 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@492a1dd
+12-14 01:13:25.953 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:25.953 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:25.953 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:25.953 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:25.953 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-14 01:13:25.953 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-14 01:13:25.953 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:25.953 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:25.954 I/calabash( 4561): newActivity1
+12-14 01:13:25.959 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@492a1dd
+12-14 01:13:25.959 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:25.959 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:25.959 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:25.959 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-14 01:13:25.959 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-14 01:13:25.959 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:25.959 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:25.960 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@492a1dd
+12-14 01:13:25.960 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:25.960 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:25.960 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:25.960 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:25.960 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-14 01:13:25.960 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-14 01:13:25.960 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:25.960 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:26.024 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@492a1dd
+12-14 01:13:26.024 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:26.024 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:26.024 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:26.024 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:26.024 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:26.024 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:26.024 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:26.025 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@492a1dd
+12-14 01:13:26.025 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:26.025 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:26.025 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:26.025 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:26.025 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:26.025 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:26.025 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:26.035 I/zygote  ( 4561): Do partial code cache collection, code=123KB, data=62KB
+12-14 01:13:26.036 I/zygote  ( 4561): After code cache collection, code=123KB, data=62KB
+12-14 01:13:26.036 I/zygote  ( 4561): Increasing code cache capacity to 512KB
+12-14 01:13:26.086 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 01:13:26.108 D/Mileage ( 4561): Not enough fillups to calculate economy
+12-14 01:13:26.238 E/SurfaceFlinger( 1406): ro.sf.lcd_density must be defined as a build property
+12-14 01:13:26.250 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:26.272 D/        ( 4603): HostConnection::get() New Host Connection established 0xa82af800, tid 4603
+12-14 01:13:26.656 I/System.out( 4561): URI: //gesture
+12-14 01:13:26.656 I/System.out( 4561): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:3","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 01:13:26.656 I/System.out( 4561): }
+12-14 01:13:26.723 I/Finsky:download_service( 2692): [127] nmi.run(36): Stats for Executor: bgExecutor non@7f9d096[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-14 01:13:26.929 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@f1e3011
+12-14 01:13:26.929 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:26.929 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:26.929 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:26.929 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:26.929 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-14 01:13:26.929 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-14 01:13:26.929 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:26.929 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:26.930 I/calabash( 4561): newActivity1
+12-14 01:13:26.937 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@f1e3011
+12-14 01:13:26.937 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:26.937 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:26.937 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:26.937 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-14 01:13:26.937 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-14 01:13:26.937 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:26.937 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:26.938 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@f1e3011
+12-14 01:13:26.938 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:26.938 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:26.938 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:26.938 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:26.938 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-14 01:13:26.938 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-14 01:13:26.938 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:26.938 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:26.945 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@f1e3011
+12-14 01:13:26.945 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:26.945 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:26.945 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:26.945 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:26.945 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:26.945 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:26.945 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:26.952 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@f1e3011
+12-14 01:13:26.952 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:26.952 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:26.952 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:26.952 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:26.952 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:26.952 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:26.952 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:27.142 E/SurfaceFlinger( 1406): ro.sf.lcd_density must be defined as a build property
+12-14 01:13:27.149 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:27.160 D/        ( 4609): HostConnection::get() New Host Connection established 0xa81af800, tid 4609
+12-14 01:13:27.444 I/System.out( 4561): URI: //gesture
+12-14 01:13:27.444 I/System.out( 4561): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:2","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 01:13:27.444 I/System.out( 4561): }
+12-14 01:13:27.734 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@25ed650
+12-14 01:13:27.734 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:27.734 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:27.734 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:27.734 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:27.734 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-14 01:13:27.734 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-14 01:13:27.734 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:27.734 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:27.735 I/calabash( 4561): newActivity1
+12-14 01:13:27.804 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@25ed650
+12-14 01:13:27.804 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:27.804 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:27.804 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:27.804 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-14 01:13:27.804 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-14 01:13:27.804 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:27.804 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:27.805 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@25ed650
+12-14 01:13:27.805 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:27.805 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:27.805 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:27.805 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:27.805 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-14 01:13:27.805 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-14 01:13:27.805 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:27.805 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:27.832 D/VehicleStatisticsActivity( 4561): Checking recalculation ...
+12-14 01:13:27.834 D/VehicleStatisticsActivity( 4561): Recalculating statistics
+12-14 01:13:27.835 D/VehicleStatisticsTask( 4561): Calculation starting...
+12-14 01:13:27.835 D/VehicleStatisticsActivity( 4561): Recalculation started!
+12-14 01:13:27.840 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@25ed650
+12-14 01:13:27.840 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:27.840 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@25ed650
+12-14 01:13:27.840 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:27.840 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:27.844 D/VehicleStatisticsTask( 4561): Not enough fillups to calculate statistics
+12-14 01:13:27.846 D/VehicleStatisticsActivity( 4561): Checking recalculation ...
+12-14 01:13:27.847 D/VehicleStatisticsActivity( 4561): Recalculating statistics
+12-14 01:13:27.847 D/VehicleStatisticsTask( 4561): Calculation starting...
+12-14 01:13:27.848 D/VehicleStatisticsActivity( 4561): Recalculation started!
+12-14 01:13:27.878 I/zygote  ( 4561): Do full code cache collection, code=224KB, data=147KB
+12-14 01:13:27.885 I/zygote  ( 4561): After code cache collection, code=223KB, data=125KB
+12-14 01:13:27.895 D/VehicleStatisticsTask( 4561): Not enough fillups to calculate statistics
+12-14 01:13:27.975 D/VehicleStatisticsTask( 4561): Done recalculating!
+12-14 01:13:27.975 D/VehicleStatisticsAdapter( 4561): Erasing the cache ...
+12-14 01:13:27.977 D/VehicleStatisticsTask( 4561): Done recalculating!
+12-14 01:13:27.978 D/VehicleStatisticsAdapter( 4561): Erasing the cache ...
+12-14 01:13:27.982 D/VehicleStatisticsAdapter( 4561): Building new values ...
+12-14 01:13:27.983 D/VehicleStatisticsAdapter( 4561): Building new values ...
+12-14 01:13:27.983 D/VehicleStatisticsAdapter( 4561): Writing 29 records to the database ...
+12-14 01:13:27.983 D/VehicleStatisticsAdapter( 4561): Writing 29 records to the database ...
+12-14 01:13:27.986 D/Mileage.ABS( 4561): Finished backup
+12-14 01:13:27.987 D/Mileage.ABS( 4561): Not backing up; 10
+12-14 01:13:28.033 I/zygote  ( 4561): Do partial code cache collection, code=249KB, data=144KB
+12-14 01:13:28.038 I/zygote  ( 4561): After code cache collection, code=249KB, data=144KB
+12-14 01:13:28.038 I/zygote  ( 4561): Increasing code cache capacity to 1024KB
+12-14 01:13:28.094 E/TaskPersister( 1628): File error accessing recents directory (directory doesn't exist?).
+12-14 01:13:28.104 D/Mileage.ABS( 4561): Not backing up; 126
+12-14 01:13:28.107 D/Mileage.ABS( 4561): Not backing up; 130
+12-14 01:13:28.176 D/Mileage.ABS( 4561): Not backing up; 199
+12-14 01:13:28.177 D/Mileage.ABS( 4561): Not backing up; 200
+12-14 01:13:28.179 D/Mileage.ABS( 4561): Not backing up; 202
+12-14 01:13:28.184 D/Mileage.ABS( 4561): Not backing up; 207
+12-14 01:13:28.186 D/Mileage.ABS( 4561): Not backing up; 209
+12-14 01:13:28.187 D/Mileage.ABS( 4561): Not backing up; 210
+12-14 01:13:28.189 D/Mileage.ABS( 4561): Not backing up; 212
+12-14 01:13:28.191 D/Mileage.ABS( 4561): Not backing up; 214
+12-14 01:13:28.191 D/Mileage.ABS( 4561): Not backing up; 214
+12-14 01:13:28.193 D/Mileage.ABS( 4561): Not backing up; 216
+12-14 01:13:28.194 D/Mileage.ABS( 4561): Not backing up; 217
+12-14 01:13:28.229 D/Mileage.ABS( 4561): Not backing up; 252
+12-14 01:13:28.231 D/Mileage.ABS( 4561): Not backing up; 254
+12-14 01:13:28.231 D/Mileage.ABS( 4561): Not backing up; 254
+12-14 01:13:28.235 E/SurfaceFlinger( 1406): ro.sf.lcd_density must be defined as a build property
+12-14 01:13:28.242 D/Mileage.ABS( 4561): Not backing up; 265
+12-14 01:13:28.250 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:28.264 D/        ( 4619): HostConnection::get() New Host Connection established 0xb492f800, tid 4619
+12-14 01:13:28.265 D/Mileage.ABS( 4561): Not backing up; 288
+12-14 01:13:28.280 D/Mileage.ABS( 4561): Not backing up; 303
+12-14 01:13:28.294 D/Mileage.ABS( 4561): Not backing up; 317
+12-14 01:13:28.310 D/Mileage.ABS( 4561): Not backing up; 333
+12-14 01:13:28.312 D/Mileage.ABS( 4561): Not backing up; 335
+12-14 01:13:28.320 D/Mileage.ABS( 4561): Not backing up; 342
+12-14 01:13:28.354 D/Mileage.ABS( 4561): Not backing up; 375
+12-14 01:13:28.366 D/Mileage.ABS( 4561): Not backing up; 389
+12-14 01:13:28.367 D/Mileage.ABS( 4561): Not backing up; 390
+12-14 01:13:28.368 D/Mileage.ABS( 4561): Not backing up; 391
+12-14 01:13:28.369 D/Mileage.ABS( 4561): Not backing up; 392
+12-14 01:13:28.387 D/Mileage.ABS( 4561): Not backing up; 410
+12-14 01:13:28.399 D/Mileage.ABS( 4561): Not backing up; 422
+12-14 01:13:28.413 D/Mileage.ABS( 4561): Not backing up; 436
+12-14 01:13:28.431 D/Mileage.ABS( 4561): Not backing up; 454
+12-14 01:13:28.436 D/Mileage.ABS( 4561): Not backing up; 459
+12-14 01:13:28.450 D/Mileage.ABS( 4561): Not backing up; 473
+12-14 01:13:28.467 D/Mileage.ABS( 4561): Not backing up; 489
+12-14 01:13:28.477 D/Mileage.ABS( 4561): Not backing up; 500
+12-14 01:13:28.487 D/Mileage.ABS( 4561): Not backing up; 510
+12-14 01:13:28.502 D/Mileage.ABS( 4561): Not backing up; 525
+12-14 01:13:28.514 D/Mileage.ABS( 4561): Not backing up; 537
+12-14 01:13:28.531 D/Mileage.ABS( 4561): Not backing up; 554
+12-14 01:13:28.546 D/Mileage.ABS( 4561): Not backing up; 569
+12-14 01:13:28.562 D/Mileage.ABS( 4561): Not backing up; 584
+12-14 01:13:28.573 D/Mileage.ABS( 4561): Not backing up; 596
+12-14 01:13:28.584 D/Mileage.ABS( 4561): Not backing up; 607
+12-14 01:13:28.597 D/Mileage.ABS( 4561): Not backing up; 620
+12-14 01:13:28.610 D/Mileage.ABS( 4561): Not backing up; 633
+12-14 01:13:28.622 D/Mileage.ABS( 4561): Not backing up; 645
+12-14 01:13:28.646 D/Mileage.ABS( 4561): Not backing up; 669
+12-14 01:13:28.647 D/Mileage.ABS( 4561): Not backing up; 670
+12-14 01:13:28.659 D/Mileage.ABS( 4561): Not backing up; 682
+12-14 01:13:28.676 D/Mileage.ABS( 4561): Not backing up; 699
+12-14 01:13:28.683 D/Mileage.ABS( 4561): Not backing up; 705
+12-14 01:13:28.694 D/Mileage.ABS( 4561): Not backing up; 717
+12-14 01:13:28.706 D/Mileage.ABS( 4561): Not backing up; 728
+12-14 01:13:28.735 D/Mileage.ABS( 4561): Not backing up; 757
+12-14 01:13:28.744 D/VehicleStatisticsAdapter( 4561): Caching of 29 records complete! (0.761 seconds)
+12-14 01:13:28.748 D/Mileage.ABS( 4561): Not backing up; 771
+12-14 01:13:28.765 D/Mileage.ABS( 4561): Not backing up; 788
+12-14 01:13:28.778 D/Mileage.ABS( 4561): Not backing up; 801
+12-14 01:13:28.789 D/Mileage.ABS( 4561): Not backing up; 812
+12-14 01:13:28.801 D/VehicleStatisticsAdapter( 4561): Caching of 29 records complete! (0.818 seconds)
+12-14 01:13:28.802 D/Mileage.ABS( 4561): Not backing up; 825
+12-14 01:13:28.880 I/System.out( 4561): URI: //gesture
+12-14 01:13:28.880 I/System.out( 4561): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:0","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 01:13:28.880 I/System.out( 4561): }
+12-14 01:13:29.229 W/View    ( 4561): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-14 01:13:29.232 I/chatty  ( 4561): uid=10272(u0_a272) com.evancharlton.mileage identical 1 line
+12-14 01:13:29.232 W/View    ( 4561): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-14 01:13:29.240 W/Binder  ( 1628): Outgoing transactions from this process must be FLAG_ONEWAY
+12-14 01:13:29.240 W/Binder  ( 1628): java.lang.Throwable
+12-14 01:13:29.240 W/Binder  ( 1628): 	at android.os.BinderProxy.transact(Binder.java:736)
+12-14 01:13:29.240 W/Binder  ( 1628): 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+12-14 01:13:29.240 W/Binder  ( 1628): 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+12-14 01:13:29.240 W/Binder  ( 1628): 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2096)
+12-14 01:13:29.240 W/Binder  ( 1628): 	at com.android.server.autofill.Session$1.send(Session.java:200)
+12-14 01:13:29.240 W/Binder  ( 1628): 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13137)
+12-14 01:13:29.240 W/Binder  ( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2466)
+12-14 01:13:29.240 W/Binder  ( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:29.240 W/Binder  ( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:29.254 I/AssistStructure( 4561): Flattened final assist data: 15312 bytes, containing 1 windows, 69 views
+12-14 01:13:29.262 I/AssistStructure( 1628): Flattened final assist data: 13988 bytes, containing 1 windows, 69 views
+12-14 01:13:29.264 W/lgq     ( 1941): Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+12-14 01:13:29.377 E/SurfaceFlinger( 1406): ro.sf.lcd_density must be defined as a build property
+12-14 01:13:29.385 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:29.396 D/        ( 4664): HostConnection::get() New Host Connection established 0xb50af800, tid 4664
+12-14 01:13:29.732 I/System.out( 4561): URI: //
+12-14 01:13:29.732 I/System.out( 4561): params: {json={"command":"set_activity_orientation","arguments":["landscape"]}
+12-14 01:13:29.732 I/System.out( 4561): }
+12-14 01:13:29.732 I/System.out( 4561): header: {content-type=application/json;charset=utf-8, date=Mon, 14 Dec 2020 06:13:29 GMT, accept=*/*, host=127.0.0.1:34777, content-length=64, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.8 (2020-03-31))}
+12-14 01:13:29.732 I/System.out( 4561): params: {json={"command":"set_activity_orientation","arguments":["landscape"]}
+12-14 01:13:29.732 I/System.out( 4561): }
+12-14 01:13:29.732 I/System.out( 4561): ProP json = {"command":"set_activity_orientation","arguments":["landscape"]}
+12-14 01:13:29.732 I/System.out( 4561): files: {}
+12-14 01:13:29.732 I/System.out( 4561): command: {"command":"set_activity_orientation","arguments":["landscape"]}
+12-14 01:13:29.736 I/InstrumentationBackend( 4561): Got command:'Command:'Line:null,set_activity_orientation', arguments:'[landscape]'
+12-14 01:13:29.756 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:29.812 W/LocalDisplayAdapter( 1628): Unable to find color mode 0, ignoring request.
+12-14 01:13:29.825 I/ActivityManager( 1628): Config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w683dp h387dp 420dpi nrml land finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1794, 1080) s.9}
+12-14 01:13:29.832 I/ActivityManager( 1628): Override config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w683dp h387dp 420dpi nrml land finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1794, 1080) s.9} for displayId=0
+12-14 01:13:29.866 I/InputReader( 1628): Reconfiguring input devices.  changes=0x00000004
+12-14 01:13:29.866 I/InputReader( 1628): Device reconfigured: id=0, name='qwerty2', size 1080x1920, orientation 1, mode 1, display id 0
+12-14 01:13:29.875 I/InputReader( 1628): Reconfiguring input devices.  changes=0x00000004
+12-14 01:13:29.875 I/InputReader( 1628): Reconfiguring input devices.  changes=0x00000004
+12-14 01:13:29.938 I/calabash( 4561): newActivity1
+12-14 01:13:29.957 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@d2f8337
+12-14 01:13:29.957 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:29.957 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:29.957 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:29.957 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:29.957 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-14 01:13:29.957 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-14 01:13:29.957 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:29.957 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:29.958 I/calabash( 4561): newActivity1
+12-14 01:13:29.961 W/AutofillManager( 4561): Session -350900572 could not be restored
+12-14 01:13:29.967 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@d2f8337
+12-14 01:13:29.967 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:29.967 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:29.967 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:29.967 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-14 01:13:29.967 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-14 01:13:29.967 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:29.967 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:29.975 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@d2f8337
+12-14 01:13:29.975 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:29.975 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:29.975 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:29.975 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:29.975 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-14 01:13:29.975 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-14 01:13:29.975 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:29.975 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:30.020 I/System.out( 4561): result:{"bonusInformation":[],"message":"","success":true}
+12-14 01:13:30.030 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@d2f8337
+12-14 01:13:30.030 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:30.030 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:30.030 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:30.030 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:30.030 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:30.030 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:30.030 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:30.033 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 544768
+12-14 01:13:30.033 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@d2f8337
+12-14 01:13:30.033 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:30.033 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:30.033 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:30.033 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:30.033 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:30.033 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:30.033 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:30.043 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:30.059 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 544768
+12-14 01:13:30.071 W/PhoneWindow( 4561): Previously focused view reported id 2131296279 during save, but can't be found during restore.
+12-14 01:13:30.082 D/StatusBar( 1732): disable<e i a s b h r c s q >
+12-14 01:13:30.089 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:30.193 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:30.196 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 544768
+12-14 01:13:30.200 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 01:13:30.306 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 487424
+12-14 01:13:30.351 D/EGL_emulation( 1732): eglMakeCurrent: 0x896604c0: ver 3 0 (tinfo 0x9a596c50)
+12-14 01:13:30.363 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 01:13:30.396 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 487424
+12-14 01:13:30.432 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:30.441 I/WindowManager( 1628): Screen frozen for +704ms due to Window{b3e45bd u0 StatusBar}
+12-14 01:13:30.447 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 487424
+12-14 01:13:30.467 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:30.475 E/memtrack( 1628): Couldn't load memtrack module
+12-14 01:13:30.475 W/android.os.Debug( 1628): failed to get memory consumption info: -1
+12-14 01:13:30.509 E/memtrack( 1628): Couldn't load memtrack module
+12-14 01:13:30.509 W/android.os.Debug( 1628): failed to get memory consumption info: -1
+12-14 01:13:30.818 I/EventLogSendingHelper( 2211): Sending log events.
+12-14 01:13:30.879 V/StatusBar( 1732): setLightsOn(true)
+12-14 01:13:31.390 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 01:13:32.050 I/System.out( 4561): URI: //gesture
+12-14 01:13:32.050 I/System.out( 4561): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:1","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 01:13:32.050 I/System.out( 4561): }
+12-14 01:13:32.312 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@194eb79
+12-14 01:13:32.312 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:32.312 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:32.312 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:32.312 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:32.312 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-14 01:13:32.312 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-14 01:13:32.312 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:32.312 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:32.313 I/calabash( 4561): newActivity1
+12-14 01:13:32.315 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@194eb79
+12-14 01:13:32.315 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:32.315 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@194eb79
+12-14 01:13:32.315 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:32.315 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:32.333 W/audio_hw_generic( 1390): Not supplying enough data to HAL, expected position 1209643 , only wrote 904320
+12-14 01:13:32.343 W/audio_hw_generic( 1390): Not supplying enough data to HAL, expected position 904719 , only wrote 904320
+12-14 01:13:32.345 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@194eb79
+12-14 01:13:32.345 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:32.345 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@194eb79
+12-14 01:13:32.345 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:32.345 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:32.417 D/Mileage ( 4561): Not enough fillups to calculate economy
+12-14 01:13:32.541 I/zygote  ( 1628): Explicit concurrent copying GC freed 17200(1479KB) AllocSpace objects, 2(40KB) LOS objects, 38% free, 9MB/15MB, paused 516us total 84.060ms
+12-14 01:13:32.623 E/SurfaceFlinger( 1406): ro.sf.lcd_density must be defined as a build property
+12-14 01:13:32.632 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:32.649 D/        ( 4675): HostConnection::get() New Host Connection established 0xa7daf800, tid 4675
+12-14 01:13:32.956 I/System.out( 4561): URI: //gesture
+12-14 01:13:32.956 I/System.out( 4561): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:3","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 01:13:32.956 I/System.out( 4561): }
+12-14 01:13:33.079 I/Dialer  ( 2021): OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+12-14 01:13:33.082 I/Dialer  ( 2021): RetryPolicy - discarding deferred status: configuration_state=4
+12-14 01:13:33.085 I/Dialer  ( 2021): VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+12-14 01:13:33.095 I/Dialer  ( 2021): VvmTaskReceiver - task received
+12-14 01:13:33.096 I/Dialer  ( 2021): VvmTaskReceiver - TaskExecutor already running
+12-14 01:13:33.096 I/Dialer  ( 2021): Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+12-14 01:13:33.097 I/Dialer  ( 2021): RetryPolicy - retry #1 for com.android.voicemail.impl.ActivationTask@3734d2f queued, executing in 5000
+12-14 01:13:33.098 I/Dialer  ( 2021): VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@3734d2f added
+12-14 01:13:33.098 I/Dialer  ( 2021): VvmTaskExecutor - minimal wait time:4999
+12-14 01:13:33.098 I/Dialer  ( 2021): VvmTaskExecutor - sleep for 4999 millis
+12-14 01:13:33.209 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@2ad9970
+12-14 01:13:33.209 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:33.209 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:33.209 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:33.209 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:33.209 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-14 01:13:33.209 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-14 01:13:33.209 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:33.209 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:33.222 I/calabash( 4561): newActivity1
+12-14 01:13:33.229 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@2ad9970
+12-14 01:13:33.229 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:33.229 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:33.229 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:33.229 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-14 01:13:33.229 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-14 01:13:33.229 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:33.229 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:33.231 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@2ad9970
+12-14 01:13:33.231 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:33.231 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:33.231 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:33.231 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:33.231 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-14 01:13:33.231 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-14 01:13:33.231 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:33.231 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:33.244 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@2ad9970
+12-14 01:13:33.244 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:33.244 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:33.244 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:33.244 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:33.244 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:33.244 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:33.244 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:33.245 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@2ad9970
+12-14 01:13:33.245 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:33.245 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:33.245 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:33.245 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:33.245 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:33.245 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:33.245 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:33.424 E/SurfaceFlinger( 1406): ro.sf.lcd_density must be defined as a build property
+12-14 01:13:33.431 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:33.466 D/        ( 4681): HostConnection::get() New Host Connection established 0xb252f800, tid 4681
+12-14 01:13:33.756 I/System.out( 4561): URI: //gesture
+12-14 01:13:33.756 I/System.out( 4561): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:2","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 01:13:33.756 I/System.out( 4561): }
+12-14 01:13:34.001 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@900b22b
+12-14 01:13:34.001 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:34.001 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:34.001 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:34.001 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:34.001 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-14 01:13:34.001 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-14 01:13:34.001 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:34.001 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:34.005 I/calabash( 4561): newActivity1
+12-14 01:13:34.014 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@900b22b
+12-14 01:13:34.014 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:34.014 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:34.014 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:34.014 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-14 01:13:34.014 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-14 01:13:34.014 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:34.014 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:34.015 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@900b22b
+12-14 01:13:34.015 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:34.015 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:34.015 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:34.015 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-14 01:13:34.015 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-14 01:13:34.015 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-14 01:13:34.015 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:34.015 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:34.044 D/VehicleStatisticsActivity( 4561): Checking recalculation ...
+12-14 01:13:34.045 D/VehicleStatisticsActivity( 4561): Recalculation not necessary.
+12-14 01:13:34.048 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@900b22b
+12-14 01:13:34.048 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:34.048 W/ActivityManager( 1628): Bad activity token: android.os.BinderProxy@900b22b
+12-14 01:13:34.048 W/ActivityManager( 1628): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:34.048 W/ActivityManager( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:34.051 D/VehicleStatisticsActivity( 4561): Checking recalculation ...
+12-14 01:13:34.059 D/VehicleStatisticsActivity( 4561): Recalculation not necessary.
+12-14 01:13:34.147 I/zygote  ( 4561): Do full code cache collection, code=452KB, data=318KB
+12-14 01:13:34.148 I/zygote  ( 4561): After code cache collection, code=436KB, data=254KB
+12-14 01:13:34.285 E/SurfaceFlinger( 1406): ro.sf.lcd_density must be defined as a build property
+12-14 01:13:34.294 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:34.302 D/        ( 4687): HostConnection::get() New Host Connection established 0xae32f800, tid 4687
+12-14 01:13:34.306 W/RemoteFillService( 1628): Not handling { when=-2ms what=3 target=com.android.internal.os.HandlerCaller$MyHandler } as service for ComponentInfo{com.google.android.gms/com.google.android.gms.autofill.service.AutofillService} is already destroyed
+12-14 01:13:34.575 I/System.out( 4561): URI: //gesture
+12-14 01:13:34.575 I/System.out( 4561): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:0","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 01:13:34.575 I/System.out( 4561): }
+12-14 01:13:34.920 W/View    ( 4561): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-14 01:13:34.926 I/chatty  ( 4561): uid=10272(u0_a272) com.evancharlton.mileage identical 3 lines
+12-14 01:13:34.927 W/View    ( 4561): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-14 01:13:34.929 W/Binder  ( 1628): Outgoing transactions from this process must be FLAG_ONEWAY
+12-14 01:13:34.929 W/Binder  ( 1628): java.lang.Throwable
+12-14 01:13:34.929 W/Binder  ( 1628): 	at android.os.BinderProxy.transact(Binder.java:736)
+12-14 01:13:34.929 W/Binder  ( 1628): 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+12-14 01:13:34.929 W/Binder  ( 1628): 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+12-14 01:13:34.929 W/Binder  ( 1628): 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2096)
+12-14 01:13:34.929 W/Binder  ( 1628): 	at com.android.server.autofill.Session$1.send(Session.java:200)
+12-14 01:13:34.929 W/Binder  ( 1628): 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13137)
+12-14 01:13:34.929 W/Binder  ( 1628): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2466)
+12-14 01:13:34.929 W/Binder  ( 1628): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 01:13:34.929 W/Binder  ( 1628): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 01:13:34.933 I/AssistStructure( 4561): Flattened final assist data: 10960 bytes, containing 1 windows, 49 views
+12-14 01:13:34.935 E/memtrack( 1628): Couldn't load memtrack module
+12-14 01:13:34.935 W/android.os.Debug( 1628): failed to get memory consumption info: -1
+12-14 01:13:34.941 I/AssistStructure( 1628): Flattened final assist data: 9988 bytes, containing 1 windows, 49 views
+12-14 01:13:34.943 W/lgq     ( 1941): Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+12-14 01:13:34.971 E/memtrack( 1628): Couldn't load memtrack module
+12-14 01:13:34.971 W/android.os.Debug( 1628): failed to get memory consumption info: -1
+12-14 01:13:35.062 E/SurfaceFlinger( 1406): ro.sf.lcd_density must be defined as a build property
+12-14 01:13:35.067 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 01:13:35.077 D/        ( 4693): HostConnection::get() New Host Connection established 0xb1c2f800, tid 4693
