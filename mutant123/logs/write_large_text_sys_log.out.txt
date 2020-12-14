@@ -1,0 +1,118 @@
+--------- beginning of main
+12-14 02:58:44.665 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+--------- beginning of system
+12-14 02:58:44.669 E/LocalDisplayAdapter( 9426): Default and active color mode is no longer available! Reverting to first available mode.
+12-14 02:58:44.674 I/DisplayManagerService( 9426): Display device added: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:0", 1080 x 1920, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1080, height=1920, fps=60.000004}], colorMode -22, supportedColorModes [-22], HdrCapabilities android.view.Display$HdrCapabilities@1d6308, density 420, 420.0 x 420.0 dpi, appVsyncOff 1000000, presDeadline 16666666, touch INTERNAL, rotation 0, type BUILT_IN, state UNKNOWN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+12-14 02:58:44.677 D/SurfaceFlinger( 1413): Set power mode=2, type=0 flinger=0xa80c9000
+12-14 02:58:44.678 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.light@2.0::ILight in either framework or device manifest, using default transport.
+12-14 02:58:44.678 E/LightsService( 9426): Unable to get ILight interface.
+12-14 02:58:44.679 I/DisplayManagerService( 9426): Display device changed state: "Built-in Screen", ON
+12-14 02:58:44.679 I/SystemServer( 9426): StartPackageManagerService
+12-14 02:58:44.694 W/ProcessCpuTracker( 9426): Skipping unknown process pid 9450
+12-14 02:58:44.699 D/SELinuxMMAC( 9426): Using policy file /system/etc/selinux/plat_mac_permissions.xml
+12-14 02:58:44.701 D/SELinuxMMAC( 9426): Using policy file /vendor/etc/selinux/nonplat_mac_permissions.xml
+12-14 02:58:44.813 D/PackageManager( 9426): No files in app dir /vendor/overlay
+12-14 02:58:44.816 W/PackageManager( 9426): Failed to parse /system/framework/x86: Missing base APK in /system/framework/x86
+12-14 02:58:44.816 W/PackageManager( 9426): Failed to parse /system/framework/oat: Missing base APK in /system/framework/oat
+12-14 02:58:44.954 W/PackageManager( 9426): Failed to scan /system/priv-app/Phonesky: Package com.android.vending at /system/priv-app/Phonesky ignored: updated version 82242510 better than this 80796600
+12-14 02:58:45.033 W/PackageManager( 9426): Failed to scan /system/priv-app/PrebuiltGmsCore: Package com.google.android.gms at /system/priv-app/PrebuiltGmsCore ignored: updated version 204713022 better than this 11743470
+12-14 02:58:45.062 I/zygote  ( 9426): Background concurrent copying GC freed 12638(816KB) AllocSpace objects, 10(400KB) LOS objects, 42% free, 6MB/11MB, paused 1.136ms total 200.406ms
+12-14 02:58:45.144 D/PackageManager( 9426): No files in app dir /vendor/app
+12-14 02:58:45.144 D/PackageManager( 9426): No files in app dir /oem/app
+12-14 02:58:45.192 I/zygote  ( 9426): IncrementDisableThreadFlip blocked for 15.602ms
+12-14 02:58:45.328 D/PackageManager( 9426): No files in app dir /data/app-private
+12-14 02:58:45.333 I/PackageManager( 9426): Time to scan packages: 0.521 seconds
+12-14 02:58:45.342 I/PackageManager( 9426): Un-granting permission android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS from package com.android.vending (protectionLevel=770 flags=0x384abec5)
+12-14 02:58:45.342 I/PackageManager( 9426): Un-granting permission android.permission.GRANT_RUNTIME_PERMISSIONS from package com.android.vending (protectionLevel=770 flags=0x384abec5)
+12-14 02:58:45.342 I/PackageManager( 9426): Un-granting permission android.permission.REVOKE_RUNTIME_PERMISSIONS from package com.android.vending (protectionLevel=770 flags=0x384abec5)
+12-14 02:58:45.342 I/PackageManager( 9426): Un-granting permission android.permission.SET_PREFERRED_APPLICATIONS from package com.android.vending (protectionLevel=514 flags=0x384abec5)
+12-14 02:58:45.342 I/PackageManager( 9426): Un-granting permission android.permission.ACCESS_INSTANT_APPS from package com.android.vending (protectionLevel=770 flags=0x384abec5)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.CLEAR_APP_USER_DATA from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.GRANT_RUNTIME_PERMISSIONS from package com.google.android.packageinstaller (protectionLevel=770 flags=0x38483e45)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.REVOKE_RUNTIME_PERMISSIONS from package com.google.android.packageinstaller (protectionLevel=770 flags=0x38483e45)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS from package com.google.android.packageinstaller (protectionLevel=770 flags=0x38483e45)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.INTERACT_ACROSS_USERS_FULL from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.KILL_UID from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.MANAGE_APP_OPS_RESTRICTIONS from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:45.361 I/PackageManager( 9426): Un-granting permission android.permission.ACCESS_INSTANT_APPS from package com.google.android.packageinstaller (protectionLevel=770 flags=0x38483e45)
+12-14 02:58:45.365 V/PackageManager( 9426): reconcileAppsData for null u0 0x3 migrateAppData=true
+12-14 02:58:45.374 I/zygote  ( 9426): Background concurrent copying GC freed 48366(2MB) AllocSpace objects, 32(3MB) LOS objects, 42% free, 8MB/14MB, paused 1.336ms total 208.969ms
+12-14 02:58:45.494 V/PackageManager( 9426): reconcileAppsData finished 18 packages
+12-14 02:58:45.496 W/installd( 1479): Ignoring /data/data/com.android.defcontainer/lib with unexpected GID 0 instead of 10007
+12-14 02:58:45.496 W/installd( 1479): Ignoring /data/data/com.google.android.inputmethod.latin/lib with unexpected GID 0 instead of 10058
+12-14 02:58:45.497 W/installd( 1479): Ignoring /data/data/com.google.android.youtube/lib with unexpected GID 0 instead of 10078
+12-14 02:58:45.497 W/installd( 1479): Ignoring /data/data/com.google.android.googlequicksearchbox/lib with unexpected GID 0 instead of 10030
+12-14 02:58:45.497 W/installd( 1479): Ignoring /data/data/com.google.android.apps.messaging/lib with unexpected GID 0 instead of 10066
+12-14 02:58:45.497 W/installd( 1479): Ignoring /data/data/com.android.vending/lib with unexpected GID 0 instead of 10023
+12-14 02:58:45.497 W/installd( 1479): Ignoring /data/data/com.android.pacprocessor/lib with unexpected GID 0 instead of 10063
+12-14 02:58:45.497 W/installd( 1479): Ignoring /data/data/com.android.camera2/lib with unexpected GID 0 instead of 10039
+12-14 02:58:45.497 W/installd( 1479): Ignoring /data/data/com.google.android.apps.inputmethod.hindi/lib with unexpected GID 0 instead of 10051
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.google.android.apps.tachyon/lib with unexpected GID 0 instead of 10047
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.android.printspooler/lib with unexpected GID 0 instead of 10069
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.android.bips/lib with unexpected GID 0 instead of 10032
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.google.android.apps.docs/lib with unexpected GID 0 instead of 10052
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.google.android.apps.maps/lib with unexpected GID 0 instead of 10059
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.android.chrome/lib with unexpected GID 0 instead of 10043
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.google.android.gms/lib with unexpected GID 0 instead of 10011
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.google.android.gsf/lib with unexpected GID 0 instead of 10011
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.google.android.tts/lib with unexpected GID 0 instead of 10055
+12-14 02:58:45.498 W/installd( 1479): Ignoring /data/data/com.google.android.videos/lib with unexpected GID 0 instead of 10072
+12-14 02:58:45.499 W/installd( 1479): Ignoring /data/data/com.breel.geswallpapers/lib with unexpected GID 0 instead of 10074
+12-14 02:58:45.499 W/installd( 1479): Ignoring /data/data/com.google.android.apps.photos/lib with unexpected GID 0 instead of 10065
+12-14 02:58:45.499 W/installd( 1479): Ignoring /data/data/com.google.android.backuptransport/lib with unexpected GID 0 instead of 10011
+12-14 02:58:45.499 W/installd( 1479): Ignoring /data/data/jp.co.omronsoft.openwnn/lib with unexpected GID 0 instead of 10062
+12-14 02:58:45.499 W/installd( 1479): Ignoring /data/data/com.google.android.inputmethod.pinyin/lib with unexpected GID 0 instead of 10053
+12-14 02:58:45.502 W/installd( 1479): Ignoring /data/user_de/0/com.android.defcontainer/lib with unexpected GID 0 instead of 10007
+12-14 02:58:45.584 D/AndroidRuntime( 9464): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-14 02:58:45.678 W/app_process( 9464): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:45.710 D/AndroidRuntime( 9464): Calling main entry com.android.commands.am.Am
+12-14 02:58:45.715 I/app_process( 9464): System.exit called, status: 1
+12-14 02:58:45.715 I/AndroidRuntime( 9464): VM exiting with result code 1.
+12-14 02:58:45.735 W/cutils  ( 1479): Expected path /data/data/com.google.android.gms with mode 700 but found 751
+12-14 02:58:45.735 W/cutils  ( 1479): Expected path /data/user_de/0/com.google.android.gms with mode 700 but found 751
+12-14 02:58:45.737 W/cutils  ( 1479): Expected path /data/data/com.google.android.gms with mode 700 but found 751
+12-14 02:58:45.738 W/cutils  ( 1479): Expected path /data/user_de/0/com.google.android.gms with mode 700 but found 751
+12-14 02:58:45.746 I/zygote  ( 9426): Explicit concurrent copying GC freed 29540(1572KB) AllocSpace objects, 8(1716KB) LOS objects, 42% free, 5MB/10MB, paused 690us total 149.125ms
+12-14 02:58:45.751 D/FallbackCategoryProvider( 9426): Found 387 fallback categories
+12-14 02:58:45.753 I/SystemServer( 9426): StartOtaDexOptService
+12-14 02:58:45.758 D/OTADexopt( 9426): No upgrade, skipping A/B artifacts check.
+12-14 02:58:45.758 I/SystemServer( 9426): StartUserManagerService
+12-14 02:58:45.759 I/SystemServiceManager( 9426): Starting com.android.server.pm.UserManagerService$LifeCycle
+12-14 02:58:45.761 I/SystemServer( 9426): InitAttributerCache
+12-14 02:58:45.761 I/SystemServer( 9426): SetSystemProcess
+12-14 02:58:45.773 I/lowmemorykiller( 1412): ActivityManager connected
+12-14 02:58:45.778 I/SystemServer( 9426): StartOverlayManagerService
+12-14 02:58:45.787 I/SystemServer( 9426): StartDropBoxManager
+12-14 02:58:45.787 I/SystemServiceManager( 9426): Starting com.android.server.DropBoxManagerService
+12-14 02:58:45.791 D/SensorService( 9426): nuSensorService starting...
+12-14 02:58:45.792 E//vendor/bin/hw/android.hardware.sensors@1.0-service( 9018): ISensors::poll() re-entry. I do not know what to do except killing myself.
+12-14 02:58:45.813 I/SensorService( 9426): poll() check unsuccessful, try again soon (remaining retry 9).
+12-14 02:58:45.819 I/SystemServer( 9426): StartBatteryService
+12-14 02:58:45.819 I/SystemServiceManager( 9426): Starting com.android.server.BatteryService
+12-14 02:58:45.827 I/SystemServer( 9426): StartUsageService
+12-14 02:58:45.827 E/BluetoothAdapter( 9426): Bluetooth binder is null
+12-14 02:58:45.828 I/SystemServiceManager( 9426): Starting com.android.server.usage.UsageStatsService
+12-14 02:58:45.829 E/BatteryStatsService( 9426): no controller energy info supplied
+12-14 02:58:45.829 E/KernelCpuSpeedReader( 9426): Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+12-14 02:58:45.831 E/KernelUidCpuFreqTimeReader( 9426): Failed to read /proc/uid_time_in_state: java.io.FileNotFoundException: /proc/uid_time_in_state (No such file or directory)
+12-14 02:58:45.832 W/KernelMemoryBandwidthStats( 9426): No kernel memory bandwidth stats available
+12-14 02:58:45.833 I/BatteryStatsImpl( 9426): Resetting battery stats: level=100 status=4 dischargeLevel=100 lowAmount=0 highAmount=0
+12-14 02:58:45.851 E/KernelCpuSpeedReader( 9426): Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+12-14 02:58:45.852 I/SystemServer( 9426): StartWebViewUpdateService
+12-14 02:58:45.852 I/SystemServiceManager( 9426): Starting com.android.server.webkit.WebViewUpdateService
+12-14 02:58:45.862 I/SystemServer( 9426): StartKeyAttestationApplicationIdProviderService
+12-14 02:58:45.862 I/SystemServer( 9426): SecondaryZygotePreload
+12-14 02:58:45.867 E/KernelUidCpuFreqTimeReader( 9426): Failed to read /proc/uid_time_in_state: java.io.FileNotFoundException: /proc/uid_time_in_state (No such file or directory)
+12-14 02:58:45.868 I/SystemServer( 9426): StartKeyChainSystemService
+12-14 02:58:45.868 I/SystemServiceManager( 9426): Starting com.android.server.security.KeyChainSystemService
+12-14 02:58:45.869 I/SystemServer( 9426): StartSchedulingPolicyService
+12-14 02:58:45.876 I/Zygote  ( 9426): Process: zygote socket zygote opened, supported ABIS: x86
+12-14 02:58:45.879 I/SystemServer( 9426): StartTelecomLoaderService
+12-14 02:58:45.880 I/SystemServiceManager( 9426): Starting com.android.server.telecom.TelecomLoaderService
+12-14 02:58:45.887 I/SystemServer( 9426): StartTelephonyRegistry
+12-14 02:58:45.887 E/SystemServer( 9426): Unable to preload default resources
+12-14 02:58:45.921 I/PackageManager( 9426): Deferred reconcileAppsData finished 87 packages
+12-14 02:58:45.923 W/android.hardware.sensors@1.0::Sensors( 9426): ISensors: found dead hwbinder service
+12-14 02:58:45.925 I/SystemServer( 9426): StartEntropyMixer
+12-14 02:58:45.926 I/EntropyMixer( 9426): Writing entropy...

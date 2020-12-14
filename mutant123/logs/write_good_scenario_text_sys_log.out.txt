@@ -1,0 +1,1915 @@
+--------- beginning of main
+12-14 02:58:28.728 E/adbd    ( 1372): failed to connect to socket 'tcp:7102': Connection refused
+12-14 02:58:28.732 E/adbd    ( 1372): failed to connect to socket 'tcp:7102': Connection refused
+12-14 02:58:30.772 E//system/bin/tombstoned( 1493): Tombstone written to: /data/tombstones//tombstone_09
+12-14 02:58:30.773 I/crash_dump32( 8890): performing dump of process 8862 (target tid = 8883)
+12-14 02:58:30.822 I/lowmemorykiller( 1412): ActivityManager disconnected
+12-14 02:58:30.822 I/lowmemorykiller( 1412): Closing Activity Manager data connection
+12-14 02:58:30.824 W/GnssHAL_GnssInterface( 1488): GNSS service noticed HIDL death. Stopping all GNSS operations.
+12-14 02:58:30.824 E/GnssHAL_GnssInterface( 1488): gpsSvStatusCb: Unable to invoke callback
+12-14 02:58:30.824 E/GnssHAL_GnssInterface( 1488): gpsSvStatusCb: Unable to invoke callback
+12-14 02:58:30.911 I/Process ( 8733): Sending signal. PID: 8733 SIG: 9
+12-14 02:58:30.913 W/Settings( 8645): Can't get key network_scoring_ui_enabled from content://settings/global
+12-14 02:58:30.913 W/Settings( 8645): android.os.DeadObjectException
+12-14 02:58:30.913 W/Settings( 8645): 	at android.os.BinderProxy.transactNative(Native Method)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.os.BinderProxy.transact(Binder.java:748)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.content.ContentProviderProxy.query(ContentProviderNative.java:416)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.provider.Settings$NameValueCache.getStringForUser(Settings.java:1973)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.provider.Settings$Global.getStringForUser(Settings.java:10061)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.provider.Settings$Global.getString(Settings.java:10050)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.provider.Settings$Global.getInt(Settings.java:10229)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.statusbar.policy.WifiSignalController$2.onChange(WifiSignalController.java:107)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.statusbar.policy.WifiSignalController.configureScoringGating(WifiSignalController.java:117)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.statusbar.policy.WifiSignalController.<init>(WifiSignalController.java:98)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.statusbar.policy.NetworkControllerImpl.<init>(NetworkControllerImpl.java:209)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.statusbar.policy.NetworkControllerImpl.<init>(NetworkControllerImpl.java:151)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.Dependency.lambda$-com_android_systemui_Dependency_7992(Dependency.java:163)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.-$Lambda$I2vXdvxuaXHgW_yDfz07zk_J_pA$44.$m$0(Unknown Source:4)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.-$Lambda$I2vXdvxuaXHgW_yDfz07zk_J_pA$44.createDependency(Unknown Source:0)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.Dependency.createDependency(Dependency.java:318)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.Dependency.getDependencyInner(Dependency.java:303)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.Dependency.getDependency(Dependency.java:292)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.Dependency.get(Dependency.java:364)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.statusbar.phone.StatusBar.start(StatusBar.java:754)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.SystemBars.createStatusBarFromConfig(SystemBars.java:71)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.SystemBars.start(SystemBars.java:42)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.SystemUIApplication.startServicesIfNeeded(SystemUIApplication.java:208)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.SystemUIApplication.startServicesIfNeeded(SystemUIApplication.java:163)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.systemui.SystemUIService.onCreate(SystemUIService.java:33)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:3404)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.app.ActivityThread.-wrap4(Unknown Source:0)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1683)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.os.Handler.dispatchMessage(Handler.java:105)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.os.Looper.loop(Looper.java:164)
+12-14 02:58:30.913 W/Settings( 8645): 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+12-14 02:58:30.913 W/Settings( 8645): 	at java.lang.reflect.Method.invoke(Native Method)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-14 02:58:30.913 W/Settings( 8645): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-14 02:58:30.913 D/NetworkController.WifiSignalController( 8645): Registered score cache
+12-14 02:58:30.914 D/AndroidRuntime( 8645): Shutting down VM
+12-14 02:58:30.915 W/Sensors ( 8645): sensorservice died [0xadabd8c0]
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'telecom' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'contexthub' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'meminfo' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'gfxinfo' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'dbinfo' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'cpuinfo' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'permission' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'processinfo' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'procstats' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'activity' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'user' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'otadexopt' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'package' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'dropbox' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'battery' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'network_management' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'textservices' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'network_score' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'netstats' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'netpolicy' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'wifi' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'rttmanager' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'wifiscanner' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'connectivity' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'servicediscovery' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'updatelock' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'connmetrics' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'notification' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'devicestoragemonitor' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'location' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'country_detector' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'search' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'wallpaper' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'audio' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'DockObserver' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'midi' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'usagestats' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'webviewupdate' died
+12-14 02:58:30.916 I/ServiceManager( 1334): service 'sec_key_att_app_id_provider' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'overlay' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'scheduling_policy' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'telephony.registry' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'media.camera.proxy' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'account' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'content' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'settings' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'vibrator' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'consumer_ir' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'alarm' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'netd_listener' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'window' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'input' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'vrmanager' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'pinner' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'input_method' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'accessibility' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'mount' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'storagestats' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'uimode' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'lock_settings' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'deviceidle' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'device_policy' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'statusbar' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'clipboard' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'sensorservice' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'device_identifiers' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'batterystats' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'appops' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'power' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'recovery' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'display' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'usb' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'serial' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'hardware_properties' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'jobscheduler' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'soundtrigger' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'trust' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'backup' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'appwidget' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'voiceinteraction' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'diskstats' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'samplingprofiler' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'network_time_update_service' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'commontime_management' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'dreams' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'graphicsstats' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'print' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'restrictions' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'media_session' died
+12-14 02:58:30.917 I/ServiceManager( 1334): service 'media_resource_monitor' died
+12-14 02:58:30.918 I/ServiceManager( 1334): service 'media_router' died
+12-14 02:58:30.918 I/ServiceManager( 1334): service 'fingerprint' died
+12-14 02:58:30.918 I/ServiceManager( 1334): service 'shortcut' died
+12-14 02:58:30.918 I/ServiceManager( 1334): service 'launcherapps' died
+12-14 02:58:30.918 I/ServiceManager( 1334): service 'media_projection' died
+12-14 02:58:30.918 I/ServiceManager( 1334): service 'imms' died
+12-14 02:58:30.918 I/ServiceManager( 1334): service 'autofill' died
+12-14 02:58:30.922 I/Process ( 8645): Sending signal. PID: 8645 SIG: 9
+12-14 02:58:31.110 E/hw-IPCThreadState( 1488): binder thread pool (1 threads) starved for 286 ms
+12-14 02:58:31.111 I/ServiceManager( 1334): service 'phone' died
+12-14 02:58:31.111 I/ServiceManager( 1334): service 'carrier_config' died
+12-14 02:58:31.111 I/ServiceManager( 1334): service 'isub' died
+12-14 02:58:31.111 I/ServiceManager( 1334): service 'simphonebook' died
+12-14 02:58:31.111 I/ServiceManager( 1334): service 'iphonesubinfo' died
+12-14 02:58:31.111 I/ServiceManager( 1334): service 'isms' died
+12-14 02:58:31.332 W//system/bin/tombstoned( 1493): crash socket received short read of length 0 (expected 8)
+12-14 02:58:31.372 I/Zygote  ( 8440): Process 8862 exited due to signal (6)
+12-14 02:58:31.602 I/Zygote  ( 8440): Process 8515 exited due to signal (6)
+12-14 02:58:31.602 E/Zygote  ( 8440): Exit zygote because system server (8515) has terminated
+12-14 02:58:31.652 I/ServiceManager( 1334): service 'media.audio_flinger' died
+12-14 02:58:31.652 I/ServiceManager( 1334): service 'media.audio_policy' died
+12-14 02:58:31.652 I/ServiceManager( 1334): service 'media.sound_trigger_hw' died
+12-14 02:58:31.652 I/ServiceManager( 1334): service 'media.radio' died
+12-14 02:58:31.652 I/ServiceManager( 1334): service 'media.aaudio' died
+12-14 02:58:31.652 I/r_submix( 8446): adev_close()
+12-14 02:58:31.663 I/ServiceManager( 1334): service 'media.camera' died
+12-14 02:58:31.672 I/ServiceManager( 1334): service 'netd' died
+12-14 02:58:31.682 I/ServiceManager( 1334): service 'media.player' died
+12-14 02:58:31.683 I/ServiceManager( 1334): service 'media.resource_manager' died
+12-14 02:58:31.691 I/ServiceManager( 1334): service 'wificond' died
+12-14 02:58:31.866 I/ServiceManagement( 8907): Removing namespace from process name android.hardware.audio@2.0-service to audio@2.0-servi.
+12-14 02:58:31.872 I/audiohalservice( 8907): Registration complete for android.hardware.audio@2.0::IDevicesFactory/default.
+12-14 02:58:31.877 I/audiohalservice( 8907): Registration complete for android.hardware.audio.effect@2.0::IEffectsFactory/default.
+12-14 02:58:31.880 E/SoundTriggerHalImpl( 8907): couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+12-14 02:58:31.883 I/audiohalservice( 8907): Registration complete for android.hardware.soundtrigger@2.0::ISoundTriggerHw/default.
+12-14 02:58:31.894 I/Netd    ( 8905): Netd 1.0 starting
+12-14 02:58:31.895 D/TetherController( 8905): Setting IP forward enable = 0
+12-14 02:58:31.901 I/audiohalservice( 8907): Registration complete for android.hardware.broadcastradio@1.0::IBroadcastRadioFactory/default.
+--------- beginning of system
+12-14 02:58:31.969 I/wificond( 8906): wificond is starting up...
+12-14 02:58:32.139 D/AndroidRuntime( 8901): >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+12-14 02:58:32.142 I/zygote  ( 8901): option[0]=-Xzygote
+12-14 02:58:32.142 I/zygote  ( 8901): option[1]=-Xcheck:jni
+12-14 02:58:32.142 I/zygote  ( 8901): option[2]=-Xstacktracefile:/data/anr/traces.txt
+12-14 02:58:32.142 I/zygote  ( 8901): option[3]=exit
+12-14 02:58:32.142 I/zygote  ( 8901): option[4]=vfprintf
+12-14 02:58:32.142 I/zygote  ( 8901): option[5]=sensitiveThread
+12-14 02:58:32.142 I/zygote  ( 8901): option[6]=-verbose:gc
+12-14 02:58:32.142 I/zygote  ( 8901): option[7]=-Xms4m
+12-14 02:58:32.142 I/zygote  ( 8901): option[8]=-Xmx384m
+12-14 02:58:32.142 I/zygote  ( 8901): option[9]=-Xusejit:true
+12-14 02:58:32.142 I/zygote  ( 8901): option[10]=-Xjitsaveprofilinginfo
+12-14 02:58:32.142 I/zygote  ( 8901): option[11]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+12-14 02:58:32.142 I/zygote  ( 8901): option[12]=-Ximage-compiler-option
+12-14 02:58:32.142 I/zygote  ( 8901): option[13]=--runtime-arg
+12-14 02:58:32.142 I/zygote  ( 8901): option[14]=-Ximage-compiler-option
+12-14 02:58:32.142 I/zygote  ( 8901): option[15]=-Xms64m
+12-14 02:58:32.142 I/zygote  ( 8901): option[16]=-Ximage-compiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[17]=--runtime-arg
+12-14 02:58:32.143 I/zygote  ( 8901): option[18]=-Ximage-compiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[19]=-Xmx64m
+12-14 02:58:32.143 I/zygote  ( 8901): option[20]=-Ximage-compiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[21]=--image-classes=/system/etc/preloaded-classes
+12-14 02:58:32.143 I/zygote  ( 8901): option[22]=-Ximage-compiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[23]=--compiled-classes=/system/etc/compiled-classes
+12-14 02:58:32.143 I/zygote  ( 8901): option[24]=-Xcompiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[25]=--runtime-arg
+12-14 02:58:32.143 I/zygote  ( 8901): option[26]=-Xcompiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[27]=-Xms64m
+12-14 02:58:32.143 I/zygote  ( 8901): option[28]=-Xcompiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[29]=--runtime-arg
+12-14 02:58:32.143 I/zygote  ( 8901): option[30]=-Xcompiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[31]=-Xmx512m
+12-14 02:58:32.143 I/zygote  ( 8901): option[32]=-Ximage-compiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[33]=--instruction-set-variant=x86
+12-14 02:58:32.143 I/zygote  ( 8901): option[34]=-Xcompiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[35]=--instruction-set-variant=x86
+12-14 02:58:32.143 I/zygote  ( 8901): option[36]=-Ximage-compiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[37]=--instruction-set-features=default
+12-14 02:58:32.143 I/zygote  ( 8901): option[38]=-Xcompiler-option
+12-14 02:58:32.143 I/zygote  ( 8901): option[39]=--instruction-set-features=default
+12-14 02:58:32.143 I/zygote  ( 8901): option[40]=-Duser.locale=en-US
+12-14 02:58:32.143 I/zygote  ( 8901): option[41]=--cpu-abilist=x86
+12-14 02:58:32.143 I/zygote  ( 8901): option[42]=-Xfingerprint:google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.043/4456315:user/release-keys
+12-14 02:58:32.253 I/SamplingProfilerIntegration( 8901): Profiling disabled.
+12-14 02:58:32.253 D/Zygote  ( 8901): begin preload
+12-14 02:58:32.253 I/Zygote  ( 8901): Installing ICU cache reference pinning...
+12-14 02:58:32.253 I/Zygote  ( 8901): Preloading ICU data...
+12-14 02:58:32.260 I/FastMixerState( 8902): sMaxFastTracks = 8
+12-14 02:58:32.262 I/Zygote  ( 8901): Preloading classes...
+12-14 02:58:32.272 I/audioserver( 8902): ServiceManager: 0xb551af20
+12-14 02:58:32.281 W/BatteryNotifier( 8902): batterystats service unavailable!
+12-14 02:58:32.292 I/AudioFlinger( 8902): Using default 3000 mSec as standby time.
+12-14 02:58:32.299 I/APM::ConfigParsingUtils( 8902): loadAudioPolicyConfig() loaded /vendor/etc/audio_policy.conf
+12-14 02:58:32.302 I/vndksupport( 8907): sphal namespace is not configured for this process. Loading /vendor/lib/hw/audio.primary.goldfish.so from the current namespace instead.
+12-14 02:58:32.322 I/mediaserver( 8904): ServiceManager: 0xa56304c0
+12-14 02:58:32.331 W/BatteryNotifier( 8904): batterystats service unavailable!
+12-14 02:58:32.359 E/ActivityRecognitionHardware( 8901): activity_recognition HAL is deprecated. class_init is effectively a no-op
+12-14 02:58:32.361 D/audio_hw_generic( 8907): Emulator host-side ALSA audio emulation detected.
+12-14 02:58:32.361 D/audio_hw_generic( 8907): mixer 0 name Master Playback Volume
+12-14 02:58:32.361 D/audio_hw_generic( 8907): set ctl 0 to 100
+12-14 02:58:32.361 D/audio_hw_generic( 8907): set ctl 1 to 100
+12-14 02:58:32.361 D/audio_hw_generic( 8907): mixer 1 name Master Playback Switch
+12-14 02:58:32.361 D/audio_hw_generic( 8907): set ctl 0 to 1
+12-14 02:58:32.361 D/audio_hw_generic( 8907): set ctl 1 to 1
+12-14 02:58:32.361 D/audio_hw_generic( 8907): mixer 2 name Capture Volume
+12-14 02:58:32.361 D/audio_hw_generic( 8907): set ctl 0 to 100
+12-14 02:58:32.361 D/audio_hw_generic( 8907): set ctl 1 to 100
+12-14 02:58:32.361 D/audio_hw_generic( 8907): mixer 3 name Capture Switch
+12-14 02:58:32.361 D/audio_hw_generic( 8907): set ctl 0 to 1
+12-14 02:58:32.361 D/audio_hw_generic( 8907): set ctl 1 to 1
+12-14 02:58:32.361 D/audio_hw_generic( 8907): mixer 4 name Line Phantom Jack
+12-14 02:58:32.361 D/audio_hw_generic( 8907): mixer 5 name Line Out Phantom Jack
+12-14 02:58:32.361 D/audio_hw_generic( 8907): mixer 6 name Playback Channel Map
+12-14 02:58:32.361 D/audio_hw_generic( 8907): mixer 7 name Capture Channel Map
+12-14 02:58:32.368 I/zygote  ( 8901): Thread[1,tid=8901,Native,Thread*=0xad9da000,peer=0x12c01c58,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+12-14 02:58:32.368 D/MtpDeviceJNI( 8901): register_android_mtp_MtpDevice
+12-14 02:58:32.369 I/zygote  ( 8901): Thread[1,tid=8901,Native,Thread*=0xad9da000,peer=0x12c01c58,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+12-14 02:58:32.369 I/zygote  ( 8901): Thread[1,tid=8901,Native,Thread*=0xad9da000,peer=0x12c01c58,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+12-14 02:58:32.381 W/DeviceHAL( 8907): Device 0xb1d39000 get_master_volume: Function not implemented
+12-14 02:58:32.382 W/DeviceHAL( 8907): Device 0xb1d39000 get_master_mute: Function not implemented
+12-14 02:58:32.394 I/cameraserver( 8903): ServiceManager: 0xa9ab0440
+12-14 02:58:32.395 I/CameraService( 8903): CameraService started (pid=8903)
+12-14 02:58:32.395 I/CameraService( 8903): CameraService process starting
+12-14 02:58:32.395 W/BatteryNotifier( 8903): batterystats service unavailable!
+12-14 02:58:32.395 W/BatteryNotifier( 8903): batterystats service unavailable!
+12-14 02:58:32.397 I/CameraProviderManager( 8903): Connecting to new camera provider: legacy/0, isRemote? 1
+12-14 02:58:32.397 I/CameraProviderManager( 8903): Enumerating new camera device: device@1.0/legacy/0
+12-14 02:58:32.398 W/DeviceHAL( 8907): Device 0xb1d39000 set_master_volume: Function not implemented
+12-14 02:58:32.399 W/DeviceHAL( 8907): Device 0xb1d39000 set_master_mute: Function not implemented
+12-14 02:58:32.400 I/AudioFlinger( 8902): loadHwModule() Loaded primary audio interface, handle 10
+12-14 02:58:32.400 I/AudioFlinger( 8902): openOutput() this 0xb5535000, module 10 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 2
+12-14 02:58:32.403 I/CamDev@1.0-impl( 1392): Opening camera 0
+12-14 02:58:32.403 V/EmulatedCamera_Camera( 1392): getCameraInfo
+12-14 02:58:32.403 V/EmulatedCamera_BaseCamera( 1392): getCameraInfo
+12-14 02:58:32.403 V/EmulatedCamera_Camera( 1392): connectCamera
+12-14 02:58:32.403 V/EmulatedCamera_QemuDevice( 1392): connectDevice
+12-14 02:58:32.403 V/EmulatedCamera_QemuDevice( 1392): connectDevice: Connected to device 'virtualscene'
+12-14 02:58:32.403 V/EmulatedCamera_CallbackNotifier( 1392): setCallbacks: 0xacfe5d80, 0xacfe5df0, 0xacfe6400, 0xacfe5910 (0xad2b07e0)
+12-14 02:58:32.404 I/CamDev@1.0-impl( 1392): Closing camera 0
+12-14 02:58:32.404 V/EmulatedCamera_Camera( 1392): closeCamera
+12-14 02:58:32.404 V/EmulatedCamera_Camera( 1392): doStopPreview
+12-14 02:58:32.404 V/EmulatedCamera_QemuDevice( 1392): disconnectDevice
+12-14 02:58:32.404 V/EmulatedCamera_QemuDevice( 1392): disconnectDevice: Disonnected from device 'virtualscene'
+12-14 02:58:32.404 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with auto, 1.000000, 1.000000
+12-14 02:58:32.404 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with incandescent, 1.380000, 0.600000
+12-14 02:58:32.404 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with daylight, 1.090000, 0.920000
+12-14 02:58:32.404 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with twilight, 0.920000, 1.220000
+12-14 02:58:32.404 V/EmulatedCamera_Device( 1392): setWhiteBalanceMode with white balance auto
+12-14 02:58:32.404 I/CameraProviderManager( 8903): Enumerating new camera device: device@1.0/legacy/1
+12-14 02:58:32.405 I/CamDev@1.0-impl( 1392): Opening camera 1
+12-14 02:58:32.405 V/EmulatedCamera_Camera( 1392): getCameraInfo
+12-14 02:58:32.405 V/EmulatedCamera_BaseCamera( 1392): getCameraInfo
+12-14 02:58:32.405 V/EmulatedCamera_Camera( 1392): connectCamera
+12-14 02:58:32.405 V/EmulatedCamera_FakeDevice( 1392): connectDevice
+12-14 02:58:32.405 V/EmulatedCamera_CallbackNotifier( 1392): setCallbacks: 0xacfe5d80, 0xacfe5df0, 0xacfe6400, 0xacfe5910 (0xad2b09a0)
+12-14 02:58:32.405 I/CamDev@1.0-impl( 1392): Closing camera 1
+12-14 02:58:32.405 V/EmulatedCamera_Camera( 1392): closeCamera
+12-14 02:58:32.405 V/EmulatedCamera_Camera( 1392): doStopPreview
+12-14 02:58:32.405 V/EmulatedCamera_FakeDevice( 1392): disconnectDevice
+12-14 02:58:32.405 W/EmulatedCamera_Device( 1392): Initialize: Emulated camera device is already initialized: mState = 1
+12-14 02:58:32.405 D/EmulatedCamera_FakeCamera( 1392): Initialize: Fake camera is facing front
+12-14 02:58:32.405 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with auto, 1.000000, 1.000000
+12-14 02:58:32.405 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with incandescent, 1.380000, 0.600000
+12-14 02:58:32.405 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with daylight, 1.090000, 0.920000
+12-14 02:58:32.405 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with twilight, 0.920000, 1.220000
+12-14 02:58:32.405 V/EmulatedCamera_Device( 1392): setWhiteBalanceMode with white balance auto
+12-14 02:58:32.405 I/CameraProviderManager( 8903): Camera provider legacy/0 ready with 2 camera devices
+12-14 02:58:32.405 W/CameraProviderManager( 8903): addProviderLocked: Camera provider HAL with name 'legacy/0' already registered
+12-14 02:58:32.405 I/CameraHardwareInterface( 8903): Opening camera 0
+12-14 02:58:32.405 I/CamDev@1.0-impl( 1392): Opening camera 0
+12-14 02:58:32.405 V/EmulatedCamera_Camera( 1392): getCameraInfo
+12-14 02:58:32.405 V/EmulatedCamera_BaseCamera( 1392): getCameraInfo
+12-14 02:58:32.405 V/EmulatedCamera_Camera( 1392): connectCamera
+12-14 02:58:32.405 V/EmulatedCamera_QemuDevice( 1392): connectDevice
+12-14 02:58:32.406 V/EmulatedCamera_QemuDevice( 1392): connectDevice: Connected to device 'virtualscene'
+12-14 02:58:32.406 V/EmulatedCamera_CallbackNotifier( 1392): setCallbacks: 0xacfe5d80, 0xacfe5df0, 0xacfe6400, 0xacfe5910 (0xad2b07e0)
+12-14 02:58:32.406 V/EmulatedCamera_Preview( 1392): setPreviewWindow: current: 0x0 -> new: 0xad2b0804
+12-14 02:58:32.406 V/EmulatedCamera_Preview( 1392): setPreviewWindow: current: 0xad2b0804 -> new: 0x0
+12-14 02:58:32.406 V/EmulatedCamera_Camera( 1392): doStopPreview
+12-14 02:58:32.406 V/EmulatedCamera_Preview( 1392): setPreviewWindow: current: 0x0 -> new: 0x0
+12-14 02:58:32.406 I/CamDev@1.0-impl( 1392): Closing camera 0
+12-14 02:58:32.406 V/EmulatedCamera_Camera( 1392): closeCamera
+12-14 02:58:32.406 V/EmulatedCamera_Camera( 1392): doStopPreview
+12-14 02:58:32.406 V/EmulatedCamera_QemuDevice( 1392): disconnectDevice
+12-14 02:58:32.406 V/EmulatedCamera_QemuDevice( 1392): disconnectDevice: Disonnected from device 'virtualscene'
+12-14 02:58:32.406 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with auto, 1.000000, 1.000000
+12-14 02:58:32.406 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with incandescent, 1.380000, 0.600000
+12-14 02:58:32.406 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with daylight, 1.090000, 0.920000
+12-14 02:58:32.406 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with twilight, 0.920000, 1.220000
+12-14 02:58:32.406 V/EmulatedCamera_Device( 1392): setWhiteBalanceMode with white balance auto
+12-14 02:58:32.406 I/CameraHardwareInterface( 8903): Opening camera 1
+12-14 02:58:32.407 I/CamDev@1.0-impl( 1392): Opening camera 1
+12-14 02:58:32.407 V/EmulatedCamera_Camera( 1392): getCameraInfo
+12-14 02:58:32.407 V/EmulatedCamera_BaseCamera( 1392): getCameraInfo
+12-14 02:58:32.407 V/EmulatedCamera_Camera( 1392): connectCamera
+12-14 02:58:32.407 V/EmulatedCamera_FakeDevice( 1392): connectDevice
+12-14 02:58:32.407 V/EmulatedCamera_CallbackNotifier( 1392): setCallbacks: 0xacfe5d80, 0xacfe5df0, 0xacfe6400, 0xacfe5910 (0xad2b09a0)
+12-14 02:58:32.407 V/EmulatedCamera_Preview( 1392): setPreviewWindow: current: 0x0 -> new: 0xad2b09c4
+12-14 02:58:32.407 V/EmulatedCamera_Preview( 1392): setPreviewWindow: current: 0xad2b09c4 -> new: 0x0
+12-14 02:58:32.407 V/EmulatedCamera_Camera( 1392): doStopPreview
+12-14 02:58:32.407 V/EmulatedCamera_Preview( 1392): setPreviewWindow: current: 0x0 -> new: 0x0
+12-14 02:58:32.407 I/CamDev@1.0-impl( 1392): Closing camera 1
+12-14 02:58:32.407 V/EmulatedCamera_Camera( 1392): closeCamera
+12-14 02:58:32.407 V/EmulatedCamera_Camera( 1392): doStopPreview
+12-14 02:58:32.407 V/EmulatedCamera_FakeDevice( 1392): disconnectDevice
+12-14 02:58:32.407 W/EmulatedCamera_Device( 1392): Initialize: Emulated camera device is already initialized: mState = 1
+12-14 02:58:32.407 D/EmulatedCamera_FakeCamera( 1392): Initialize: Fake camera is facing front
+12-14 02:58:32.407 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with auto, 1.000000, 1.000000
+12-14 02:58:32.407 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with incandescent, 1.380000, 0.600000
+12-14 02:58:32.408 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with daylight, 1.090000, 0.920000
+12-14 02:58:32.408 V/EmulatedCamera_Device( 1392): initializeWhiteBalanceModes with twilight, 0.920000, 1.220000
+12-14 02:58:32.408 V/EmulatedCamera_Device( 1392): setWhiteBalanceMode with white balance auto
+12-14 02:58:32.408 I/CameraService( 8903): onDeviceStatusChanged: Status changed for cameraId=0, newStatus=1
+12-14 02:58:32.408 E/CameraService( 8903): onDeviceStatusChanged: State transition to the same status 0x1 not allowed
+12-14 02:58:32.408 I/CameraService( 8903): onDeviceStatusChanged: Status changed for cameraId=1, newStatus=1
+12-14 02:58:32.408 E/CameraService( 8903): onDeviceStatusChanged: State transition to the same status 0x1 not allowed
+12-14 02:58:32.409 I/AudioFlinger( 8902): HAL output buffer size 720 frames, normal sink buffer size 1152 frames
+12-14 02:58:32.412 I/BufferProvider( 8902): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+12-14 02:58:32.413 I/AudioFlinger( 8902): Using module 10 as the primary audio interface
+12-14 02:58:32.413 I/AudioFlinger( 8902): AudioFlinger's thread 0xb4c03f40 tid=8946 ready to run
+12-14 02:58:32.413 W/AudioFlinger( 8902): moveEffects() bad srcOutput 0
+12-14 02:58:32.414 W/AudioFlinger( 8902): no wake lock to update, system not ready yet
+12-14 02:58:32.415 W/AudioFlinger( 8902): no wake lock to update, system not ready yet
+12-14 02:58:32.423 I/AudioFlinger( 8902): AudioFlinger's thread 0xb4903c00 tid=8949 ready to run
+12-14 02:58:32.423 I/vndksupport( 8907): sphal namespace is not configured for this process. Loading /vendor/lib/hw/audio.r_submix.default.so from the current namespace instead.
+12-14 02:58:32.429 I/r_submix( 8907): adev_open(name=audio_hw_if)
+12-14 02:58:32.429 I/r_submix( 8907): adev_init_check()
+12-14 02:58:32.429 W/DeviceHAL( 8907): Device 0xb1091b00 set_master_mute: Function not implemented
+12-14 02:58:32.430 I/AudioFlinger( 8902): loadHwModule() Loaded r_submix audio interface, handle 18
+12-14 02:58:32.430 D/r_submix( 8907): adev_open_input_stream(addr=0)
+12-14 02:58:32.430 D/r_submix( 8907): submix_audio_device_create_pipe_l(addr=0, idx=9)
+12-14 02:58:32.430 D/r_submix( 8907):   now using address 0 for route 9
+12-14 02:58:32.437 I/System  ( 8901): Loaded time zone names for "" in 19ms (19ms in ICU)
+12-14 02:58:32.446 I/System  ( 8901): Loaded time zone names for "en_US" in 9ms (8ms in ICU)
+12-14 02:58:32.453 I/Zygote  ( 8901): ...preloaded 4570 classes in 191ms.
+12-14 02:58:32.453 I/zygote  ( 8901): VMRuntime.preloadDexCaches starting
+12-14 02:58:32.480 I/Netd    ( 8905): Creating child chains: 584.3ms
+12-14 02:58:32.480 I/Netd    ( 8905): Setting up OEM hooks: 0.1ms
+12-14 02:58:32.483 I/Netd    ( 8905): Setting up FirewallController hooks: 2.8ms
+12-14 02:58:32.485 I/Netd    ( 8905): Setting up NatController hooks: 1.8ms
+12-14 02:58:32.486 I/Netd    ( 8905): Setting up BandwidthController hooks: 1.3ms
+12-14 02:58:32.486 I/Netd    ( 8905): Setting up IdletimerController hooks: 0.1ms
+12-14 02:58:32.486 I/zygote  ( 8901): VMRuntime.preloadDexCaches strings total=306379 before=2990 after=2990
+12-14 02:58:32.486 I/zygote  ( 8901): VMRuntime.preloadDexCaches types total=26178 before=2699 after=3313
+12-14 02:58:32.486 I/zygote  ( 8901): VMRuntime.preloadDexCaches fields total=123816 before=2165 after=1211
+12-14 02:58:32.486 I/zygote  ( 8901): VMRuntime.preloadDexCaches methods total=219868 before=87618 after=87711
+12-14 02:58:32.486 I/zygote  ( 8901): VMRuntime.preloadDexCaches finished
+12-14 02:58:32.489 I/Netd    ( 8905): Disabling bandwidth control: 2.5ms
+12-14 02:58:32.495 E/Netd    ( 8905): cannot find interface dummy0
+12-14 02:58:32.495 I/Netd    ( 8905): Initializing RouteController: 6.5ms
+12-14 02:58:32.496 E/Netd    ( 8905): Unable to create netlink socket: Protocol not supported
+12-14 02:58:32.496 W/Netd    ( 8905): Unable to open qlog quota socket, check if xt_quota2 can send via UeventHandler
+12-14 02:58:32.497 D/MDnsDS  ( 8905): MDnsSdListener::Hander starting up
+12-14 02:58:32.498 I/Netd    ( 8905): Registering NetdNativeService: 1.3ms
+12-14 02:58:32.498 I/Netd    ( 8905): Starting CommandListener: 0.1ms
+12-14 02:58:32.498 I/Netd    ( 8905): Netd started in 604ms
+12-14 02:58:32.499 I/Zygote  ( 8901): Preloading resources...
+12-14 02:58:32.504 I/AudioFlinger( 8902): AudioFlinger's thread 0xb4783b80 tid=8952 ready to run
+12-14 02:58:32.504 I/RadioService( 8902): RadioService
+12-14 02:58:32.504 I/RadioService( 8902): onFirstRef
+12-14 02:58:32.504 I/BroadcastRadio( 8907): onFirstRef mClassId 0
+12-14 02:58:32.505 I/BroadcastRadio( 8907): onFirstRef RADIO_HARDWARE_MODULE_ID radio fm
+12-14 02:58:32.505 E/BroadcastRadio( 8907): couldn't load radio module radio.fm (No such file or directory)
+12-14 02:58:32.505 E/RadioService( 8902): could not read implementation properties
+12-14 02:58:32.505 I/SoundTriggerHalHidl( 8902): getProperties res implementor 
+12-14 02:58:32.505 I/SoundTriggerHalHidl( 8902): getProperties ret -19
+12-14 02:58:32.505 E/SoundTriggerHwService( 8902): could not read implementation properties
+12-14 02:58:32.506 D/r_submix( 8907): adev_close_input_stream()
+12-14 02:58:32.506 D/r_submix( 8907): submix_audio_device_release_pipe_l(idx=9) addr=0
+12-14 02:58:32.506 D/r_submix( 8907): submix_audio_device_destroy_pipe_l(): pipe destroyed
+12-14 02:58:32.473 W/netd    ( 8905): type=1400 audit(0.0:39): avc: denied { module_request } for kmod="netdev-dummy0" scontext=u:r:netd:s0 tcontext=u:r:kernel:s0 tclass=system permissive=0
+12-14 02:58:32.511 D/MDnsDS  ( 8905): MDnsSdListener starting to monitor
+12-14 02:58:32.511 D/MDnsDS  ( 8905): Going to poll with pollCount 1
+12-14 02:58:32.515 W/Resources( 8901): Preloaded drawable resource #0x1080264 (android:drawable/dialog_background_material) that varies with configuration!!
+12-14 02:58:32.483 W/netd    ( 8905): type=1400 audit(0.0:40): avc: denied { module_request } for kmod="net-pf-16-proto-5" scontext=u:r:netd:s0 tcontext=u:r:kernel:s0 tclass=system permissive=0
+12-14 02:58:32.524 W/Resources( 8901): Preloaded color resource #0x10600de (android:color/material_grey_800) that varies with configuration!!
+12-14 02:58:32.524 W/Resources( 8901): Preloaded drawable resource #0x10802d1 (android:drawable/floating_popup_background_dark) that varies with configuration!!
+12-14 02:58:32.614 I/Zygote  ( 8901): ...preloaded 114 resources in 115ms.
+12-14 02:58:32.617 W/Resources( 8901): Preloaded color resource #0x1060036 (android:color/background_cache_hint_selector_material_dark) that varies with configuration!!
+12-14 02:58:32.617 W/Resources( 8901): Preloaded color resource #0x1060053 (android:color/btn_default_material_dark) that varies with configuration!!
+12-14 02:58:32.618 I/Zygote  ( 8901): ...preloaded 41 resources in 4ms.
+12-14 02:58:32.618 D/libEGL  ( 8901): Emulator has host GPU support, qemu.gles is set to 1.
+12-14 02:58:32.619 E/vndksupport( 8901): Could not load /vendor/lib/egl/libGLES_emulation.so from sphal namespace: dlopen failed: library "/vendor/lib/egl/libGLES_emulation.so" not found.
+12-14 02:58:32.619 E/libEGL  ( 8901): load_driver(/vendor/lib/egl/libGLES_emulation.so): unknown
+12-14 02:58:32.622 D/libEGL  ( 8901): loaded /vendor/lib/egl/libEGL_emulation.so
+12-14 02:58:32.623 D/libEGL  ( 8901): loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+12-14 02:58:32.643 D/libEGL  ( 8901): loaded /vendor/lib/egl/libGLESv2_emulation.so
+12-14 02:58:32.666 I/Zygote  ( 8901): Preloading shared libraries...
+12-14 02:58:32.668 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-as.hyb not found or unreadable
+12-14 02:58:32.668 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-bg.hyb not found or unreadable
+12-14 02:58:32.668 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-bn.hyb not found or unreadable
+12-14 02:58:32.668 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-cu.hyb not found or unreadable
+12-14 02:58:32.668 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-cy.hyb not found or unreadable
+12-14 02:58:32.668 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-da.hyb not found or unreadable
+12-14 02:58:32.668 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-de-1901.hyb not found or unreadable
+12-14 02:58:32.668 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-de-1996.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-de-ch-1901.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-en-gb.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-en-us.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-es.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-et.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-eu.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-fr.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-ga.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-gu.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-hi.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-hr.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-hu.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-hy.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-kn.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-ml.hyb not found or unreadable
+12-14 02:58:32.669 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-mn-cyrl.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-mr.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-nb.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-nn.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-or.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-pa.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-pt.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-sl.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-ta.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-te.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-tk.hyb not found or unreadable
+12-14 02:58:32.670 E/Hyphenator( 8901): hyphenation patterns for /system/usr/hyphen-data/hyph-und-ethi.hyb not found or unreadable
+12-14 02:58:32.673 I/Zygote  ( 8901): Uninstalled ICU cache reference pinning...
+12-14 02:58:32.674 I/Zygote  ( 8901): Installed AndroidKeyStoreProvider in 1ms.
+12-14 02:58:32.685 I/Zygote  ( 8901): Warmed up JCA providers in 12ms.
+12-14 02:58:32.685 D/Zygote  ( 8901): end preload
+12-14 02:58:32.702 I/zygote  ( 8901): Explicit concurrent copying GC freed 31418(1690KB) AllocSpace objects, 4(104KB) LOS objects, 75% free, 1022KB/3MB, paused 1.372ms total 16.830ms
+12-14 02:58:32.712 I/zygote  ( 8901): Explicit concurrent copying GC freed 5460(206KB) AllocSpace objects, 0(0B) LOS objects, 75% free, 848KB/3MB, paused 1.017ms total 7.874ms
+12-14 02:58:32.811 I/zygote  ( 8901): Global filter of size 210 installed
+12-14 02:58:32.841 I/Zygote  ( 8901): System server process 8971 has been created
+12-14 02:58:32.842 I/Zygote  ( 8901): Accepting command socket connections
+12-14 02:58:32.869 I/SystemServer( 8971): InitBeforeStartServices
+12-14 02:58:32.869 I/SystemServer( 8971): Entered the Android system server!
+12-14 02:58:32.955 I/SystemServer( 8971): StartServices
+12-14 02:58:32.956 I/SystemServer( 8971): Reading configuration...
+12-14 02:58:32.956 I/SystemServer( 8971): ReadingSystemConfig
+12-14 02:58:32.956 I/SystemServer( 8971): StartInstaller
+12-14 02:58:32.956 I/SystemServiceManager( 8971): Starting com.android.server.pm.Installer
+12-14 02:58:32.957 D/installd( 1479): Found quota mount /dev/block/dm-0 at /data
+12-14 02:58:32.957 D/installd( 1479): Found quota mount /dev/block/dm-0 at /data/var/run/netns
+12-14 02:58:32.957 D/installd( 1479): Found storage mount /data/media at /mnt/runtime/default/emulated
+12-14 02:58:32.957 I/SystemServer( 8971): DeviceIdentifiersPolicyService
+12-14 02:58:32.958 I/SystemServiceManager( 8971): Starting com.android.server.os.DeviceIdentifiersPolicyService
+12-14 02:58:32.958 I/SystemServer( 8971): StartActivityManager
+12-14 02:58:32.958 I/SystemServiceManager( 8971): Starting com.android.server.am.ActivityManagerService$Lifecycle
+12-14 02:58:32.970 I/ActivityManager( 8971): Memory class: 384
+12-14 02:58:32.988 D/BatteryStatsImpl( 8971): Reading daily items from /data/system/batterystats-daily.xml
+12-14 02:58:33.038 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.memtrack@1.0::IMemtrack in either framework or device manifest, using default transport.
+12-14 02:58:33.039 E/memtrack( 8971): Couldn't load memtrack module
+12-14 02:58:33.039 W/android.os.Debug( 8971): failed to get memory consumption info: -1
+12-14 02:58:33.047 I/IntentFirewall( 8971): Read new rules (A:0 B:0 S:0)
+12-14 02:58:33.054 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1344: Device or resource busy
+12-14 02:58:33.054 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1372: Device or resource busy
+12-14 02:58:33.054 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1402: Device or resource busy
+12-14 02:58:33.055 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1407: Device or resource busy
+12-14 02:58:33.055 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1412: Device or resource busy
+12-14 02:58:33.055 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1479: Device or resource busy
+12-14 02:58:33.055 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1486: Device or resource busy
+12-14 02:58:33.055 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1491: Device or resource busy
+12-14 02:58:33.055 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1604: Device or resource busy
+12-14 02:58:33.056 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1615: Device or resource busy
+12-14 02:58:33.056 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1618: Device or resource busy
+12-14 02:58:33.056 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_1620: Device or resource busy
+12-14 02:58:33.056 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_8901: Device or resource busy
+12-14 02:58:33.056 W/zygote  ( 8971): failed to remove /acct/uid_0/pid_8905: Device or resource busy
+12-14 02:58:33.056 W/zygote  ( 8971): failed to remove /acct/uid_0: Permission denied
+12-14 02:58:33.056 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1334: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1335: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1337: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1343: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1390: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1393: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1396: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1397: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1398: Device or resource busy
+12-14 02:58:33.057 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1399: Device or resource busy
+12-14 02:58:33.058 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1413: Device or resource busy
+12-14 02:58:33.058 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1488: Device or resource busy
+12-14 02:58:33.058 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1492: Device or resource busy
+12-14 02:58:33.058 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_1494: Device or resource busy
+12-14 02:58:33.058 W/zygote  ( 8971): failed to remove /acct/uid_1000/pid_8576: Device or resource busy
+12-14 02:58:33.058 W/zygote  ( 8971): failed to remove /acct/uid_1000: Permission denied
+12-14 02:58:33.058 W/zygote  ( 8971): failed to remove /acct/uid_1001/pid_1490: Device or resource busy
+12-14 02:58:33.058 W/zygote  ( 8971): failed to remove /acct/uid_1001: Permission denied
+12-14 02:58:33.059 W/zygote  ( 8971): failed to remove /acct/uid_1003/pid_3968: Device or resource busy
+12-14 02:58:33.059 W/zygote  ( 8971): failed to remove /acct/uid_1003: Permission denied
+12-14 02:58:33.059 W/zygote  ( 8971): failed to remove /acct/uid_1010/pid_1401: Device or resource busy
+12-14 02:58:33.059 W/zygote  ( 8971): failed to remove /acct/uid_1010/pid_8906: Device or resource busy
+12-14 02:58:33.059 W/zygote  ( 8971): failed to remove /acct/uid_1010: Permission denied
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1013/pid_1394: Device or resource busy
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1013/pid_1395: Device or resource busy
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1013/pid_1481: Device or resource busy
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1013/pid_1483: Device or resource busy
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1013/pid_8904: Device or resource busy
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1013: Permission denied
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1017/pid_1480: Device or resource busy
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1017: Permission denied
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1019/pid_1478: Device or resource busy
+12-14 02:58:33.060 W/zygote  ( 8971): failed to remove /acct/uid_1019: Permission denied
+12-14 02:58:33.061 W/zygote  ( 8971): failed to remove /acct/uid_1020/pid_1377: Device or resource busy
+12-14 02:58:33.062 W/zygote  ( 8971): failed to remove /acct/uid_1020: Permission denied
+12-14 02:58:33.062 W/zygote  ( 8971): failed to remove /acct/uid_1036/pid_1333: Device or resource busy
+12-14 02:58:33.062 W/zygote  ( 8971): failed to remove /acct/uid_1036/pid_7174: Device or resource busy
+12-14 02:58:33.062 W/zygote  ( 8971): failed to remove /acct/uid_1036: Permission denied
+12-14 02:58:33.062 W/zygote  ( 8971): failed to remove /acct/uid_1037: Permission denied
+12-14 02:58:33.062 W/zygote  ( 8971): failed to remove /acct/uid_1040/pid_1482: Device or resource busy
+12-14 02:58:33.062 W/zygote  ( 8971): failed to remove /acct/uid_1040: Permission denied
+12-14 02:58:33.062 W/zygote  ( 8971): failed to remove /acct/uid_1041/pid_8902: Device or resource busy
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1041/pid_8907: Device or resource busy
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1041: Permission denied
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1046/pid_1489: Device or resource busy
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1046: Permission denied
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1047/pid_1392: Device or resource busy
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1047/pid_8903: Device or resource busy
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1047: Permission denied
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1053/pid_1757: Device or resource busy
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1053: Permission denied
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1058/pid_1493: Device or resource busy
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_1058: Permission denied
+12-14 02:58:33.063 W/zygote  ( 8971): failed to remove /acct/uid_10002: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10003: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10004: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10005: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10007: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10008: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10009: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10010: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10011: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10012: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10014: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10015: Permission denied
+12-14 02:58:33.064 W/zygote  ( 8971): failed to remove /acct/uid_10016: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10017: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10018: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10019: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10020: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10023: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10028: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10030: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10043: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10046: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10050: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10052: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10058: Permission denied
+12-14 02:58:33.065 W/zygote  ( 8971): failed to remove /acct/uid_10059: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10065: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10066: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10067: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10068: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10069: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10072: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10076: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10378: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10380: Permission denied
+12-14 02:58:33.066 W/zygote  ( 8971): failed to remove /acct/uid_10381: Permission denied
+12-14 02:58:33.069 D/AppOps  ( 8971): AppOpsService published
+12-14 02:58:33.069 I/SystemServer( 8971): StartPowerManager
+12-14 02:58:33.069 I/SystemServiceManager( 8971): Starting com.android.server.power.PowerManagerService
+12-14 02:58:33.073 I/PowerManagerService-JNI( 8971): Loaded power HAL service
+12-14 02:58:33.073 I/libsuspend( 8971): Selected wakeup count
+12-14 02:58:33.075 I/SystemServer( 8971): InitPowerManagement
+12-14 02:58:33.076 I/SystemServer( 8971): StartRecoverySystemService
+12-14 02:58:33.076 I/SystemServiceManager( 8971): Starting com.android.server.RecoverySystemService
+12-14 02:58:33.080 W/RescueParty( 8971): Noticed 1 events for UID 0 in last 162 sec
+12-14 02:58:33.080 I/SystemServer( 8971): StartLightsService
+12-14 02:58:33.080 I/SystemServiceManager( 8971): Starting com.android.server.lights.LightsService
+12-14 02:58:33.080 I/SystemServer( 8971): StartDisplayManager
+12-14 02:58:33.080 I/SystemServiceManager( 8971): Starting com.android.server.display.DisplayManagerService
+12-14 02:58:33.083 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+12-14 02:58:33.084 I/SystemServer( 8971): WaitForDisplay
+12-14 02:58:33.084 I/SystemServiceManager( 8971): Starting phase 100
+12-14 02:58:33.085 E/LocalDisplayAdapter( 8971): Default and active color mode is no longer available! Reverting to first available mode.
+12-14 02:58:33.086 I/DisplayManagerService( 8971): Display device added: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:0", 1080 x 1920, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1080, height=1920, fps=60.000004}], colorMode -22, supportedColorModes [-22], HdrCapabilities android.view.Display$HdrCapabilities@1d6308, density 420, 420.0 x 420.0 dpi, appVsyncOff 1000000, presDeadline 16666666, touch INTERNAL, rotation 0, type BUILT_IN, state UNKNOWN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+12-14 02:58:33.086 D/SurfaceFlinger( 1413): Set power mode=2, type=0 flinger=0xa80c9000
+12-14 02:58:33.088 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.light@2.0::ILight in either framework or device manifest, using default transport.
+12-14 02:58:33.088 E/LightsService( 8971): Unable to get ILight interface.
+12-14 02:58:33.088 I/DisplayManagerService( 8971): Display device changed state: "Built-in Screen", ON
+12-14 02:58:33.088 I/SystemServer( 8971): StartPackageManagerService
+12-14 02:58:33.105 D/SELinuxMMAC( 8971): Using policy file /system/etc/selinux/plat_mac_permissions.xml
+12-14 02:58:33.106 D/SELinuxMMAC( 8971): Using policy file /vendor/etc/selinux/nonplat_mac_permissions.xml
+12-14 02:58:33.176 D/PackageManager( 8971): No files in app dir /vendor/overlay
+12-14 02:58:33.179 W/PackageManager( 8971): Failed to parse /system/framework/x86: Missing base APK in /system/framework/x86
+12-14 02:58:33.180 W/PackageManager( 8971): Failed to parse /system/framework/oat: Missing base APK in /system/framework/oat
+12-14 02:58:33.272 W/PackageManager( 8971): Failed to scan /system/priv-app/Phonesky: Package com.android.vending at /system/priv-app/Phonesky ignored: updated version 82242510 better than this 80796600
+12-14 02:58:33.308 W/PackageManager( 8971): Failed to scan /system/priv-app/PrebuiltGmsCore: Package com.google.android.gms at /system/priv-app/PrebuiltGmsCore ignored: updated version 204713022 better than this 11743470
+12-14 02:58:33.384 D/PackageManager( 8971): No files in app dir /vendor/app
+12-14 02:58:33.384 D/PackageManager( 8971): No files in app dir /oem/app
+12-14 02:58:33.485 D/PackageManager( 8971): No files in app dir /data/app-private
+12-14 02:58:33.491 I/PackageManager( 8971): Time to scan packages: 0.316 seconds
+12-14 02:58:33.492 I/PackageManager( 8971): Un-granting permission android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS from package com.android.vending (protectionLevel=770 flags=0x384abec5)
+12-14 02:58:33.492 I/PackageManager( 8971): Un-granting permission android.permission.GRANT_RUNTIME_PERMISSIONS from package com.android.vending (protectionLevel=770 flags=0x384abec5)
+12-14 02:58:33.492 I/PackageManager( 8971): Un-granting permission android.permission.REVOKE_RUNTIME_PERMISSIONS from package com.android.vending (protectionLevel=770 flags=0x384abec5)
+12-14 02:58:33.492 I/PackageManager( 8971): Un-granting permission android.permission.SET_PREFERRED_APPLICATIONS from package com.android.vending (protectionLevel=514 flags=0x384abec5)
+12-14 02:58:33.492 I/PackageManager( 8971): Un-granting permission android.permission.ACCESS_INSTANT_APPS from package com.android.vending (protectionLevel=770 flags=0x384abec5)
+12-14 02:58:33.493 I/PackageManager( 8971): Un-granting permission android.permission.CLEAR_APP_USER_DATA from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:33.494 I/PackageManager( 8971): Un-granting permission android.permission.GRANT_RUNTIME_PERMISSIONS from package com.google.android.packageinstaller (protectionLevel=770 flags=0x38483e45)
+12-14 02:58:33.494 I/PackageManager( 8971): Un-granting permission android.permission.REVOKE_RUNTIME_PERMISSIONS from package com.google.android.packageinstaller (protectionLevel=770 flags=0x38483e45)
+12-14 02:58:33.494 I/PackageManager( 8971): Un-granting permission android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS from package com.google.android.packageinstaller (protectionLevel=770 flags=0x38483e45)
+12-14 02:58:33.495 I/PackageManager( 8971): Un-granting permission android.permission.INTERACT_ACROSS_USERS_FULL from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:33.495 I/PackageManager( 8971): Un-granting permission android.permission.KILL_UID from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:33.496 I/PackageManager( 8971): Un-granting permission android.permission.MANAGE_APP_OPS_RESTRICTIONS from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:33.496 I/PackageManager( 8971): Un-granting permission android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS from package com.google.android.packageinstaller (protectionLevel=258 flags=0x38483e45)
+12-14 02:58:33.496 I/PackageManager( 8971): Un-granting permission android.permission.ACCESS_INSTANT_APPS from package com.google.android.packageinstaller (protectionLevel=770 flags=0x38483e45)
+12-14 02:58:33.498 V/PackageManager( 8971): reconcileAppsData for null u0 0x3 migrateAppData=true
+12-14 02:58:33.547 V/PackageManager( 8971): reconcileAppsData finished 18 packages
+12-14 02:58:33.549 W/installd( 1479): Ignoring /data/data/com.android.defcontainer/lib with unexpected GID 0 instead of 10007
+12-14 02:58:33.550 W/installd( 1479): Ignoring /data/data/com.google.android.inputmethod.latin/lib with unexpected GID 0 instead of 10058
+12-14 02:58:33.550 W/installd( 1479): Ignoring /data/data/com.google.android.youtube/lib with unexpected GID 0 instead of 10078
+12-14 02:58:33.550 W/installd( 1479): Ignoring /data/data/com.google.android.googlequicksearchbox/lib with unexpected GID 0 instead of 10030
+12-14 02:58:33.550 W/installd( 1479): Ignoring /data/data/com.google.android.apps.messaging/lib with unexpected GID 0 instead of 10066
+12-14 02:58:33.550 W/installd( 1479): Ignoring /data/data/com.android.vending/lib with unexpected GID 0 instead of 10023
+12-14 02:58:33.550 W/installd( 1479): Ignoring /data/data/com.android.pacprocessor/lib with unexpected GID 0 instead of 10063
+12-14 02:58:33.551 W/installd( 1479): Ignoring /data/data/com.android.camera2/lib with unexpected GID 0 instead of 10039
+12-14 02:58:33.551 W/installd( 1479): Ignoring /data/data/com.google.android.apps.inputmethod.hindi/lib with unexpected GID 0 instead of 10051
+12-14 02:58:33.551 W/installd( 1479): Ignoring /data/data/com.google.android.apps.tachyon/lib with unexpected GID 0 instead of 10047
+12-14 02:58:33.551 W/installd( 1479): Ignoring /data/data/com.android.printspooler/lib with unexpected GID 0 instead of 10069
+12-14 02:58:33.551 W/installd( 1479): Ignoring /data/data/com.android.bips/lib with unexpected GID 0 instead of 10032
+12-14 02:58:33.551 W/installd( 1479): Ignoring /data/data/com.google.android.apps.docs/lib with unexpected GID 0 instead of 10052
+12-14 02:58:33.551 W/installd( 1479): Ignoring /data/data/com.google.android.apps.maps/lib with unexpected GID 0 instead of 10059
+12-14 02:58:33.551 W/installd( 1479): Ignoring /data/data/com.android.chrome/lib with unexpected GID 0 instead of 10043
+12-14 02:58:33.552 W/installd( 1479): Ignoring /data/data/com.google.android.gms/lib with unexpected GID 0 instead of 10011
+12-14 02:58:33.552 W/installd( 1479): Ignoring /data/data/com.google.android.gsf/lib with unexpected GID 0 instead of 10011
+12-14 02:58:33.552 W/installd( 1479): Ignoring /data/data/com.google.android.tts/lib with unexpected GID 0 instead of 10055
+12-14 02:58:33.552 W/installd( 1479): Ignoring /data/data/com.google.android.videos/lib with unexpected GID 0 instead of 10072
+12-14 02:58:33.552 W/installd( 1479): Ignoring /data/data/com.breel.geswallpapers/lib with unexpected GID 0 instead of 10074
+12-14 02:58:33.552 W/installd( 1479): Ignoring /data/data/com.google.android.apps.photos/lib with unexpected GID 0 instead of 10065
+12-14 02:58:33.552 W/installd( 1479): Ignoring /data/data/com.google.android.backuptransport/lib with unexpected GID 0 instead of 10011
+12-14 02:58:33.553 W/installd( 1479): Ignoring /data/data/jp.co.omronsoft.openwnn/lib with unexpected GID 0 instead of 10062
+12-14 02:58:33.553 W/installd( 1479): Ignoring /data/data/com.google.android.inputmethod.pinyin/lib with unexpected GID 0 instead of 10053
+12-14 02:58:33.554 W/installd( 1479): Ignoring /data/user_de/0/com.android.defcontainer/lib with unexpected GID 0 instead of 10007
+12-14 02:58:33.647 I/zygote  ( 8971): Explicit concurrent copying GC freed 31325(1631KB) AllocSpace objects, 7(1696KB) LOS objects, 42% free, 5MB/10MB, paused 593us total 40.625ms
+12-14 02:58:33.649 D/FallbackCategoryProvider( 8971): Found 387 fallback categories
+12-14 02:58:33.651 I/SystemServer( 8971): StartOtaDexOptService
+12-14 02:58:33.652 D/OTADexopt( 8971): No upgrade, skipping A/B artifacts check.
+12-14 02:58:33.652 I/SystemServer( 8971): StartUserManagerService
+12-14 02:58:33.652 I/SystemServiceManager( 8971): Starting com.android.server.pm.UserManagerService$LifeCycle
+12-14 02:58:33.653 I/SystemServer( 8971): InitAttributerCache
+12-14 02:58:33.653 I/SystemServer( 8971): SetSystemProcess
+12-14 02:58:33.662 I/lowmemorykiller( 1412): ActivityManager connected
+12-14 02:58:33.666 I/SystemServer( 8971): StartOverlayManagerService
+12-14 02:58:33.670 I/SystemServer( 8971): StartDropBoxManager
+12-14 02:58:33.671 I/SystemServiceManager( 8971): Starting com.android.server.DropBoxManagerService
+12-14 02:58:33.672 I/SystemServer( 8971): StartBatteryService
+12-14 02:58:33.673 I/SystemServiceManager( 8971): Starting com.android.server.BatteryService
+12-14 02:58:33.678 E/BluetoothAdapter( 8971): Bluetooth binder is null
+12-14 02:58:33.679 E/BatteryStatsService( 8971): no controller energy info supplied
+12-14 02:58:33.679 E/KernelCpuSpeedReader( 8971): Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+12-14 02:58:33.681 E/KernelUidCpuFreqTimeReader( 8971): Failed to read /proc/uid_time_in_state: java.io.FileNotFoundException: /proc/uid_time_in_state (No such file or directory)
+12-14 02:58:33.683 W/KernelMemoryBandwidthStats( 8971): No kernel memory bandwidth stats available
+12-14 02:58:33.683 I/BatteryStatsImpl( 8971): Resetting battery stats: level=100 status=4 dischargeLevel=100 lowAmount=0 highAmount=0
+12-14 02:58:33.684 D/SensorService( 8971): nuSensorService starting...
+12-14 02:58:33.686 E//vendor/bin/hw/android.hardware.sensors@1.0-service( 8576): ISensors::poll() re-entry. I do not know what to do except killing myself.
+12-14 02:58:33.698 I/SensorService( 8971): poll() check unsuccessful, try again soon (remaining retry 9).
+12-14 02:58:33.700 E/KernelCpuSpeedReader( 8971): Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+12-14 02:58:33.703 E/KernelUidCpuFreqTimeReader( 8971): Failed to read /proc/uid_time_in_state: java.io.FileNotFoundException: /proc/uid_time_in_state (No such file or directory)
+12-14 02:58:33.708 I/SystemServer( 8971): StartUsageService
+12-14 02:58:33.708 I/SystemServiceManager( 8971): Starting com.android.server.usage.UsageStatsService
+12-14 02:58:33.736 I/SystemServer( 8971): StartWebViewUpdateService
+12-14 02:58:33.737 I/SystemServiceManager( 8971): Starting com.android.server.webkit.WebViewUpdateService
+12-14 02:58:33.742 W/cutils  ( 1479): Expected path /data/data/com.google.android.gms with mode 700 but found 751
+12-14 02:58:33.742 I/SystemServer( 8971): SecondaryZygotePreload
+12-14 02:58:33.742 W/cutils  ( 1479): Expected path /data/user_de/0/com.google.android.gms with mode 700 but found 751
+12-14 02:58:33.743 I/SystemServer( 8971): StartKeyAttestationApplicationIdProviderService
+12-14 02:58:33.744 W/cutils  ( 1479): Expected path /data/data/com.google.android.gms with mode 700 but found 751
+12-14 02:58:33.744 W/cutils  ( 1479): Expected path /data/user_de/0/com.google.android.gms with mode 700 but found 751
+12-14 02:58:33.746 I/vndksupport( 9018): sphal namespace is not configured for this process. Loading /vendor/lib/hw/sensors.ranchu.so from the current namespace instead.
+12-14 02:58:33.747 I/ServiceManagement( 9018): Removing namespace from process name android.hardware.sensors@1.0-service to sensors@1.0-ser.
+12-14 02:58:33.747 I/android.hardware.sensors@1.0-service( 9018): Registration complete for android.hardware.sensors@1.0::ISensors/default.
+12-14 02:58:33.752 I/SystemServer( 8971): StartKeyChainSystemService
+12-14 02:58:33.752 I/SystemServiceManager( 8971): Starting com.android.server.security.KeyChainSystemService
+12-14 02:58:33.753 I/SystemServer( 8971): StartSchedulingPolicyService
+12-14 02:58:33.754 I/SystemServer( 8971): StartTelecomLoaderService
+12-14 02:58:33.754 I/SystemServiceManager( 8971): Starting com.android.server.telecom.TelecomLoaderService
+12-14 02:58:33.754 I/SystemServer( 8971): StartTelephonyRegistry
+12-14 02:58:33.757 I/SystemServer( 8971): StartEntropyMixer
+12-14 02:58:33.759 I/EntropyMixer( 8971): Writing entropy...
+12-14 02:58:33.761 I/Zygote  ( 8971): Process: zygote socket zygote opened, supported ABIS: x86
+12-14 02:58:33.771 E/SystemServer( 8971): Unable to preload default resources
+12-14 02:58:33.777 I/SystemServer( 8971): Camera Service Proxy
+12-14 02:58:33.777 I/SystemServer( 8971): StartCameraServiceProxy
+12-14 02:58:33.777 I/SystemServiceManager( 8971): Starting com.android.server.camera.CameraServiceProxy
+12-14 02:58:33.785 I/SystemServer( 8971): StartAccountManagerService
+12-14 02:58:33.785 I/SystemServiceManager( 8971): Starting com.android.server.accounts.AccountManagerService$Lifecycle
+12-14 02:58:33.791 I/SystemServer( 8971): StartContentService
+12-14 02:58:33.791 I/SystemServiceManager( 8971): Starting com.android.server.content.ContentService$Lifecycle
+12-14 02:58:33.792 I/SystemServer( 8971): InstallSystemProviders
+12-14 02:58:33.810 E/SensorService( 8971): Reported power 0.000000 not deemed sane, clamping to 0.001000
+12-14 02:58:33.818 E/        ( 8971): Reporting Mode incorrect: sensor Goldfish Temperature sensor handle=0x00000004 type=13 actual=0 expected=1
+12-14 02:58:33.818 E/        ( 8971): Reporting Mode incorrect: sensor Goldfish Humidity sensor handle=0x00000008 type=12 actual=0 expected=1
+12-14 02:58:33.819 D/SensorService( 8971): nuSensorService thread starting...
+12-14 02:58:33.822 D/SensorService( 8971): new thread SensorEventAckReceiver
+12-14 02:58:33.826 W/RescueParty( 8971): Attempting rescue level RESET_SETTINGS_UNTRUSTED_CHANGES
+12-14 02:58:33.829 D/PackageManager( 8971): Finished rescue level RESET_SETTINGS_UNTRUSTED_CHANGES
+12-14 02:58:33.832 I/SystemServer( 8971): StartVibratorService
+12-14 02:58:33.834 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.vibrator@1.0::IVibrator in either framework or device manifest, using default transport.
+12-14 02:58:33.835 W/VibratorService( 8971): Tried to stop vibrating but there is no vibrator device.
+12-14 02:58:33.835 W/VibratorService( 8971): Unable to get max vibration amplitude, there is no vibrator device.
+12-14 02:58:33.837 I/SystemServer( 8971): StartConsumerIrService
+12-14 02:58:33.839 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.ir@1.0::IConsumerIr in either framework or device manifest, using default transport.
+12-14 02:58:33.840 I/SystemServer( 8971): StartAlarmManagerService
+12-14 02:58:33.840 I/SystemServiceManager( 8971): Starting com.android.server.AlarmManagerService
+12-14 02:58:33.842 W/AlarmManagerService( 8971): no wall clock RTC found
+12-14 02:58:33.842 D/AlarmManagerService( 8971): Kernel timezone updated to 300 minutes west of GMT
+12-14 02:58:33.848 I/SystemServer( 8971): InitWatchdog
+12-14 02:58:33.848 I/SystemServer( 8971): StartInputManagerService
+12-14 02:58:33.849 I/InputManager( 8971): Initializing input manager, mUseDevInputEventForAudioJack=true
+12-14 02:58:33.849 I/SystemServer( 8971): StartWindowManagerService
+12-14 02:58:33.864 I/WindowManager( 8971): No existing display settings /data/system/display_settings.xml; starting empty
+12-14 02:58:33.895 I/PackageManager( 8971): Deferred reconcileAppsData finished 87 packages
+12-14 02:58:33.899 W/ShortcutManager( 8971): Unable to add bookmark: com.google.android.talk/com.google.android.talk.SigningInActivity
+12-14 02:58:33.899 W/ShortcutManager( 8971): android.content.pm.PackageManager$NameNotFoundException: ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at android.app.ApplicationPackageManager.getActivityInfo(ApplicationPackageManager.java:413)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at com.android.server.policy.ShortcutManager.loadShortcuts(ShortcutManager.java:142)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at com.android.server.policy.ShortcutManager.<init>(ShortcutManager.java:62)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at com.android.server.policy.PhoneWindowManager.init(PhoneWindowManager.java:1887)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at com.android.server.wm.WindowManagerService$3.run(WindowManagerService.java:992)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at android.os.Handler$BlockingRunnable.run(Handler.java:809)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at android.os.Handler.handleCallback(Handler.java:789)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at android.os.Handler.dispatchMessage(Handler.java:98)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at android.os.Looper.loop(Looper.java:164)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at android.os.HandlerThread.run(HandlerThread.java:65)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+12-14 02:58:33.899 W/ShortcutManager( 8971): 	at com.android.server.UiThread.run(UiThread.java:42)
+12-14 02:58:33.908 I/SystemServer( 8971): StartVrManagerService
+12-14 02:58:33.908 I/SystemServiceManager( 8971): Starting com.android.server.vr.VrManagerService
+12-14 02:58:33.908 I/SystemServer( 8971): StartHidlServices
+12-14 02:58:33.910 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.vr@1.0::IVr in either framework or device manifest, using default transport.
+12-14 02:58:33.911 W/VrManagerService( 8971): init_native: Could not open IVr interface
+12-14 02:58:33.911 I/SystemServer( 8971): SetWindowManagerService
+12-14 02:58:33.914 I/SystemServer( 8971): StartInputManager
+12-14 02:58:33.914 I/InputManager( 8971): Starting input manager
+12-14 02:58:33.915 D/EventHub( 8971): No input device configuration file found for device 'Power Button'.
+12-14 02:58:33.917 I/SystemServer( 8971): DisplayManagerWindowManagerAndInputReady
+12-14 02:58:33.917 I/SystemServer( 8971): No Bluetooth Service (emulator)
+12-14 02:58:33.917 I/SystemServer( 8971): IpConnectivityMetrics
+12-14 02:58:33.917 I/SystemServiceManager( 8971): Starting com.android.server.connectivity.IpConnectivityMetrics
+12-14 02:58:33.918 I/SystemServer( 8971): PinnerService
+12-14 02:58:33.918 W/EventHub( 8971): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+12-14 02:58:33.919 I/SystemServiceManager( 8971): Starting com.android.server.PinnerService
+12-14 02:58:33.919 I/EventHub( 8971): New device: id=1, fd=96, path='/dev/input/event0', name='Power Button', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+12-14 02:58:33.919 E/EventHub( 8971): could not get driver version for /dev/input/mouse0, Not a typewriter
+12-14 02:58:33.920 I/SystemServer( 8971): StartInputMethodManagerLifecycle
+12-14 02:58:33.920 I/SystemServiceManager( 8971): Starting com.android.server.InputMethodManagerService$Lifecycle
+12-14 02:58:33.923 I/SystemServer( 8971): StartAccessibilityManagerService
+12-14 02:58:33.925 I/SystemServer( 8971): MakeDisplayReady
+12-14 02:58:33.929 I/ActivityManager( 8971): Config changes=5df8 {1.0 ?mcc?mnc [en_US] ldltr sw411dp w411dp h731dp 420dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h appBounds=Rect(0, 0 - 1080, 1920) s.2}
+12-14 02:58:33.931 I/ActivityManager( 8971): Override config changes=40007dfc {1.0 ?mcc?mnc [en_US] ldltr sw411dp w411dp h731dp 420dpi nrml long port ?uimode ?night -touch -keyb/v/h -nav/h appBounds=Rect(0, 0 - 1080, 1920) s.2} for displayId=0
+12-14 02:58:33.936 W/LocalDisplayAdapter( 8971): Unable to find color mode 0, ignoring request.
+12-14 02:58:33.952 I/ActivityManager( 8971): Config changes=500 {1.0 ?mcc?mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port ?uimode ?night -touch -keyb/v/h -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.3}
+12-14 02:58:33.954 I/ActivityManager( 8971): Override config changes=500 {1.0 ?mcc?mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port ?uimode ?night -touch -keyb/v/h -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.3} for displayId=0
+12-14 02:58:33.955 W/LocalDisplayAdapter( 8971): Unable to find color mode 0, ignoring request.
+12-14 02:58:33.956 I/SystemServer( 8971): StartStorageManagerService
+12-14 02:58:33.956 I/SystemServiceManager( 8971): Starting com.android.server.StorageManagerService$Lifecycle
+12-14 02:58:33.959 I/UsageStatsService( 8971): User[0] Rollover scheduled @ 2020-12-14 20:59:13(1607997553013)
+12-14 02:58:33.960 E/AppIdleHistory( 8971): Unable to read app idle file for user 0
+12-14 02:58:33.963 I/SystemServer( 8971): StartStorageStatsService
+12-14 02:58:33.963 D/StorageManagerService( 8971): Thinking about init, mSystemReady=false, mDaemonConnected=true
+12-14 02:58:33.963 D/StorageManagerService( 8971): Thinking about reset, mSystemReady=false, mDaemonConnected=true
+12-14 02:58:33.964 I/SystemServiceManager( 8971): Starting com.android.server.usage.StorageStatsService$Lifecycle
+12-14 02:58:33.965 D/StorageManagerService( 8971): Thinking about init, mSystemReady=false, mDaemonConnected=true
+12-14 02:58:33.965 D/StorageManagerService( 8971): Thinking about reset, mSystemReady=false, mDaemonConnected=true
+12-14 02:58:33.965 D/CryptdConnector( 8971): SND -> {1 cryptfs getfield SystemLocale}
+12-14 02:58:33.967 D/installd( 1479): Found quota mount /dev/block/dm-0 at /data
+12-14 02:58:33.967 D/installd( 1479): Found quota mount /dev/block/dm-0 at /data/var/run/netns
+12-14 02:58:33.967 D/installd( 1479): Found storage mount /data/media at /mnt/runtime/default/emulated
+12-14 02:58:33.969 D/installd( 1479): Found quota mount /dev/block/dm-0 at /data
+12-14 02:58:33.969 D/installd( 1479): Found quota mount /dev/block/dm-0 at /data/var/run/netns
+12-14 02:58:33.969 D/installd( 1479): Found storage mount /data/media at /mnt/runtime/default/emulated
+12-14 02:58:33.971 I/SystemServer( 8971): StartUiModeManager
+12-14 02:58:33.971 I/SystemServiceManager( 8971): Starting com.android.server.UiModeManagerService
+12-14 02:58:33.973 I/SystemServer( 8971): UpdatePackagesIfNeeded
+12-14 02:58:33.973 I/ActivityManager( 8971): Config changes=200 {1.0 ?mcc?mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port -touch -keyb/v/h -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.4}
+12-14 02:58:33.973 I/SystemServer( 8971): PerformFstrimIfNeeded
+12-14 02:58:33.973 I/SystemServer( 8971): StartLockSettingsService
+12-14 02:58:33.974 I/SystemServiceManager( 8971): Starting com.android.server.LockSettingsService$Lifecycle
+12-14 02:58:33.974 I/ActivityManager( 8971): Override config changes=200 {1.0 ?mcc?mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port -touch -keyb/v/h -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.4} for displayId=0
+12-14 02:58:33.978 D/CryptdConnector( 8971): RCV <- {200 1 -1}
+12-14 02:58:33.980 W/StorageManagerService( 8971): No primary storage mounted!
+12-14 02:58:33.980 D/VoldConnector( 8971): SND -> {1 asec list}
+12-14 02:58:33.982 D/VoldConnector( 8971): RCV <- {200 1 asec operation succeeded}
+12-14 02:58:33.983 I/PackageManager( 8971): No secure containers found
+12-14 02:58:33.983 I/EventHub( 8971): New device: id=2, fd=102, path='/dev/input/event2', name='goldfish_rotary', classes=0x1000, configuration='/system/usr/idc/goldfish_rotary.idc', keyLayout='', keyCharacterMap='', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+12-14 02:58:33.984 W/EventHub( 8971): Unable to disable kernel key repeat for /dev/input/event1: Function not implemented
+12-14 02:58:33.984 I/EventHub( 8971): New device: id=3, fd=103, path='/dev/input/event1', name='qwerty2', classes=0x97, configuration='/system/usr/idc/qwerty2.idc', keyLayout='/system/usr/keylayout/qwerty.kl', keyCharacterMap='/system/usr/keychars/qwerty2.kcm', builtinKeyboard=true, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+12-14 02:58:33.984 E/EventHub( 8971): could not get driver version for /dev/input/mice, Not a typewriter
+12-14 02:58:33.987 I/SystemServer( 8971): StartDeviceIdleController
+12-14 02:58:33.987 I/SystemServiceManager( 8971): Starting com.android.server.DeviceIdleController
+12-14 02:58:34.046 W/SystemServiceManager( 8971): Service com.android.server.DeviceIdleController took 58 ms in onStart
+12-14 02:58:34.046 I/SystemServer( 8971): StartDevicePolicyManager
+12-14 02:58:34.046 I/SystemServiceManager( 8971): Starting com.android.server.devicepolicy.DevicePolicyManagerService$Lifecycle
+12-14 02:58:34.051 W/StorageManagerService( 8971): No primary storage defined yet; hacking together a stub
+12-14 02:58:34.054 W/StorageManagerService( 8971): No primary storage mounted!
+12-14 02:58:34.054 D/VoldConnector( 8971): SND -> {2 asec list}
+12-14 02:58:34.054 I/SystemServer( 8971): StartStatusBarManagerService
+12-14 02:58:34.054 D/VoldConnector( 8971): RCV <- {200 2 asec operation succeeded}
+12-14 02:58:34.055 I/SystemServer( 8971): StartClipboardService
+12-14 02:58:34.055 I/SystemServiceManager( 8971): Starting com.android.server.clipboard.ClipboardService
+12-14 02:58:34.057 I/SystemServer( 8971): StartNetworkManagementService
+12-14 02:58:34.060 I/NetworkManagement( 8971): onDaemonConnected()
+12-14 02:58:34.062 I/SystemServer( 8971): StartTextServicesManager
+12-14 02:58:34.062 I/SystemServiceManager( 8971): Starting com.android.server.TextServicesManagerService$Lifecycle
+12-14 02:58:34.064 W/TextServicesManagerService( 8971): no available spell checker services found
+12-14 02:58:34.065 I/SystemServer( 8971): StartNetworkScoreService
+12-14 02:58:34.067 I/SystemServer( 8971): StartNetworkStatsService
+12-14 02:58:34.070 I/SystemServer( 8971): StartNetworkPolicyManagerService
+12-14 02:58:34.075 I/SystemServer( 8971): StartWifi
+12-14 02:58:34.079 I/SystemServiceManager( 8971): Starting com.android.server.wifi.WifiService
+12-14 02:58:34.052 W/StorageManagerService( 8971): No primary storage defined yet; hacking together a stub
+12-14 02:58:34.091 D/WifiApConfigStore( 8971): 2G band allowed channels are:1,6,11
+12-14 02:58:34.093 I/InputReader( 8971): Device added: id=-1, name='Virtual', sources=0x00000301
+12-14 02:58:34.094 I/InputReader( 8971):   Touch device 'qwerty2' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+12-14 02:58:34.094 I/InputReader( 8971): Device added: id=0, name='qwerty2', sources=0x80001103
+12-14 02:58:34.094 I/InputReader( 8971): Device added: id=2, name='goldfish_rotary', sources=0x00400000
+12-14 02:58:34.094 I/InputReader( 8971): Device added: id=1, name='Power Button', sources=0x00000101
+12-14 02:58:34.095 I/InputReader( 8971): Reconfiguring input devices.  changes=0x00000004
+12-14 02:58:34.095 I/InputReader( 8971): Device reconfigured: id=0, name='qwerty2', size 1080x1920, orientation 0, mode 1, display id 0
+12-14 02:58:34.095 I/ActivityManager( 8971): Config changes=38 {1.0 ?mcc?mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.5}
+12-14 02:58:34.099 I/ActivityManager( 8971): Override config changes=38 {1.0 ?mcc?mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1080, 1794) s.5} for displayId=0
+12-14 02:58:34.151 D/WificondControl( 8971): tearing down interfaces in wificond
+12-14 02:58:34.156 D/CommandListener( 8905): Clearing all IP addresses on wlan0
+12-14 02:58:34.157 E/HalDeviceManager( 8971): isSupported: called but mServiceManager is null!?
+12-14 02:58:34.157 I/WifiNative-wlan0( 8971): Vendor HAL not supported, Ignore stop...
+12-14 02:58:34.159 D/WifiController( 8971): isAirplaneModeOn = false, isWifiEnabled = true, isScanningAvailable = false
+12-14 02:58:34.163 E/SupplicantStaIfaceHal( 8971): Can't call setDebugParams, ISupplicant is null
+12-14 02:58:34.163 W/WifiDiags( 8971): Failed to start packet fate monitoring
+12-14 02:58:34.163 I/WifiService( 8971): Registering wifi
+12-14 02:58:34.164 I/SystemServer( 8971): StartWifiScanning
+12-14 02:58:34.164 I/SystemServiceManager( 8971): Starting com.android.server.wifi.scanner.WifiScanningService
+12-14 02:58:34.165 I/WifiScanningService( 8971): Creating wifiscanner
+12-14 02:58:34.166 I/WifiScanningService( 8971): Publishing wifiscanner
+12-14 02:58:34.166 I/SystemServer( 8971): StartWifiRtt
+12-14 02:58:34.167 I/SystemServiceManager( 8971): Starting com.android.server.wifi.RttService
+12-14 02:58:34.167 I/RttService( 8971): Creating rttmanager
+12-14 02:58:34.168 I/RttService( 8971): Starting rttmanager
+12-14 02:58:34.168 I/SystemServer( 8971): No Wi-Fi Aware Service (Aware support Not Present)
+12-14 02:58:34.168 I/SystemServer( 8971): StartConnectivityService
+12-14 02:58:34.171 D/ConnectivityService( 8971): ConnectivityService starting up
+12-14 02:58:34.173 D/ConnectivityService( 8971): wifiOnly=false
+12-14 02:58:34.186 I/SystemServer( 8971): StartNsdService
+12-14 02:58:34.187 D/NsdService( 8971): Network service discovery enabled true
+12-14 02:58:34.188 I/SystemServer( 8971): StartUpdateLockService
+12-14 02:58:34.190 I/SystemServer( 8971): WaitForAsecScan
+12-14 02:58:34.190 I/SystemServer( 8971): StartNotificationManager
+12-14 02:58:34.190 I/SystemServiceManager( 8971): Starting com.android.server.notification.NotificationManagerService
+12-14 02:58:34.206 D/ConditionProviders.SCP( 8971): new ScheduleConditionProvider()
+12-14 02:58:34.221 I/SystemServer( 8971): StartDeviceMonitor
+12-14 02:58:34.222 I/SystemServiceManager( 8971): Starting com.android.server.storage.DeviceStorageMonitorService
+12-14 02:58:34.224 I/SystemServer( 8971): StartLocationManagerService
+12-14 02:58:34.225 I/SystemServer( 8971): StartCountryDetectorService
+12-14 02:58:34.228 I/SystemServer( 8971): StartSearchManagerService
+12-14 02:58:34.228 I/SystemServiceManager( 8971): Starting com.android.server.search.SearchManagerService$Lifecycle
+12-14 02:58:34.230 I/SystemServer( 8971): StartWallpaperManagerService
+12-14 02:58:34.230 I/SystemServiceManager( 8971): Starting com.android.server.wallpaper.WallpaperManagerService$Lifecycle
+12-14 02:58:34.231 I/WallpaperManagerService( 8971): No static wallpaper imagery; defaults will be shown
+12-14 02:58:34.233 I/SystemServer( 8971): StartAudioService
+12-14 02:58:34.233 I/SystemServiceManager( 8971): Starting com.android.server.audio.AudioService$Lifecycle
+12-14 02:58:34.238 W/TelecomManager( 8971): Telecom Service not found.
+12-14 02:58:34.240 D/PermissionCache( 8902): checking android.permission.MODIFY_AUDIO_SETTINGS for uid=1000 => granted (621 us)
+12-14 02:58:34.241 D/PermissionCache( 8902): checking android.permission.MODIFY_AUDIO_SETTINGS for uid=1000 => granted (818 us)
+12-14 02:58:34.243 W/DeviceHAL( 8907): Device 0xb1091b00 set_mic_mute: Function not implemented
+12-14 02:58:34.272 I/SystemServer( 8971): StartDockObserver
+12-14 02:58:34.272 I/SystemServiceManager( 8971): Starting com.android.server.DockObserver
+12-14 02:58:34.272 W/DockObserver( 8971): This kernel does not have dock station support
+12-14 02:58:34.273 I/SystemServer( 8971): StartWiredAccessoryManager
+12-14 02:58:34.274 W/WiredAccessoryManager( 8971): This kernel does not have usb audio support
+12-14 02:58:34.274 W/WiredAccessoryManager( 8971): This kernel does not have HDMI audio support
+12-14 02:58:34.274 I/SystemServer( 8971): StartMidiManager
+12-14 02:58:34.274 I/SystemServiceManager( 8971): Starting com.android.server.midi.MidiService$Lifecycle
+12-14 02:58:34.276 I/SystemServer( 8971): StartUsbService
+12-14 02:58:34.277 I/SystemServiceManager( 8971): Starting com.android.server.usb.UsbService$Lifecycle
+12-14 02:58:34.284 E/UsbDeviceManager( 8971): failed to write to /sys/class/android_usb/android0/f_rndis/ethaddr
+12-14 02:58:34.286 E/UsbDeviceManagerJNI( 8971): could not open /dev/usb_accessory
+12-14 02:58:34.287 I/zygote  ( 8971): Looking for service android.hidl.manager@1.0::IServiceManager/default
+12-14 02:58:34.288 I/zygote  ( 8971): Starting thread pool.
+12-14 02:58:34.290 I/zygote  ( 8971): Looking for service android.hardware.usb@1.0::IUsb/default
+12-14 02:58:34.291 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.usb@1.0::IUsb in either framework or device manifest, using default transport.
+12-14 02:58:34.291 E/zygote  ( 8971): service android.hardware.usb@1.0::IUsb declares transport method EMPTY but framework expects hwbinder.
+12-14 02:58:34.292 E/UsbPortManager( 8971): connectToProxy: usb hal service not responding
+12-14 02:58:34.292 E/UsbPortManager( 8971): android.os.RemoteException: HwBinder Error: (-2147483648)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at android.os.HwBinder.getService(Native Method)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at android.hardware.usb.V1_0.IUsb.getService(IUsb.java:44)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.usb.UsbPortManager.connectToProxy(UsbPortManager.java:499)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.usb.UsbPortManager.<init>(UsbPortManager.java:130)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.usb.UsbService.<init>(UsbService.java:134)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.usb.UsbService$Lifecycle.onStart(UsbService.java:69)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:123)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:110)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:69)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:1240)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.SystemServer.run(SystemServer.java:396)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.server.SystemServer.main(SystemServer.java:260)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at java.lang.reflect.Method.invoke(Native Method)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-14 02:58:34.292 E/UsbPortManager( 8971): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-14 02:58:34.297 I/SystemServer( 8971): StartSerialService
+12-14 02:58:34.298 I/SystemServer( 8971): StartHardwarePropertiesManagerService
+12-14 02:58:34.299 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.thermal@1.0::IThermal in either framework or device manifest, using default transport.
+12-14 02:58:34.300 E/HardwarePropertiesManagerService-JNI( 8971): Unable to get Thermal service.
+12-14 02:58:34.300 I/SystemServer( 8971): StartTwilightService
+12-14 02:58:34.301 I/SystemServiceManager( 8971): Starting com.android.server.twilight.TwilightService
+12-14 02:58:34.301 I/SystemServer( 8971): StartJobScheduler
+12-14 02:58:34.302 I/SystemServiceManager( 8971): Starting com.android.server.job.JobSchedulerService
+12-14 02:58:34.308 D/JobStore( 8971): Start tag: job-info
+12-14 02:58:34.323 D/ConnectivityService( 8971): requestNetwork for uid/pid:1000/8971 NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+12-14 02:58:34.327 I/SystemServer( 8971): StartSoundTrigger
+12-14 02:58:34.327 I/SystemServiceManager( 8971): Starting com.android.server.soundtrigger.SoundTriggerService
+12-14 02:58:34.328 I/SystemServer( 8971): StartTrustManager
+12-14 02:58:34.329 I/SystemServiceManager( 8971): Starting com.android.server.trust.TrustManagerService
+12-14 02:58:34.330 I/SystemServer( 8971): StartBackupManager
+12-14 02:58:34.331 I/SystemServiceManager( 8971): Starting com.android.server.backup.BackupManagerService$Lifecycle
+12-14 02:58:34.333 I/SystemServer( 8971): StartAppWidgerService
+12-14 02:58:34.333 I/SystemServiceManager( 8971): Starting com.android.server.appwidget.AppWidgetService
+12-14 02:58:34.336 I/SystemServer( 8971): StartVoiceRecognitionManager
+12-14 02:58:34.336 I/SystemServiceManager( 8971): Starting com.android.server.voiceinteraction.VoiceInteractionManagerService
+12-14 02:58:34.337 I/SystemServer( 8971): StartGestureLauncher
+12-14 02:58:34.337 I/SystemServiceManager( 8971): Starting com.android.server.GestureLauncherService
+12-14 02:58:34.338 I/SystemServer( 8971): StartSensorNotification
+12-14 02:58:34.338 I/SystemServiceManager( 8971): Starting com.android.server.SensorNotificationService
+12-14 02:58:34.338 I/SystemServer( 8971): StartContextHubSystemService
+12-14 02:58:34.338 I/SystemServiceManager( 8971): Starting com.android.server.ContextHubSystemService
+12-14 02:58:34.339 W//system/bin/hwservicemanager( 1335): getTransportFromManifest: Cannot find entry android.hardware.contexthub@1.0::IContexthub in either framework or device manifest, using default transport.
+12-14 02:58:34.340 E/ContextHubService( 8971): Could not load context hub hal
+12-14 02:58:34.340 W/ContextHubService( 8971): No Context Hub Module present
+12-14 02:58:34.340 I/SystemServer( 8971): StartDiskStatsService
+12-14 02:58:34.341 I/SystemServer( 8971): StartSamplingProfilerService
+12-14 02:58:34.351 I/SystemServer( 8971): StartNetworkTimeUpdateService
+12-14 02:58:34.352 I/SystemServer( 8971): StartCommonTimeManagementService
+12-14 02:58:34.353 I/SystemServer( 8971): CertBlacklister
+12-14 02:58:34.354 I/SystemServer( 8971): StartEmergencyAffordanceService
+12-14 02:58:34.354 I/SystemServiceManager( 8971): Starting com.android.server.emergency.EmergencyAffordanceService
+12-14 02:58:34.355 I/SystemServer( 8971): StartDreamManager
+12-14 02:58:34.355 I/SystemServiceManager( 8971): Starting com.android.server.dreams.DreamManagerService
+12-14 02:58:34.356 I/SystemServer( 8971): AddGraphicsStatsService
+12-14 02:58:34.357 I/SystemServer( 8971): StartPrintManager
+12-14 02:58:34.357 I/SystemServiceManager( 8971): Starting com.android.server.print.PrintManagerService
+12-14 02:58:34.359 I/SystemServer( 8971): StartRestrictionManager
+12-14 02:58:34.360 I/SystemServiceManager( 8971): Starting com.android.server.restrictions.RestrictionsManagerService
+12-14 02:58:34.361 I/SystemServer( 8971): StartMediaSessionService
+12-14 02:58:34.361 I/SystemServiceManager( 8971): Starting com.android.server.media.MediaSessionService
+12-14 02:58:34.364 I/SystemServer( 8971): StartMediaResourceMonitor
+12-14 02:58:34.364 I/SystemServiceManager( 8971): Starting com.android.server.media.MediaResourceMonitorService
+12-14 02:58:34.366 I/SystemServer( 8971): StartMediaRouterService
+12-14 02:58:34.367 I/SystemServer( 8971): StartFingerprintSensor
+12-14 02:58:34.367 I/SystemServiceManager( 8971): Starting com.android.server.fingerprint.FingerprintService
+12-14 02:58:34.369 V/FingerprintService( 8971): mDeamon was null, reconnect to fingerprint
+12-14 02:58:34.369 I/zygote  ( 8971): Looking for service android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint/default
+12-14 02:58:34.369 I/SystemServer( 8971): StartBackgroundDexOptService
+12-14 02:58:34.370 I/SystemServer( 8971): StartPruneInstantAppsJobService
+12-14 02:58:34.370 I/zygote  ( 8971): Starting thread pool.
+12-14 02:58:34.372 V/FingerprintService( 8971): Fingerprint HAL id: 2909442048
+12-14 02:58:34.371 I/SystemServer( 8971): StartShortcutServiceLifecycle
+12-14 02:58:34.372 I/SystemServiceManager( 8971): Starting com.android.server.pm.ShortcutService$Lifecycle
+12-14 02:58:34.372 D/FingerprintHal( 1494): ----------------> fingerprint_set_active_group -----------------> path /data/system/users/0/fpdata
+12-14 02:58:34.372 D/FingerprintHal( 1494): ----------------> loadFingerprints ----------------->
+12-14 02:58:34.372 E/FingerprintHal( 1494): Could not load fingerprints from storage at /data/system/users/0/fpdata/emufp.bin; it has not yet been created.
+12-14 02:58:34.372 D/FingerprintHal( 1494): ----------------> loadAuthenticatorId ----------------->
+12-14 02:58:34.372 D/FingerprintHal( 1494): Read authenticator id (0x6b8b4567327b23c6)
+12-14 02:58:34.376 I/SystemServer( 8971): StartLauncherAppsService
+12-14 02:58:34.377 I/SystemServiceManager( 8971): Starting com.android.server.pm.LauncherAppsService
+12-14 02:58:34.378 I/SystemServer( 8971): StartMediaProjectionManager
+12-14 02:58:34.378 I/SystemServiceManager( 8971): Starting com.android.server.media.projection.MediaProjectionManagerService
+12-14 02:58:34.380 V/MediaRouter( 8971): Adding route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-14 02:58:34.384 V/MediaRouter( 8971): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-14 02:58:34.386 I/WindowManager( 8971): SAFE MODE not enabled
+12-14 02:58:34.386 I/SystemServer( 8971): StartJitCompilation
+12-14 02:58:34.386 I/SystemServer( 8971): StartMmsService
+12-14 02:58:34.386 I/SystemServiceManager( 8971): Starting com.android.server.MmsServiceBroker
+12-14 02:58:34.388 I/SystemServer( 8971): StartRetailDemoModeService
+12-14 02:58:34.388 I/SystemServiceManager( 8971): Starting com.android.server.retaildemo.RetailDemoModeService
+12-14 02:58:34.389 I/SystemServer( 8971): StartAutoFillService
+12-14 02:58:34.389 I/SystemServiceManager( 8971): Starting com.android.server.autofill.AutofillManagerService
+12-14 02:58:34.390 I/AutofillManagerService( 8971): Setting debug to false
+12-14 02:58:34.391 I/SystemServer( 8971): MakeVibratorServiceReady
+12-14 02:58:34.392 I/SystemServer( 8971): MakeLockSettingsServiceReady
+12-14 02:58:34.407 E/LockSettingsStorage( 8971): Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.password.key: open failed: ENOENT (No such file or directory)
+12-14 02:58:34.407 E/LockSettingsStorage( 8971): Cannot read file java.io.FileNotFoundException: /data/system/password.key: open failed: ENOENT (No such file or directory)
+12-14 02:58:34.407 E/LockSettingsStorage( 8971): Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.pattern.key: open failed: ENOENT (No such file or directory)
+12-14 02:58:34.407 E/LockSettingsStorage( 8971): Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.gesture.key: open failed: ENOENT (No such file or directory)
+12-14 02:58:34.408 E/LockSettingsStorage( 8971): Cannot read file java.io.FileNotFoundException: /data/system/gesture.key: open failed: ENOENT (No such file or directory)
+12-14 02:58:34.408 I/SystemServer( 8971): StartBootPhaseLockSettingsReady
+12-14 02:58:34.408 I/SystemServiceManager( 8971): Starting phase 480
+12-14 02:58:34.413 W/ResourceType( 8971): ResTable_typeSpec entry count inconsistent: given 67, previously 69
+12-14 02:58:34.413 W/ResourceType( 8971): ResTable_typeSpec entry count inconsistent: given 5411, previously 5412
+12-14 02:58:34.416 W/DevicePolicyManager( 8971): Trying to set ro.device_owner, but it has already been set?
+12-14 02:58:34.421 I/SystemServer( 8971): StartBootPhaseSystemServicesReady
+12-14 02:58:34.421 I/SystemServiceManager( 8971): Starting phase 500
+12-14 02:58:34.423 I/VrManagerService( 8971): No default vr listener service found.
+12-14 02:58:34.426 I/WifiService( 8971): WifiService starting up with Wi-Fi enabled
+12-14 02:58:34.429 I/zygote  ( 8971): Looking for service android.hidl.manager@1.0::IServiceManager/default
+12-14 02:58:34.430 I/zygote  ( 8971): Starting thread pool.
+12-14 02:58:34.433 D/HalDeviceManager( 8971): IWifi registration notification: fqName=android.hardware.wifi@1.0::IWifi, name=default, preexisting=true
+12-14 02:58:34.433 I/zygote  ( 8971): Looking for service android.hardware.wifi@1.0::IWifi/default
+12-14 02:58:34.434 I/zygote  ( 8971): Starting thread pool.
+12-14 02:58:34.435 E/wifi_emu_hal( 1401): Received request to stop event loop, quitting
+12-14 02:58:34.638 I/android.hardware.wifi@1.0-service( 1401): Wifi HAL stopped
+12-14 02:58:34.638 E/hw-IPCThreadState( 1401): binder thread pool (1 threads) starved for 203 ms
+12-14 02:58:34.639 D/WifiService( 8971): setWifiEnabled: true pid=8971, uid=1000, package=android
+12-14 02:58:34.640 W/SystemServiceManager( 8971): Service com.android.server.wifi.WifiService took 214 ms in onBootPhase
+12-14 02:58:34.640 I/WifiScanningService( 8971): Starting wifiscanner
+12-14 02:58:34.640 D/WifiController( 8971): WifiController msg { when=-1ms what=155656 target=com.android.internal.util.StateMachine$SmHandler } deferred for 500ms
+12-14 02:58:34.643 I/RttService( 8971): Registering rttmanager
+12-14 02:58:34.649 D/PermissionCache( 8902): checking android.permission.CAPTURE_AUDIO_HOTWORD for uid=1000 => granted (119 us)
+12-14 02:58:34.649 W/SoundTriggerHelper( 8971): listModules status=0, # of modules=0
+12-14 02:58:34.650 D/ContextHubSystemService( 8971): onBootPhase: PHASE_SYSTEM_SERVICES_READY
+12-14 02:58:34.651 I/SystemServer( 8971): MakeWindowManagerServiceReady
+12-14 02:58:34.660 I/SystemServer( 8971): MakePowerManagerServiceReady
+12-14 02:58:34.673 I/SystemServer( 8971): MakePackageManagerServiceReady
+12-14 02:58:34.676 E/KernelCpuSpeedReader( 8971): Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+12-14 02:58:34.678 E/KernelUidCpuFreqTimeReader( 8971): Failed to read /proc/uid_time_in_state: java.io.FileNotFoundException: /proc/uid_time_in_state (No such file or directory)
+12-14 02:58:34.679 W/KeyguardServiceDelegate( 8971): onScreenTurningOn(): no keyguard service!
+12-14 02:58:34.679 E/KernelCpuSpeedReader( 8971): Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+12-14 02:58:34.681 V/UserDataPreparer( 8971): Found /data/user_de/0 with serial number 0
+12-14 02:58:34.682 V/UserDataPreparer( 8971): Found /data/user/0 with serial number 0
+12-14 02:58:34.682 V/UserDataPreparer( 8971): Found /data/system_de/0 with serial number 0
+12-14 02:58:34.682 V/UserDataPreparer( 8971): Found /data/system_ce/0 with serial number 0
+12-14 02:58:34.683 V/UserDataPreparer( 8971): Found /data/misc_ce/0 with serial number 0
+12-14 02:58:34.684 I/SystemServer( 8971): MakeDisplayManagerServiceReady
+12-14 02:58:34.687 I/ActivityManager( 8971): System now ready
+12-14 02:58:34.691 I/SystemServer( 8971): Making services ready
+12-14 02:58:34.691 I/SystemServer( 8971): StartActivityManagerReadyPhase
+12-14 02:58:34.691 I/SystemServiceManager( 8971): Starting phase 550
+12-14 02:58:34.764 W/zygote  ( 9062): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:34.769 I/ActivityManager( 8971): Start proc 9062:com.google.android.inputmethod.latin/u0a58 for service com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+12-14 02:58:34.772 D/StorageManagerService( 8971): Thinking about init, mSystemReady=true, mDaemonConnected=true
+12-14 02:58:34.772 D/StorageManagerService( 8971): Setting up emulation state, initlocked=false
+12-14 02:58:34.772 D/CryptdConnector( 8971): SND -> {2 cryptfs unlock_user_key 0 0 ! !}
+12-14 02:58:34.773 W/TextServicesManagerService( 8971): no available spell checker services found
+12-14 02:58:34.773 D/vold    ( 1344): e4crypt_unlock_user_key 0 serial=0 token_present=0
+12-14 02:58:34.773 E/BitmapFactory( 8971): Unable to decode stream: java.io.FileNotFoundException: /data/system/users/0/wallpaper_orig (No such file or directory)
+12-14 02:58:34.773 W/WallpaperManagerService( 8971): Invalid wallpaper data
+12-14 02:58:34.773 E/WallpaperManagerService( 8971): Unable to apply new wallpaper
+12-14 02:58:34.773 V/WallpaperManagerService( 8971): bindWallpaperComponentLocked: componentName=null
+12-14 02:58:34.773 V/WallpaperManagerService( 8971): No default component; using image wallpaper
+12-14 02:58:34.777 D/CryptdConnector( 8971): RCV <- {200 2 Command succeeded}
+12-14 02:58:34.777 D/StorageManagerService( 8971): Thinking about reset, mSystemReady=true, mDaemonConnected=true
+12-14 02:58:34.779 D/VoldConnector( 8971): SND -> {3 volume reset}
+12-14 02:58:34.779 D/VoldConnector( 8971): RCV <- {651 emulated 5}
+12-14 02:58:34.784 I/ActivityManager( 8971): Start proc 9074:com.android.systemui/u0a28 for service com.android.systemui/.ImageWallpaper
+12-14 02:58:34.784 I/ActivityManager( 8971): Force stopping com.android.providers.media appid=10009 user=-1: vold reset
+12-14 02:58:34.786 D/UsbAlsaManager( 8971): Adding ALSA device AlsaDevice: [card: 0, device: 0, type: 1]
+12-14 02:58:34.786 D/UsbAlsaManager( 8971): Adding ALSA device AlsaDevice: [card: 0, device: 0, type: 2]
+12-14 02:58:34.786 W/StorageManagerService( 8971): No primary storage defined yet; hacking together a stub
+12-14 02:58:34.787 I/SystemServer( 8971): StartObservingNativeCrashes
+12-14 02:58:34.789 I/SystemServer( 8971): WebViewFactoryPreparation
+12-14 02:58:34.793 D/WebViewFactory( 8971): Setting new address space to 143029120
+12-14 02:58:34.796 E/BluetoothAdapter( 8971): Bluetooth binder is null
+12-14 02:58:34.804 I/SystemServer( 8971): StartSystemUI
+12-14 02:58:34.807 E/BluetoothAdapter( 8971): Bluetooth binder is null
+12-14 02:58:34.809 I/AudioFlinger( 8902): systemReady
+12-14 02:58:34.827 I/ActivityManager( 8971): Start proc 9085:WebViewLoader-x86/1037 [android.webkit.WebViewFactory$RelroFileCreator] for 
+12-14 02:58:34.828 I/SystemServer( 8971): MakeNetworkScoreReady
+12-14 02:58:34.829 I/SystemServer( 8971): MakeNetworkManagementServiceReady
+12-14 02:58:34.829 D/NetworkManagement( 8971): enabling bandwidth control
+12-14 02:58:34.840 E/HalDeviceManager( 8971): Should have at least 1 chip!
+12-14 02:58:34.840 E/HalDeviceManager( 8971): getSupportedIfaceTypesInternal: no chip info found
+12-14 02:58:34.842 E/BatteryStatsService( 8971): no controller energy info supplied
+12-14 02:58:34.845 W/zygote  ( 9085): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:34.853 W/zygote  ( 9074): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:34.853 W/NetworkManagement( 8971): setDataSaverMode(): already false
+12-14 02:58:34.842 E/BatteryStatsService( 8971): no controller energy info supplied
+12-14 02:58:34.858 I/SystemServer( 8971): MakeNetworkStatsServiceReady
+12-14 02:58:34.869 D/NetworkPolicy( 8971): setRestrictBackgroundUL(): false
+12-14 02:58:34.870 W/NetworkManagement( 8971): setDataSaverMode(): already false
+12-14 02:58:34.874 V/WebViewFactory( 9085): RelroFileCreator (64bit = false),  32-bit lib: /system/app/Chrome/Chrome.apk!/lib/x86/libmonochrome.so, 64-bit lib: 
+12-14 02:58:34.901 I/SystemServer( 8971): MakeConnectivityServiceReady
+12-14 02:58:34.907 D/PermissionMonitor( 8971): Monitoring
+12-14 02:58:34.910 D/PermissionMonitor( 8971): Users: 1, Apps: 82
+12-14 02:58:34.932 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:34.941 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:34.941 I/OMXMaster( 1489): makeComponentInstance(OMX.google.mp3.decoder) in omx@1.0-service process
+12-14 02:58:34.946 I/SystemServer( 8971): MakeNetworkPolicyServiceReady
+12-14 02:58:34.946 I/SystemServer( 8971): StartWatchdog
+12-14 02:58:34.947 I/SystemServer( 8971): PhaseThirdPartyAppsCanStart
+12-14 02:58:34.947 I/SystemServiceManager( 8971): Starting phase 600
+12-14 02:58:34.956 I/zygote  ( 9085): System.exit called, status: 0
+12-14 02:58:34.956 I/AndroidRuntime( 9085): VM exiting with result code 0, cleanup skipped.
+12-14 02:58:34.964 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:34.964 I/OMXMaster( 1489): makeComponentInstance(OMX.google.amrnb.decoder) in omx@1.0-service process
+12-14 02:58:34.967 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:34.968 I/OMXMaster( 1489): makeComponentInstance(OMX.google.amrwb.decoder) in omx@1.0-service process
+12-14 02:58:34.969 V/NotificationListeners( 8971): enabling notification listener for 0: ComponentInfo{com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener}
+12-14 02:58:34.969 W/ActivityManager( 8971): Unable to start service Intent { act=android.service.notification.NotificationListenerService cmp=com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener } U=0: not found
+12-14 02:58:34.969 W/NotificationListeners( 8971): Unable to bind notification listener service: Intent { act=android.service.notification.NotificationListenerService cmp=com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener (has extras) }
+12-14 02:58:34.983 V/WallpaperManagerService( 8971): bindWallpaperComponentLocked: componentName=ComponentInfo{com.android.systemui/com.android.systemui.ImageWallpaper}
+12-14 02:58:34.989 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:34.990 I/OMXMaster( 1489): makeComponentInstance(OMX.google.aac.decoder) in omx@1.0-service process
+12-14 02:58:35.002 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.002 I/OMXMaster( 1489): makeComponentInstance(OMX.google.g711.alaw.decoder) in omx@1.0-service process
+12-14 02:58:35.026 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.026 I/OMXMaster( 1489): makeComponentInstance(OMX.google.g711.mlaw.decoder) in omx@1.0-service process
+12-14 02:58:35.029 V/SystemUIService( 9074): Starting SystemUI services for user 0.
+12-14 02:58:35.052 I/SystemServer( 8971): MakeLocationServiceReady
+12-14 02:58:35.055 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.055 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:35.062 D/VoldConnector( 8971): RCV <- {651 emulated 0}
+12-14 02:58:35.062 D/VoldConnector( 8971): RCV <- {651 emulated 8}
+12-14 02:58:35.062 D/VoldConnector( 8971): RCV <- {659 emulated}
+12-14 02:58:35.062 D/VoldConnector( 8971): RCV <- {650 emulated 2 "" ""}
+12-14 02:58:35.062 D/VoldConnector( 8971): RCV <- {651 emulated 0}
+12-14 02:58:35.062 D/VoldConnector( 8971): RCV <- {651 public:253,80 5}
+12-14 02:58:35.073 V/MediaRouter( 9074): Adding route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-14 02:58:35.074 D/GnssLocationProvider( 8971): Link to death notification successful
+12-14 02:58:35.074 V/StorageManagerService( 8971): Found primary storage at VolumeInfo{emulated}:
+12-14 02:58:35.074 V/StorageManagerService( 8971):     type=EMULATED diskId=null partGuid=null mountFlags=0 mountUserId=-1 
+12-14 02:58:35.074 V/StorageManagerService( 8971):     state=UNMOUNTED 
+12-14 02:58:35.074 V/StorageManagerService( 8971):     fsType=null fsUuid=null fsLabel=null 
+12-14 02:58:35.074 V/StorageManagerService( 8971):     path=null internalPath=null 
+12-14 02:58:35.075 E/GnssHAL_GnssInterface( 1488): getExtensionXtra GnssXtra interface not implemented by HAL
+12-14 02:58:35.077 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.079 E/GnssHAL_GnssInterface( 1488): getExtensionAGnssRil GnssRil interface not implemented by GNSS HAL
+12-14 02:58:35.079 I/OMXMaster( 1489): makeComponentInstance(OMX.google.opus.decoder) in omx@1.0-service process
+12-14 02:58:35.080 E/GnssHAL_GnssInterface( 1488): getExtensionAGnss AGnss interface not implemented by GNSS HAL
+12-14 02:58:35.084 E/GnssHAL_GnssInterface( 1488): getExtensionGnssNavigationMessage GnssNavigationMessage interface not implemented by GNSS HAL
+12-14 02:58:35.085 E/GnssHAL_GnssInterface( 1488): getExtensionGnssMeasurement GnssMeasurement interface not implemented by GNSS HAL
+12-14 02:58:35.086 E/GnssHAL_GnssInterface( 1488): getExtensionGnssDebug: GnssDebug interface is not implemented by HAL
+12-14 02:58:35.087 E/GnssHAL_GnssInterface( 1488): getExtensionGnssNi GnssNi interface not implemented by GNSS HAL
+12-14 02:58:35.088 E/GnssHAL_GnssInterface( 1488): getExtensionGnssConfiguration GnssConfiguration interface not implemented by GNSS HAL
+12-14 02:58:35.089 E/GnssHAL_GnssInterface( 1488): getExtensionGnssGeofencing GnssGeofencing interface not implemented by GNSS HAL
+12-14 02:58:35.090 E/GnssHAL_GnssInterface( 1488): gnss flp hw_get_module failed: -2
+12-14 02:58:35.090 E/GnssHAL_GnssInterface( 1488): getExtensionGnssBatching: GnssBatching interface is not implemented by HAL
+12-14 02:58:35.093 V/MediaRouter( 9074): Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-14 02:58:35.094 I/GnssLocationProvider( 8971): WakeLock acquired by sendMessage(INITIALIZE_HANDLER, 0, null)
+12-14 02:58:35.097 D/GnssLocationProvider( 8971): gnssSetSystemInfoCb: yearOfHw=2015
+12-14 02:58:35.100 D/GnssLocationProvider( 8971): gnssSetCapabilitesCb: 0u
+12-14 02:58:35.100 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.100 I/OMXMaster( 1489): makeComponentInstance(OMX.google.raw.decoder) in omx@1.0-service process
+12-14 02:58:35.105 D/GnssLocationProvider( 8971): gnssSetSystemInfoCb: yearOfHw=2015
+12-14 02:58:35.105 E/GnssLocationProvider( 8971): Unable to initialize GNSS Xtra interface
+12-14 02:58:35.105 E/GnssLocationProvider( 8971): Unable to Initialize AGnss interface
+12-14 02:58:35.105 E/GnssLocationProvider( 8971): Unable to initialize GNSS Geofencing interface
+12-14 02:58:35.105 E/GnssLocationProvider( 8971): Unable to initialize GNSS NI interface
+12-14 02:58:35.113 W/LocationProviderProxy-network( 8971): Odd, no component found for service com.android.location.service.v3.NetworkLocationProvider
+12-14 02:58:35.116 W/GeocoderProxy( 8971): Odd, no component found for service com.android.location.service.GeocodeProvider
+12-14 02:58:35.117 D/LocationManagerService( 8971): FLP HAL not supported
+12-14 02:58:35.121 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.121 I/OMXMaster( 1489): makeComponentInstance(OMX.google.aac.encoder) in omx@1.0-service process
+12-14 02:58:35.125 W/GeofenceProxy( 8971): Odd, no component found for service com.android.location.service.GeofenceProvider
+12-14 02:58:35.126 E/ActivityRecognitionHardware( 8971): activity_recognition HAL is deprecated. is_supported is effectively a no-op
+12-14 02:58:35.126 D/LocationManagerService( 8971): Hardware Activity-Recognition not supported.
+12-14 02:58:35.127 W/ActivityRecognitionProxy( 8971): Odd, no component found for service com.android.location.service.ActivityRecognitionProvider
+12-14 02:58:35.128 I/GnssLocationProvider( 8971): WakeLock acquired by sendMessage(ENABLE, 1, null)
+12-14 02:58:35.129 W/BroadcastQueue( 8971): Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-14 02:58:35.130 W/BroadcastQueue( 8971): Background execution not allowed: receiving Intent { act=android.location.MODE_CHANGED flg=0x10 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-14 02:58:35.135 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.135 I/OMXMaster( 1489): makeComponentInstance(OMX.google.amrnb.encoder) in omx@1.0-service process
+12-14 02:58:35.142 I/SystemServer( 8971): MakeCountryDetectionServiceReady
+12-14 02:58:35.142 I/SystemServer( 8971): MakeNetworkTimeUpdateReady
+12-14 02:58:35.145 I/SystemServer( 8971): MakeCommonTimeManagementServiceReady
+12-14 02:58:35.146 I/CommonTimeManagementService( 8971): No common time service detected on this platform.  Common time services will be unavailable.
+12-14 02:58:35.146 I/SystemServer( 8971): MakeInputManagerServiceReady
+12-14 02:58:35.147 I/InputReader( 8971): Reconfiguring input devices.  changes=0x00000020
+12-14 02:58:35.147 D/WifiController( 8971): DEFERRED_TOGGLE handled
+12-14 02:58:35.147 I/SystemServer( 8971): MakeTelephonyRegistryReady
+12-14 02:58:35.148 I/SystemServer( 8971): MakeMediaRouterServiceReady
+12-14 02:58:35.148 I/SystemServer( 8971): MakeMmsServiceReady
+12-14 02:58:35.148 I/MmsServiceBroker( 8971): Delay connecting to MmsService until an API is called
+12-14 02:58:35.148 I/SystemServer( 8971): MakeNetworkScoreServiceReady
+12-14 02:58:35.148 I/SystemServer( 8971): IncidentDaemonReady
+12-14 02:58:35.149 I/android.hardware.wifi@1.0-service( 1401): Wifi HAL started
+12-14 02:58:35.149 I/SystemServiceManager( 8971): Calling onStartUser u0
+12-14 02:58:35.152 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.152 I/OMXMaster( 1489): makeComponentInstance(OMX.google.amrwb.encoder) in omx@1.0-service process
+12-14 02:58:35.164 E/android.hardware.wifi@1.0-service( 1401): Failed to set DFS flag; DFS channels may be unavailable.
+12-14 02:58:35.170 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.171 I/OMXMaster( 1489): makeComponentInstance(OMX.google.flac.encoder) in omx@1.0-service process
+12-14 02:58:35.178 W/SoundPool( 9074): Use of stream types is deprecated for operations other than volume control
+12-14 02:58:35.178 W/SoundPool( 9074): See the documentation of SoundPool() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+12-14 02:58:35.192 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.194 I/OMXMaster( 1489): makeComponentInstance(OMX.google.gsm.decoder) in omx@1.0-service process
+12-14 02:58:35.196 I/WifiVendorHal( 8971): Vendor Hal started successfully
+12-14 02:58:35.197 D/WificondControl( 8971): Setting up driver for client mode
+12-14 02:58:35.200 I/wificond( 8906): create scanner for interface with index: 3
+12-14 02:58:35.200 I/wificond( 8906): subscribe scan result for interface with index: 3
+12-14 02:58:35.209 I/ActivityManager( 8971): Start proc 9156:com.android.phone/1001 for added application com.android.phone
+12-14 02:58:35.210 I/ActivityManager( 8971): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.settings/.FallbackHome} from uid 0
+12-14 02:58:35.212 D/CommandListener( 8905): Clearing all IP addresses on wlan0
+12-14 02:58:35.218 W/zygote  ( 9156): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:35.238 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.239 I/OMXMaster( 1489): makeComponentInstance(OMX.google.mpeg4.decoder) in omx@1.0-service process
+12-14 02:58:35.250 I/InputReader( 8971): Reconfiguring input devices.  changes=0x00000010
+12-14 02:58:35.250 I/zygote  ( 8971): Looking for service android.hidl.manager@1.0::IServiceManager/default
+12-14 02:58:35.251 I/ActivityManager( 8971): Loaded persisted task ids for user 0
+12-14 02:58:35.251 I/zygote  ( 8971): Starting thread pool.
+12-14 02:58:35.253 I/zygote  ( 8971): Looking for service android.hardware.wifi.supplicant@1.0::ISupplicant/default
+12-14 02:58:35.253 I/zygote  ( 8971): Starting thread pool.
+12-14 02:58:35.255 E/SupplicantStaIfaceHal( 8971): Got null ISupplicant service. Stopping supplicant HIDL startup
+12-14 02:58:35.255 E/SupplicantStaIfaceHal( 8971): initalizing ISupplicantIfaces failed.
+12-14 02:58:35.256 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a1380:google.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.256 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a1380:google.mpeg4.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.267 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.267 I/OMXMaster( 1489): makeComponentInstance(OMX.google.h263.decoder) in omx@1.0-service process
+12-14 02:58:35.277 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a0f60:google.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.277 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a0f60:google.h263.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.279 I/ActivityManager( 8971): Start proc 9182:com.android.settings/1000 for activity com.android.settings/.FallbackHome
+12-14 02:58:35.288 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.288 I/OMXMaster( 1489): makeComponentInstance(OMX.google.h264.decoder) in omx@1.0-service process
+12-14 02:58:35.288 W/zygote  ( 9182): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:35.290 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a11a0:google.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.290 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a11a0:google.h264.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.300 D/SystemServerInitThreadPool( 8971): Shutdown successful
+12-14 02:58:35.311 W/Looper  ( 8971): Dispatch took 145ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {99d9e9} cb=null msg=53
+12-14 02:58:35.313 D/ConditionProviders.SCP( 8971): onConnected
+12-14 02:58:35.316 D/VoldConnector( 8971): RCV <- {651 public:253,80 0}
+12-14 02:58:35.320 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.320 I/OMXMaster( 1489): makeComponentInstance(OMX.google.hevc.decoder) in omx@1.0-service process
+12-14 02:58:35.321 D/vold    ( 1344): Recognized experimental block major ID 253 as virtio-blk (emulator's virtual SD card device)
+12-14 02:58:35.321 D/VoldConnector( 8971): RCV <- {651 public:253,80 8}
+12-14 02:58:35.321 V/vold    ( 1344): /system/bin/sgdisk
+12-14 02:58:35.322 V/vold    ( 1344):     --android-dump
+12-14 02:58:35.322 V/vold    ( 1344):     /dev/block/vold/disk:253,80
+12-14 02:58:35.322 D/VoldConnector( 8971): RCV <- {659 public:253,80}
+12-14 02:58:35.322 D/VoldConnector( 8971): RCV <- {649 disk:253,80}
+12-14 02:58:35.323 D/VoldConnector( 8971): RCV <- {640 disk:253,80 4}
+12-14 02:58:35.323 D/VoldConnector( 8971): RCV <- {641 disk:253,80 536870912}
+12-14 02:58:35.323 D/VoldConnector( 8971): RCV <- {642 disk:253,80 Virtual}
+12-14 02:58:35.323 D/ConditionProviders( 8971): Subscribing to condition://android/schedule?days=6.7&start=23.30&end=10.0&exitAtAlarm=false with ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}
+12-14 02:58:35.323 D/ConditionProviders( 8971): Subscribing to condition://android/event?userId=-10000&calendar=&reply=1 with ComponentInfo{android/com.android.server.notification.EventConditionProvider}
+12-14 02:58:35.324 D/VoldConnector( 8971): RCV <- {644 disk:253,80 /sys//devices/pci0000:00/0000:00:08.0/virtio5/block/vdf}
+12-14 02:58:35.324 D/ConditionProviders( 8971): Subscribing to condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0&exitAtAlarm=false with ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}
+12-14 02:58:35.331 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a1020:google.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.335 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a1020:google.hevc.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.337 I/WifiScanningService( 8971): wifi driver unloaded
+12-14 02:58:35.337 D/RttService( 8971): SCAN_AVAILABLE : 1
+12-14 02:58:35.338 D/RttService( 8971): DefaultState got{ when=0 what=160513 target=com.android.internal.util.StateMachine$SmHandler }
+12-14 02:58:35.353 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.354 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vp8.decoder) in omx@1.0-service process
+12-14 02:58:35.363 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a1260:google.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.363 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a1260:google.vp8.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.367 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.367 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vp9.decoder) in omx@1.0-service process
+12-14 02:58:35.370 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a1020:google.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.370 E/OMXNodeInstance( 1489): getExtensionIndex(0xa60a1020:google.vp9.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+12-14 02:58:35.386 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.386 I/OMXMaster( 1489): makeComponentInstance(OMX.google.h263.encoder) in omx@1.0-service process
+12-14 02:58:35.387 I/SoftMPEG4Encoder( 1489): Construct SoftMPEG4Encoder
+12-14 02:58:35.392 W/OMXUtils( 8904): do not know color format 0x7f000789 = 2130708361
+12-14 02:58:35.392 E/OMXNodeInstance( 1489): getConfig(0xa60a1380:google.h263.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-14 02:58:35.394 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.394 I/OMXMaster( 1489): makeComponentInstance(OMX.google.h264.encoder) in omx@1.0-service process
+12-14 02:58:35.401 W/OMXUtils( 8904): do not know color format 0x7f000789 = 2130708361
+12-14 02:58:35.405 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.405 I/OMXMaster( 1489): makeComponentInstance(OMX.google.mpeg4.encoder) in omx@1.0-service process
+12-14 02:58:35.405 I/SoftMPEG4Encoder( 1489): Construct SoftMPEG4Encoder
+12-14 02:58:35.407 W/OMXUtils( 8904): do not know color format 0x7f000789 = 2130708361
+12-14 02:58:35.407 E/OMXNodeInstance( 1489): getConfig(0xa60a0fc0:google.mpeg4.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-14 02:58:35.417 V/vold    ( 1344): DISK mbr
+12-14 02:58:35.417 V/vold    ( 1344): 
+12-14 02:58:35.418 W/vold    ( 1344): disk:253,80 has unknown partition table; trying entire device
+12-14 02:58:35.418 V/vold    ( 1344): /system/bin/blkid
+12-14 02:58:35.418 V/vold    ( 1344):     -c
+12-14 02:58:35.418 V/vold    ( 1344):     /dev/null
+12-14 02:58:35.418 V/vold    ( 1344):     -s
+12-14 02:58:35.418 V/vold    ( 1344):     TYPE
+12-14 02:58:35.418 V/vold    ( 1344):     -s
+12-14 02:58:35.418 V/vold    ( 1344):     UUID
+12-14 02:58:35.418 V/vold    ( 1344):     -s
+12-14 02:58:35.418 V/vold    ( 1344):     LABEL
+12-14 02:58:35.418 V/vold    ( 1344):     /dev/block/vold/disk:253,80
+12-14 02:58:35.420 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.420 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vp8.encoder) in omx@1.0-service process
+12-14 02:58:35.423 W/OMXUtils( 8904): do not know color format 0x7f000789 = 2130708361
+12-14 02:58:35.423 E/OMXNodeInstance( 1489): getConfig(0xa60a1380:google.vp8.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+12-14 02:58:35.434 I/wpa_supplicant( 9175): Processing hidl events on FD 4
+12-14 02:58:35.435 I/wpa_supplicant( 9175): Successfully initialized wpa_supplicant
+12-14 02:58:35.436 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.436 I/wpa_supplicant( 9175): rfkill: Cannot open RFKILL control device
+12-14 02:58:35.437 I/zygote  ( 8971): Looking for service android.hardware.wifi.supplicant@1.0::ISupplicant/default
+12-14 02:58:35.437 I/OMXClient( 8904): Treble IOmx obtained
+12-14 02:58:35.438 W/MediaCodecList( 8904): unable to open media codecs configuration xml file: /data/misc/media/media_codecs_profiling_results.xml
+12-14 02:58:35.439 I/zygote  ( 8971): Starting thread pool.
+12-14 02:58:35.440 I/OMXClient( 9074): Treble IOmx obtained
+12-14 02:58:35.441 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:35.445 W/ActivityManager( 8971): Slow operation: 80ms so far, now at attachApplicationLocked: immediately before bindApplication
+12-14 02:58:35.447 E/OMXNodeInstance( 1489): getConfig(0xa60a0f60:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:35.457 W/ActivityManager( 8971): Slow operation: 92ms so far, now at attachApplicationLocked: immediately after bindApplication
+12-14 02:58:35.457 W/ActivityManager( 8971): Slow operation: 92ms so far, now at attachApplicationLocked: after updateLruProcessLocked
+12-14 02:58:35.459 I/OMXClient( 8971): Treble IOmx obtained
+12-14 02:58:35.460 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:35.463 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.465 E/OMXNodeInstance( 1489): getConfig(0xa60a0fc0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:35.471 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.478 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 9 lines
+12-14 02:58:35.478 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.481 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:58:35.483 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.507 W/ActivityManager( 8971): Slow operation: 142ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+12-14 02:58:35.527 V/vold    ( 1344): /dev/block/vold/disk:253,80: LABEL="SDCARD" UUID="19FF-110D" TYPE="vfat" 
+12-14 02:58:35.527 V/vold    ( 1344): 
+12-14 02:58:35.528 D/VoldConnector( 8971): RCV <- {650 public:253,80 0 "disk:253,80" ""}
+12-14 02:58:35.528 D/VoldConnector( 8971): RCV <- {651 public:253,80 0}
+12-14 02:58:35.528 D/VoldConnector( 8971): RCV <- {643 disk:253,80}
+12-14 02:58:35.529 D/VoldConnector( 8971): RCV <- {200 3 Command succeeded}
+12-14 02:58:35.529 E/VoldConnector( 8971): NDC Command {3 volume reset} took too long (750ms)
+12-14 02:58:35.529 D/VoldConnector( 8971): SND -> {4 volume user_added 0 0}
+12-14 02:58:35.530 D/VoldConnector( 8971): RCV <- {200 4 Command succeeded}
+12-14 02:58:35.531 D/VoldConnector( 8971): SND -> {5 volume mount emulated 3 -1}
+12-14 02:58:35.532 D/VoldConnector( 8971): RCV <- {651 emulated 1}
+12-14 02:58:35.533 V/vold    ( 1344): Waiting for FUSE to spin up...
+12-14 02:58:35.533 D/VoldConnector( 8971): RCV <- {656 emulated /data/media}
+12-14 02:58:35.533 D/VoldConnector( 8971): RCV <- {655 emulated /storage/emulated}
+12-14 02:58:35.539 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 10 lines
+12-14 02:58:35.539 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.543 E/wpa_supplicant( 9175): global ctrl interface @android:wpa_wlan0 matches ctrl interface wlan0 - do not open per-interface ctrl interface
+12-14 02:58:35.549 D/TelephonyProvider( 9156): dbh.onOpen: ok, queried table=siminfo
+12-14 02:58:35.562 I/wpa_supplicant( 9175): rfkill: Cannot get wiphy information
+12-14 02:58:35.563 E/wpa_supplicant( 9175): global ctrl interface @android:wpa_wlan0 matches ctrl interface wlan0 - do not open per-interface ctrl interface
+12-14 02:58:35.575 W//system/bin/sdcard( 9229): Device explicitly enabled sdcardfs
+12-14 02:58:35.580 D/TelephonyProvider( 9156): dbh.onOpen: ok, queried table=carriers
+12-14 02:58:35.583 V/vold    ( 1344): Waiting for FUSE to spin up...
+12-14 02:58:35.587 I/SupplicantStaIfaceHal( 8971): Completed initialization of ISupplicant interfaces.
+12-14 02:58:35.595 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+12-14 02:58:35.595 D/OpenGLRenderer( 9182): HWUI GL Pipeline
+12-14 02:58:35.606 E/BluetoothAdapter( 8971): Bluetooth binder is null
+12-14 02:58:35.622 I/Telecom ( 8971): BluetoothRouteManager: getBluetoothAudioConnectedDevice: no headset service available.
+12-14 02:58:35.634 V/vold    ( 1344): Waiting for FUSE to spin up...
+12-14 02:58:35.643 D/        ( 9182): HostConnection::get() New Host Connection established 0xad93dc80, tid 9233
+12-14 02:58:35.644 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:58:35.646 I/OpenGLRenderer( 9182): Initialized EGL, version 1.4
+12-14 02:58:35.646 D/OpenGLRenderer( 9182): Swap behavior 1
+12-14 02:58:35.648 W/OpenGLRenderer( 9182): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-14 02:58:35.654 D/OpenGLRenderer( 9182): Swap behavior 0
+12-14 02:58:35.685 D/WifiConfigManager( 8971): Legacy store files not found. No migration needed!
+12-14 02:58:35.686 D/VoldConnector( 8971): RCV <- {651 emulated 2}
+12-14 02:58:35.686 D/VoldConnector( 8971): RCV <- {200 5 Command succeeded}
+12-14 02:58:35.686 D/VoldConnector( 8971): SND -> {6 volume mount public:253,80 0 0}
+12-14 02:58:35.687 V/vold    ( 1344): /system/bin/blkid
+12-14 02:58:35.687 V/vold    ( 1344):     -c
+12-14 02:58:35.687 V/vold    ( 1344):     /dev/null
+12-14 02:58:35.687 V/vold    ( 1344):     -s
+12-14 02:58:35.687 V/vold    ( 1344):     TYPE
+12-14 02:58:35.687 V/vold    ( 1344):     -s
+12-14 02:58:35.687 V/vold    ( 1344):     UUID
+12-14 02:58:35.687 V/vold    ( 1344):     -s
+12-14 02:58:35.687 V/vold    ( 1344):     LABEL
+12-14 02:58:35.687 V/vold    ( 1344):     /dev/block/vold/public:253,80
+12-14 02:58:35.688 D/VoldConnector( 8971): RCV <- {651 public:253,80 1}
+12-14 02:58:35.697 I/Telecom ( 8971): SystemStateProvider: Registering car mode receiver: android.content.IntentFilter@9c41ac4: TS.init@AAA
+12-14 02:58:35.700 I/ImsResolver( 9156): Initializing cache and binding.
+12-14 02:58:35.710 D/EGL_emulation( 9182): eglCreateContext: 0xa27ec9c0: maj 3 min 0 rcv 3
+12-14 02:58:35.717 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:58:35.720 E/GnssLocationProvider( 8971): no AGPS interface in set_agps_server
+12-14 02:58:35.737 D/EGL_emulation( 9182): eglMakeCurrent: 0xa27ec9c0: ver 3 0 (tinfo 0xad90b760)
+12-14 02:58:35.738 E/eglCodecCommon( 9182): glUtilsParamSize: unknow param 0x00008cdf
+12-14 02:58:35.739 E/eglCodecCommon( 9182): glUtilsParamSize: unknow param 0x00008cdf
+12-14 02:58:35.739 E/eglCodecCommon( 9182): glUtilsParamSize: unknow param 0x00008824
+12-14 02:58:35.739 E/eglCodecCommon( 9182): glUtilsParamSize: unknow param 0x00008824
+12-14 02:58:35.744 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:58:35.746 F/OpenGLRenderer( 9182): At least 4 texture units are required!
+12-14 02:58:35.752 V/vold    ( 1344): /dev/block/vold/public:253,80: LABEL="SDCARD" UUID="19FF-110D" TYPE="vfat" 
+12-14 02:58:35.752 V/vold    ( 1344): 
+12-14 02:58:35.752 V/vold    ( 1344): /system/bin/fsck_msdos
+12-14 02:58:35.752 V/vold    ( 1344):     -p
+12-14 02:58:35.752 D/VoldConnector( 8971): RCV <- {652 public:253,80 vfat}
+12-14 02:58:35.752 V/vold    ( 1344):     -f
+12-14 02:58:35.752 V/vold    ( 1344):     /dev/block/vold/public:253,80
+12-14 02:58:35.752 D/VoldConnector( 8971): RCV <- {653 public:253,80 19FF-110D}
+12-14 02:58:35.752 D/VoldConnector( 8971): RCV <- {654 public:253,80 SDCARD}
+--------- beginning of crash
+12-14 02:58:35.754 F/libc    ( 9182): Fatal signal 6 (SIGABRT), code -6 in tid 9233 (RenderThread)
+12-14 02:58:35.754 I/Telecom ( 8971): Logging.Events: Non-call EVENT: AUDIO_ROUTE, Entering state QuiescentEarpieceRoute
+12-14 02:58:35.754 I/ActivityManager( 8971): user 0 is still locked. Cannot load recents
+12-14 02:58:35.763 D/WifiStateMachine( 8971): Setting OUI to DA-A1-19
+12-14 02:58:35.766 E/WifiVendorHal( 8971): setScanningMacOui(l.1404) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+12-14 02:58:35.766 I/zygote  ( 9156): Looking for service android.hardware.radio@1.0::IRadio/slot1
+12-14 02:58:35.804 I/zygote  ( 9156): Starting thread pool.
+12-14 02:58:35.806 I/OMXClient( 8971): Treble IOmx obtained
+12-14 02:58:35.806 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:35.809 I/Telecom ( 8971): CallAudioModeStateMachine: Message received: null.: TS.init->CAMSM.pM_1@AAA
+12-14 02:58:35.816 I/vol.Events( 9074): writeEvent collection_started
+12-14 02:58:35.822 I/crash_dump32( 9247): obtaining output fd from tombstoned
+12-14 02:58:35.822 I//system/bin/tombstoned( 1493): received crash request for pid 9182
+12-14 02:58:35.823 I/Telecom ( 8971): MissedCallNotifierImpl: Boot not yet complete -- call log db may not be available. Deferring loading until boot complete.: TS.init@AAA
+12-14 02:58:35.824 E/OMXNodeInstance( 1489): getConfig(0xa60a1380:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:35.828 I/crash_dump32( 9247): performing dump of process 9182 (target tid = 9233)
+12-14 02:58:35.828 F/DEBUG   ( 9247): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+12-14 02:58:35.829 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.829 F/DEBUG   ( 9247): Build fingerprint: 'google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.043/4456315:user/release-keys'
+12-14 02:58:35.829 F/DEBUG   ( 9247): Revision: '0'
+12-14 02:58:35.829 F/DEBUG   ( 9247): ABI: 'x86'
+12-14 02:58:35.830 F/DEBUG   ( 9247): pid: 9182, tid: 9233, name: RenderThread  >>> com.android.settings <<<
+12-14 02:58:35.830 F/DEBUG   ( 9247): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+12-14 02:58:35.832 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 3 lines
+12-14 02:58:35.833 F/DEBUG   ( 9247): Abort message: 'At least 4 texture units are required!'
+12-14 02:58:35.834 F/DEBUG   ( 9247):     eax 00000000  ebx 000023de  ecx 00002411  edx 00000006
+12-14 02:58:35.834 F/DEBUG   ( 9247):     esi 00002411  edi 916dc078
+12-14 02:58:35.834 F/DEBUG   ( 9247):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+12-14 02:58:35.834 F/DEBUG   ( 9247):     eip b1f52ac4  ebp 916dc098  esp 916dc02c  flags 00000296
+12-14 02:58:35.838 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.839 I/WifiVendorHal( 8971): Driver: 1.0 Firmware: 1.0
+12-14 02:58:35.840 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.844 I/zygote  ( 9156): Looking for service android.hardware.radio.deprecated@1.0::IOemHook/slot1
+12-14 02:58:35.844 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.845 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.845 I/zygote  ( 9156): Starting thread pool.
+12-14 02:58:35.857 E/BluetoothAdapter( 8971): Bluetooth binder is null
+12-14 02:58:35.861 I/Telecom ( 8971): Class: TelecomSystem.INSTANCE being set
+12-14 02:58:35.862 E/BluetoothAdapter( 8971): Bluetooth binder is null
+12-14 02:58:35.862 W/ContextImpl( 8971): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1460 com.android.server.content.SyncManager$13.run:659 android.os.Handler.handleCallback:789 android.os.Handler.dispatchMessage:98 android.os.Looper.loop:164 
+12-14 02:58:35.871 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.873 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 2 lines
+12-14 02:58:35.876 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.881 E/WifiVendorHal( 8971): startPktFateMonitoring(l.1849) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+12-14 02:58:35.881 W/WifiDiags( 8971): Failed to start packet fate monitoring
+12-14 02:58:35.888 F/DEBUG   ( 9247): 
+12-14 02:58:35.888 F/DEBUG   ( 9247): backtrace:
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #00 pc 00000ac4  [vdso:b1f52000] (__kernel_vsyscall+16)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #01 pc 00075b3c  /system/lib/libc.so (tgkill+28)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #02 pc 0001f04e  /system/lib/libc.so (abort+110)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #03 pc 00006a06  /system/lib/liblog.so (__android_log_assert+294)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #04 pc 00040419  /system/lib/libhwui.so (_ZN7android10uirenderer12TextureStateC1Ev+185)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #05 pc 0005f5f0  /system/lib/libhwui.so (_ZN7android10uirenderer6Caches4initEv+176)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #06 pc 0005f4bc  /system/lib/libhwui.so (_ZN7android10uirenderer6CachesC2ERNS0_11RenderStateE+316)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #07 pc 0003ee57  /system/lib/libhwui.so (_ZN7android10uirenderer11RenderState18onGLContextCreatedEv+215)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #08 pc 00046d9b  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread10EglManager10initializeEv+427)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #09 pc 0004743d  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread10EglManager13createSurfaceEP13ANativeWindow+45)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #10 pc 00045380  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread14OpenGLPipeline10setSurfaceEPNS_7SurfaceENS1_12SwapBehaviorE+80)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #11 pc 00041a9d  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread13CanvasContext10setSurfaceEPNS_7SurfaceE+157)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #12 pc 00041d53  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread13CanvasContext10initializeEPNS_7SurfaceE+35)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #13 pc 0004a6c5  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthreadL17Bridge_initializeEPNS1_14initializeArgsE+37)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #14 pc 0004c9d2  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread22MethodInvokeRenderTask3runEv+34)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #15 pc 0004dde9  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread12RenderThread10threadLoopEv+489)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #16 pc 000104a4  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+292)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #17 pc 000841b6  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+166)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #18 pc 0000fca6  /system/lib/libutils.so (_ZN13thread_data_t10trampolineEPKS_+246)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #19 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #20 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+12-14 02:58:35.889 F/DEBUG   ( 9247):     #21 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+12-14 02:58:35.892 I/OMXClient( 9074): Treble IOmx obtained
+12-14 02:58:35.895 I/GnssLocationProvider( 8971): WakeLock released by handleMessage(INITIALIZE_HANDLER, 0, null)
+12-14 02:58:35.895 W/GnssHAL_GnssInterface( 1488): setCallback called more than once. Unexpected unless test.
+12-14 02:58:35.897 I/fsck_msdos( 1344): ** /dev/block/vold/public:253,80
+12-14 02:58:35.911 I/vol.Events( 9074): writeEvent external_ringer_mode_changed normal
+12-14 02:58:35.911 I/vol.Events( 9074): writeEvent internal_ringer_mode_changed normal
+12-14 02:58:35.915 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:35.922 E/OMXNodeInstance( 1489): getConfig(0xa60a1200:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:35.925 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.935 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 6 lines
+12-14 02:58:35.936 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.941 I/fsck_msdos( 1344): ** Phase 1 - Read and Compare FATs
+12-14 02:58:35.941 I/fsck_msdos( 1344): Attempting to allocate 1022 KB for FAT
+12-14 02:58:35.960 D/GpsNetInitiatedHandler( 8971): location enabled :true
+12-14 02:58:35.960 V/WiredAccessoryManager( 8971): notifyWiredAccessoryChanged: when=0 bits= mask=54
+12-14 02:58:35.960 V/WiredAccessoryManager( 8971): newName=h2w newState=0 headsetState=0 prev headsetState=0
+12-14 02:58:35.960 E/WiredAccessoryManager( 8971): No state change.
+12-14 02:58:35.960 V/WiredAccessoryManager( 8971): init()
+12-14 02:58:35.961 D/GnssLocationProvider( 8971): gnssSetSystemInfoCb: yearOfHw=2015
+12-14 02:58:35.970 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.970 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 2 lines
+12-14 02:58:35.972 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:35.981 D/GnssLocationProvider( 8971): gnssSetCapabilitesCb: 0u
+12-14 02:58:35.988 I/fsck_msdos( 1344): Attempting to allocate 1022 KB for FAT
+12-14 02:58:35.990 D/GnssLocationProvider( 8971): gnssSetSystemInfoCb: yearOfHw=2015
+12-14 02:58:36.016 I/WifiStateMachine( 8971): disconnectedstate enter
+12-14 02:58:36.019 E/GnssLocationProvider( 8971): Unable to initialize GNSS Xtra interface
+12-14 02:58:36.020 E/GnssLocationProvider( 8971): Unable to Initialize AGnss interface
+12-14 02:58:36.020 E/GnssLocationProvider( 8971): Unable to initialize GNSS Geofencing interface
+12-14 02:58:36.020 E/GnssLocationProvider( 8971): Unable to initialize GNSS NI interface
+12-14 02:58:36.020 E/GnssLocationProvider( 8971): no AGPS interface in set_agps_server
+12-14 02:58:36.020 E/GnssLocationProvider( 8971): Failed to initialize GNSS batching
+12-14 02:58:36.020 I/GnssLocationProvider( 8971): WakeLock released by handleMessage(ENABLE, 1, null)
+12-14 02:58:36.055 D/AccessibilityManagerService( 8971): Ignoring non-encryption-aware service ComponentInfo{com.example.android.apis/com.example.android.apis.accessibility.ClockBackService}
+12-14 02:58:36.055 D/AccessibilityManagerService( 8971): Ignoring non-encryption-aware service ComponentInfo{com.example.android.apis/com.example.android.apis.accessibility.MagnificationService}
+12-14 02:58:36.055 D/AccessibilityManagerService( 8971): Ignoring non-encryption-aware service ComponentInfo{com.example.android.apis/com.example.android.apis.accessibility.TaskBackService}
+12-14 02:58:36.090 W/DeviceHAL( 8907): Device 0xb1091b00 set_mic_mute: Function not implemented
+12-14 02:58:36.125 W/LocationProviderProxy-network( 8971): Odd, no component found for service com.android.location.service.v3.NetworkLocationProvider
+12-14 02:58:36.135 W/BroadcastQueue( 8971): Background execution not allowed: receiving Intent { act=android.intent.action.ACTION_POWER_DISCONNECTED flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-14 02:58:36.136 D/ConditionProviders.SCP( 8971): onSubscribe condition://android/schedule?days=6.7&start=23.30&end=10.0&exitAtAlarm=false
+12-14 02:58:36.136 D/ConditionProviders.SCP( 8971): setRegistered true
+12-14 02:58:36.137 D/ConditionProviders.SCP( 8971): notifyCondition condition://android/schedule?days=6.7&start=23.30&end=10.0&exitAtAlarm=false STATE_FALSE reason=!meetsSchedule
+12-14 02:58:36.143 I/OMXClient( 8971): Treble IOmx obtained
+12-14 02:58:36.146 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:36.149 D/ConditionProviders.SCP( 8971): Scheduling evaluate for Mon Dec 14 10:00:00 GMT-05:00 2020 (1607958000000), in +7h1m23s864ms, now=Mon Dec 14 02:58:36 GMT-05:00 2020 (1607932716136)
+12-14 02:58:36.156 E/OMXNodeInstance( 1489): getConfig(0xa60a11a0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:36.156 I/fsck_msdos( 1344): ** Phase 2 - Check Cluster Chains
+12-14 02:58:36.158 I/fsck_msdos( 1344): ** Phase 3 - Checking Directories
+12-14 02:58:36.158 I/fsck_msdos( 1344): ** Phase 4 - Checking for Lost Files
+12-14 02:58:36.159 I/fsck_msdos( 1344): 2 files, 522224 free (261112 clusters)
+12-14 02:58:36.161 I/Vold    ( 1344): Filesystem check completed OK
+12-14 02:58:36.161 D/VoldConnector( 8971): RCV <- {656 public:253,80 /mnt/media_rw/19FF-110D}
+12-14 02:58:36.162 D/VoldConnector( 8971): RCV <- {655 public:253,80 /mnt/media_rw/19FF-110D}
+12-14 02:58:36.168 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.169 D/VoldConnector( 8971): RCV <- {651 public:253,80 2}
+12-14 02:58:36.169 D/VoldConnector( 8971): RCV <- {200 6 Command succeeded}
+12-14 02:58:36.172 D/ConditionProviders.SCP( 8971): onSubscribe condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0&exitAtAlarm=false
+12-14 02:58:36.173 D/ConditionProviders.SCP( 8971): notifyCondition condition://android/schedule?days=6.7&start=23.30&end=10.0&exitAtAlarm=false STATE_FALSE reason=!meetsSchedule
+12-14 02:58:36.173 D/ConditionProviders.SCP( 8971): notifyCondition condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0&exitAtAlarm=false STATE_TRUE reason=meetsSchedule
+12-14 02:58:36.174 D/ConditionProviders.SCP( 8971): Scheduling evaluate for Mon Dec 14 07:00:00 GMT-05:00 2020 (1607947200000), in +4h1m23s828ms, now=Mon Dec 14 02:58:36 GMT-05:00 2020 (1607932716172)
+12-14 02:58:36.180 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 6 lines
+12-14 02:58:36.182 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.214 I/Telecom ( 8971): WiredHeadsetManager: ACTION_HEADSET_PLUG event, plugged in: false, : WHC.oADA@AAE
+12-14 02:58:36.215 D/installd( 1479): Found quota mount /dev/block/dm-0 at /data
+12-14 02:58:36.215 D/installd( 1479): Found quota mount /dev/block/dm-0 at /data/var/run/netns
+12-14 02:58:36.215 D/installd( 1479): Found storage mount /data/media at /mnt/runtime/default/emulated
+12-14 02:58:36.221 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.222 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 2 lines
+12-14 02:58:36.222 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.228 I/OMXClient( 9074): Treble IOmx obtained
+12-14 02:58:36.233 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:36.237 E/OMXNodeInstance( 1489): getConfig(0xa60a1200:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:36.243 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.274 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 10 lines
+12-14 02:58:36.275 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.358 W/GeocoderProxy( 8971): Odd, no component found for service com.android.location.service.GeocodeProvider
+12-14 02:58:36.366 E/WifiVendorHal( 8971): getBgScanCapabilities(l.450) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+12-14 02:58:36.367 D/RttService( 8971): SCAN_AVAILABLE : 3
+12-14 02:58:36.368 D/RttService( 8971): DefaultState got{ when=0 what=160512 target=com.android.internal.util.StateMachine$SmHandler }
+12-14 02:58:36.374 I/OMXClient( 8971): Treble IOmx obtained
+12-14 02:58:36.381 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:36.387 E/OMXNodeInstance( 1489): getConfig(0xa60a0fc0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:36.389 I/WifiScanningService( 8971): wifi driver loaded with scan capabilities: max buckets=16
+12-14 02:58:36.393 I/AutofillManagerService( 8971): Updating Autofill for user 0: disabled=false
+12-14 02:58:36.396 I/wificond( 8906): New interface event callback registered
+12-14 02:58:36.396 D/RttService( 8971): EnabledState got{ when=0 what=160516 obj=android.net.wifi.IClientInterface$Stub$Proxy@19a5c4f target=com.android.internal.util.StateMachine$SmHandler }
+12-14 02:58:36.402 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.465 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 10 lines
+12-14 02:58:36.465 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.517 W/GeofenceProxy( 8971): Odd, no component found for service com.android.location.service.GeofenceProvider
+12-14 02:58:36.518 W/ActivityRecognitionProxy( 8971): Odd, no component found for service com.android.location.service.ActivityRecognitionProvider
+12-14 02:58:36.566 I/OMXClient( 8971): Treble IOmx obtained
+12-14 02:58:36.568 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:36.570 E/OMXNodeInstance( 1489): getConfig(0xa58e7180:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:36.574 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.584 E/ActivityThread( 8971): Failed to find provider info for com.android.calendar
+12-14 02:58:36.601 E/ActivityThread( 8971): Failed to find provider info for com.android.calendar
+12-14 02:58:36.608 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 10 lines
+12-14 02:58:36.608 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.671 E//system/bin/tombstoned( 1493): Tombstone written to: /data/tombstones//tombstone_01
+12-14 02:58:36.701 I/OMXClient( 8971): Treble IOmx obtained
+12-14 02:58:36.702 I/OMXMaster( 1489): makeComponentInstance(OMX.google.vorbis.decoder) in omx@1.0-service process
+12-14 02:58:36.704 E/OMXNodeInstance( 1489): getConfig(0xa60a1020:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+12-14 02:58:36.706 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.728 I/chatty  ( 1390): uid=1000(system) allocator@1.0-s identical 9 lines
+12-14 02:58:36.729 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.731 W/InputDispatcher( 8971): channel 'efc11e8 com.android.settings/com.android.settings.FallbackHome (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+12-14 02:58:36.731 E/InputDispatcher( 8971): channel 'efc11e8 com.android.settings/com.android.settings.FallbackHome (server)' ~ Channel is unrecoverably broken and will be disposed!
+12-14 02:58:36.735 W//system/bin/hw/android.hidl.allocator@1.0-service( 1390): ashmem_create_region(32768) returning hidl_memory(0xb049b850, 32768)
+12-14 02:58:36.735 I/Zygote  ( 8901): Process 9182 exited due to signal (6)
+12-14 02:58:36.736 I/WindowManager( 8971): WIN DEATH: Window{efc11e8 u0 com.android.settings/com.android.settings.FallbackHome}
+12-14 02:58:36.736 W/InputDispatcher( 8971): Attempted to unregister already unregistered input channel 'efc11e8 com.android.settings/com.android.settings.FallbackHome (server)'
+12-14 02:58:36.740 W/ActivityManager( 8971):   Force finishing activity com.android.settings/.FallbackHome
+12-14 02:58:36.744 W/ActivityManager( 8971): Exception thrown during pause
+12-14 02:58:36.744 W/ActivityManager( 8971): android.os.DeadObjectException
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at android.os.BinderProxy.transactNative(Native Method)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at android.os.BinderProxy.transact(Binder.java:748)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at android.app.IApplicationThread$Stub$Proxy.schedulePauseActivity(IApplicationThread.java:1093)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.ActivityStack.startPausingLocked(ActivityStack.java:1309)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.ActivityStack.finishActivityLocked(ActivityStack.java:3671)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.ActivityStack.finishActivityLocked(ActivityStack.java:3613)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.ActivityStack.finishTopRunningActivityLocked(ActivityStack.java:3494)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.ActivityStackSupervisor.finishTopRunningActivityLocked(ActivityStackSupervisor.java:2091)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.AppErrors.handleAppCrashLocked(AppErrors.java:643)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.AppErrors.makeAppCrashingLocked(AppErrors.java:501)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.AppErrors.crashApplicationInner(AppErrors.java:376)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.AppErrors.crashApplication(AppErrors.java:321)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.ActivityManagerService.handleApplicationCrashInner(ActivityManagerService.java:14253)
+12-14 02:58:36.744 W/ActivityManager( 8971): 	at com.android.server.am.NativeCrashListener$NativeCrashReporter.run(NativeCrashListener.java:85)
+12-14 02:58:36.747 I/ActivityManager( 8971): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.settings/.FallbackHome} from uid 0
+12-14 02:58:36.761 D/NotificationSQLiteLog( 8971): Pruned event entries: 0
+12-14 02:58:36.766 I/WindowManager( 8971): Screen frozen for +1s304ms due to Window{efc11e8 u0 com.android.settings/com.android.settings.FallbackHome}
+12-14 02:58:36.780 I/ActivityManager( 8971): Process com.android.settings (pid 9182) has died: fore TOP 
+12-14 02:58:36.783 I/ActivityManager( 8971): Showing crash dialog for package com.android.settings u0
+12-14 02:58:36.808 I/ActivityManager( 8971): Start proc 9283:com.android.settings/1000 for activity com.android.settings/.FallbackHome
+12-14 02:58:36.844 I/ActivityManager( 8971): user 0 is still locked. Cannot load recents
+12-14 02:58:36.858 W/zygote  ( 9283): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:36.870 I/vol.Events( 9074): writeEvent level_changed STREAM_VOICE_CALL 4
+12-14 02:58:36.872 I/vol.Events( 9074): writeEvent level_changed STREAM_SYSTEM 5
+12-14 02:58:36.875 I/vol.Events( 9074): writeEvent level_changed STREAM_RING 5
+12-14 02:58:36.885 I/vol.Events( 9074): writeEvent level_changed STREAM_MUSIC 11
+12-14 02:58:36.896 I/vol.Events( 9074): writeEvent level_changed STREAM_ALARM 6
+12-14 02:58:36.908 D/SurfaceFlinger( 1413): duplicate layer name: changing ScreenshotSurface to ScreenshotSurface#1
+12-14 02:58:36.911 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:58:36.918 I/vol.Events( 9074): writeEvent level_changed STREAM_BLUETOOTH_SCO 7
+12-14 02:58:36.951 W/ActivityManager( 8971): Slow operation: 65ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+12-14 02:58:36.960 D/PhoneSwitcherNetworkRequstListener( 9156): Registering NetworkFactory
+12-14 02:58:36.961 D/ConnectivityService( 8971): Got NetworkFactory Messenger for PhoneSwitcherNetworkRequstListener
+12-14 02:58:37.015 D/ConnectivityService( 8971): Got NetworkFactory Messenger for TelephonyNetworkFactory[0]
+12-14 02:58:37.022 I/zygote  ( 8971): Background concurrent copying GC freed 65058(4MB) AllocSpace objects, 27(604KB) LOS objects, 38% free, 9MB/15MB, paused 54.107ms total 783.486ms
+12-14 02:58:37.026 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+12-14 02:58:37.026 D/OpenGLRenderer( 9283): HWUI GL Pipeline
+12-14 02:58:37.035 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+12-14 02:58:37.036 D/OpenGLRenderer( 8971): HWUI GL Pipeline
+12-14 02:58:37.039 W/KeyguardServiceDelegate( 8971): onScreenTurningOn(): no keyguard service!
+12-14 02:58:37.039 W/Looper  ( 8971): Dispatch took 267ms on android.ui, h=Handler (com.android.server.am.ActivityManagerService$UiHandler) {99d9e9} cb=null msg=1
+12-14 02:58:37.042 D/CarrierConfigLoader( 9156): CarrierConfigLoader has started
+12-14 02:58:37.045 E/BluetoothAdapter( 9156): Bluetooth binder is null
+12-14 02:58:37.055 D/        ( 9283): HostConnection::get() New Host Connection established 0xad93dc80, tid 9300
+12-14 02:58:37.055 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:58:37.062 I/OpenGLRenderer( 9283): Initialized EGL, version 1.4
+12-14 02:58:37.062 D/OpenGLRenderer( 9283): Swap behavior 1
+12-14 02:58:37.062 W/OpenGLRenderer( 9283): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-14 02:58:37.062 D/OpenGLRenderer( 9283): Swap behavior 0
+12-14 02:58:37.077 E/ActivityThread( 9156): Failed to find provider info for com.android.contacts
+12-14 02:58:37.077 W/CallerInfoCache( 9156): cursor is null
+12-14 02:58:37.079 I/SyncManager( 8971): Got SyncJobService instance.
+12-14 02:58:37.080 I/FusedLocation( 8971): engine started (com.android.location.fused)
+12-14 02:58:37.092 I/TelecomFramework( 9156): TtyManager: updateUiTtyMode -1 -> 0
+12-14 02:58:37.107 D/ImsResolver( 9156): maybeAddedImsService, packageName: null
+12-14 02:58:37.131 I/VvmSimStateTracker( 9156): android.intent.action.SIM_STATE_CHANGED
+12-14 02:58:37.173 D/EGL_emulation( 9283): eglCreateContext: 0xa27ecb40: maj 3 min 0 rcv 3
+12-14 02:58:37.175 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:58:37.215 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:58:37.215 D/EGL_emulation( 9283): eglMakeCurrent: 0xa27ecb40: ver 3 0 (tinfo 0xad90b7a0)
+12-14 02:58:37.217 E/eglCodecCommon( 9283): glUtilsParamSize: unknow param 0x00008cdf
+12-14 02:58:37.218 E/eglCodecCommon( 9283): glUtilsParamSize: unknow param 0x00008cdf
+12-14 02:58:37.218 E/eglCodecCommon( 9283): glUtilsParamSize: unknow param 0x00008824
+12-14 02:58:37.218 E/eglCodecCommon( 9283): glUtilsParamSize: unknow param 0x00008824
+12-14 02:58:37.220 F/OpenGLRenderer( 9283): At least 4 texture units are required!
+12-14 02:58:37.221 F/libc    ( 9283): Fatal signal 6 (SIGABRT), code -6 in tid 9300 (RenderThread)
+12-14 02:58:37.231 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+12-14 02:58:37.235 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 2654208
+12-14 02:58:37.245 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 2654208
+12-14 02:58:37.251 D/OpenGLRenderer( 9074): HWUI GL Pipeline
+12-14 02:58:37.254 I/ActivityManager( 8971): Start proc 9308:com.google.android.gms.persistent/u0a11 for broadcast com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-14 02:58:37.261 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 2654208
+12-14 02:58:37.273 I/crash_dump32( 9307): obtaining output fd from tombstoned
+12-14 02:58:37.274 I//system/bin/tombstoned( 1493): received crash request for pid 9283
+12-14 02:58:37.275 I/crash_dump32( 9307): performing dump of process 9283 (target tid = 9300)
+12-14 02:58:37.275 F/DEBUG   ( 9307): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+12-14 02:58:37.275 F/DEBUG   ( 9307): Build fingerprint: 'google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.043/4456315:user/release-keys'
+12-14 02:58:37.275 F/DEBUG   ( 9307): Revision: '0'
+12-14 02:58:37.275 F/DEBUG   ( 9307): ABI: 'x86'
+12-14 02:58:37.275 F/DEBUG   ( 9307): pid: 9283, tid: 9300, name: RenderThread  >>> com.android.settings <<<
+12-14 02:58:37.275 F/DEBUG   ( 9307): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+12-14 02:58:37.278 F/DEBUG   ( 9307): Abort message: 'At least 4 texture units are required!'
+12-14 02:58:37.279 W/Looper  ( 8971): Dispatch took 228ms on android.ui, h=Handler (android.view.Choreographer$FrameHandler) {220c31d} cb=android.view.Choreographer$FrameDisplayEventReceiver@8d41992 msg=0
+12-14 02:58:37.283 D/        ( 8971): HostConnection::get() New Host Connection established 0x8d248400, tid 9297
+12-14 02:58:37.286 F/DEBUG   ( 9307):     eax 00000000  ebx 00002443  ecx 00002454  edx 00000006
+12-14 02:58:37.287 F/DEBUG   ( 9307):     esi 00002454  edi 915df078
+12-14 02:58:37.287 F/DEBUG   ( 9307):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+12-14 02:58:37.287 F/DEBUG   ( 9307):     eip b1f52ac4  ebp 915df098  esp 915df02c  flags 00000296
+12-14 02:58:37.315 W/zygote  ( 9308): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:37.321 F/DEBUG   ( 9307): 
+12-14 02:58:37.321 F/DEBUG   ( 9307): backtrace:
+12-14 02:58:37.321 F/DEBUG   ( 9307):     #00 pc 00000ac4  [vdso:b1f52000] (__kernel_vsyscall+16)
+12-14 02:58:37.321 F/DEBUG   ( 9307):     #01 pc 00075b3c  /system/lib/libc.so (tgkill+28)
+12-14 02:58:37.321 F/DEBUG   ( 9307):     #02 pc 0001f04e  /system/lib/libc.so (abort+110)
+12-14 02:58:37.321 F/DEBUG   ( 9307):     #03 pc 00006a06  /system/lib/liblog.so (__android_log_assert+294)
+12-14 02:58:37.321 F/DEBUG   ( 9307):     #04 pc 00040419  /system/lib/libhwui.so (_ZN7android10uirenderer12TextureStateC1Ev+185)
+12-14 02:58:37.322 F/DEBUG   ( 9307):     #05 pc 0005f5f0  /system/lib/libhwui.so (_ZN7android10uirenderer6Caches4initEv+176)
+12-14 02:58:37.322 F/DEBUG   ( 9307):     #06 pc 0005f4bc  /system/lib/libhwui.so (_ZN7android10uirenderer6CachesC2ERNS0_11RenderStateE+316)
+12-14 02:58:37.322 F/DEBUG   ( 9307):     #07 pc 0003ee57  /system/lib/libhwui.so (_ZN7android10uirenderer11RenderState18onGLContextCreatedEv+215)
+12-14 02:58:37.322 F/DEBUG   ( 9307):     #08 pc 00046d9b  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread10EglManager10initializeEv+427)
+12-14 02:58:37.322 F/DEBUG   ( 9307):     #09 pc 0004743d  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread10EglManager13createSurfaceEP13ANativeWindow+45)
+12-14 02:58:37.322 F/DEBUG   ( 9307):     #10 pc 00045380  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread14OpenGLPipeline10setSurfaceEPNS_7SurfaceENS1_12SwapBehaviorE+80)
+12-14 02:58:37.322 F/DEBUG   ( 9307):     #11 pc 00041a9d  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread13CanvasContext10setSurfaceEPNS_7SurfaceE+157)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #12 pc 00041d53  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread13CanvasContext10initializeEPNS_7SurfaceE+35)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #13 pc 0004a6c5  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthreadL17Bridge_initializeEPNS1_14initializeArgsE+37)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #14 pc 0004c9d2  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread22MethodInvokeRenderTask3runEv+34)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #15 pc 0004dde9  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread12RenderThread10threadLoopEv+489)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #16 pc 000104a4  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+292)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #17 pc 000841b6  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+166)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #18 pc 0000fca6  /system/lib/libutils.so (_ZN13thread_data_t10trampolineEPKS_+246)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #19 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #20 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+12-14 02:58:37.323 F/DEBUG   ( 9307):     #21 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+12-14 02:58:37.346 D/PhoneSwitcherNetworkRequstListener( 9156): got request NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+12-14 02:58:37.346 D/PhoneSwitcherNetworkRequstListener( 9156): got request NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+12-14 02:58:37.346 D/PhoneSwitcherNetworkRequstListener( 9156): got request NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+12-14 02:58:37.351 D/TelephonyDebugService( 9156): TelephonyDebugService()
+12-14 02:58:37.352 I/OpenGLRenderer( 8971): Initialized EGL, version 1.4
+12-14 02:58:37.352 D/OpenGLRenderer( 8971): Swap behavior 1
+12-14 02:58:37.352 D/CarrierConfigLoader( 9156): mHandler: 12 phoneId: 0
+12-14 02:58:37.362 W/OpenGLRenderer( 8971): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-14 02:58:37.362 D/OpenGLRenderer( 8971): Swap behavior 0
+12-14 02:58:37.384 D/NetworkController.WifiSignalController( 9074): Registered score cache
+12-14 02:58:37.399 D/EGL_emulation( 8971): eglCreateContext: 0xad9a27c0: maj 3 min 0 rcv 3
+12-14 02:58:37.422 D/AndroidRuntime( 9154): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-14 02:58:37.423 D/EGL_emulation( 8971): eglMakeCurrent: 0xad9a27c0: ver 3 0 (tinfo 0x92677190)
+12-14 02:58:37.493 E/eglCodecCommon( 8971): glUtilsParamSize: unknow param 0x00008cdf
+12-14 02:58:37.510 W/ResourceType( 9308): ResTable_typeSpec entry count inconsistent: given 67, previously 69
+12-14 02:58:37.510 W/ResourceType( 9308): ResTable_typeSpec entry count inconsistent: given 5411, previously 5412
+12-14 02:58:37.512 E/eglCodecCommon( 8971): glUtilsParamSize: unknow param 0x00008cdf
+12-14 02:58:37.512 E/eglCodecCommon( 8971): glUtilsParamSize: unknow param 0x00008824
+12-14 02:58:37.513 E/eglCodecCommon( 8971): glUtilsParamSize: unknow param 0x00008824
+12-14 02:58:37.561 I/GnssLocationProvider( 8971): WakeLock acquired by sendMessage(SUBSCRIPTION_OR_SIM_CHANGED, 0, null)
+12-14 02:58:37.573 D/StatusBar( 9074): disable<e i a s b h r c s q >
+12-14 02:58:37.574 I/StatusBarManagerService( 8971): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@17c6cc1
+12-14 02:58:37.593 I/GnssLocationProvider( 8971): WakeLock released by handleMessage(SUBSCRIPTION_OR_SIM_CHANGED, 0, null)
+12-14 02:58:37.597 D/ServiceStateProvider( 9156): subId=-2
+12-14 02:58:37.653 E/PhoneInterfaceManager( 9156): [PhoneIntfMgr] getIccId: No UICC
+12-14 02:58:37.669 I/Telecom ( 8971): PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}]: TSI.rPA@AAQ
+12-14 02:58:37.672 I/TelecomFramework( 9156): AccountEntry: Registered phoneAccount: [[ ] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: null GroupId: [****]] with handle: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0}
+12-14 02:58:37.672 I/TelecomFramework( 9156): PstnIncomingCallNotifier: Registering: Handler (com.android.internal.telephony.GsmCdmaPhone) {37f1aba}
+12-14 02:58:37.747 E/ActivityThread( 9308): Failed to find provider info for com.google.android.gsf.gservices
+12-14 02:58:37.783 F/OpenGLRenderer( 8971): At least 4 texture units are required!
+12-14 02:58:37.811 F/libc    ( 8971): Fatal signal 6 (SIGABRT), code -6 in tid 9297 (RenderThread)
+12-14 02:58:37.891 I/SecurityController( 9074): could not bind to KeyChainService
+12-14 02:58:37.896 I/zygote  ( 9156): Background concurrent copying GC freed 19337(1935KB) AllocSpace objects, 28(560KB) LOS objects, 62% free, 930KB/2MB, paused 2.287ms total 155.694ms
+12-14 02:58:37.898 W/app_process( 9154): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:58:37.954 I/chatty  ( 9308): uid=10011(u0_a11) identical 23 lines
+12-14 02:58:37.958 E/ActivityThread( 9308): Failed to find provider info for com.google.android.gsf.gservices
+12-14 02:58:37.992 E//system/bin/tombstoned( 1493): Tombstone written to: /data/tombstones//tombstone_02
+12-14 02:58:38.004 D/AndroidRuntime( 9154): Calling main entry com.android.commands.am.Am
+12-14 02:58:38.007 W/ActivityManager( 8971):   Force finishing activity com.android.settings/.FallbackHome
+12-14 02:58:38.014 W/InputDispatcher( 8971): channel 'c0c6900 com.android.settings/com.android.settings.FallbackHome (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+12-14 02:58:38.014 E/JavaBinder( 8971): !!! FAILED BINDER TRANSACTION !!!  (parcel size = 56)
+12-14 02:58:38.015 E/InputDispatcher( 8971): channel 'c0c6900 com.android.settings/com.android.settings.FallbackHome (server)' ~ Channel is unrecoverably broken and will be disposed!
+12-14 02:58:38.036 I/WindowManager( 8971): WIN DEATH: Window{c0c6900 u0 com.android.settings/com.android.settings.FallbackHome}
+12-14 02:58:38.038 W/InputDispatcher( 8971): Attempted to unregister already unregistered input channel 'c0c6900 com.android.settings/com.android.settings.FallbackHome (server)'
+12-14 02:58:38.055 I/Zygote  ( 8901): Process 9283 exited due to signal (6)
+12-14 02:58:38.099 I/crash_dump32( 9348): obtaining output fd from tombstoned
+12-14 02:58:38.100 I//system/bin/tombstoned( 1493): received crash request for pid 8971
+12-14 02:58:38.101 I/crash_dump32( 9348): performing dump of process 8971 (target tid = 9297)
+12-14 02:58:38.102 F/DEBUG   ( 9348): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+12-14 02:58:38.102 F/DEBUG   ( 9348): Build fingerprint: 'google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.170901.043/4456315:user/release-keys'
+12-14 02:58:38.102 F/DEBUG   ( 9348): Revision: '0'
+12-14 02:58:38.102 F/DEBUG   ( 9348): ABI: 'x86'
+12-14 02:58:38.102 F/DEBUG   ( 9348): pid: 8971, tid: 9297, name: RenderThread  >>> system_server <<<
+12-14 02:58:38.102 F/DEBUG   ( 9348): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+12-14 02:58:38.105 F/DEBUG   ( 9348): Abort message: 'At least 4 texture units are required!'
+12-14 02:58:38.105 F/DEBUG   ( 9348):     eax 00000000  ebx 0000230b  ecx 00002451  edx 00000006
+12-14 02:58:38.105 F/DEBUG   ( 9348):     esi 00002451  edi 8e202078
+12-14 02:58:38.105 F/DEBUG   ( 9348):     xcs 00000073  xds 0000007b  xes 0000007b  xfs 0000003b  xss 0000007b
+12-14 02:58:38.105 F/DEBUG   ( 9348):     eip b1f52ac4  ebp 8e202098  esp 8e20202c  flags 00000296
+12-14 02:58:38.136 F/DEBUG   ( 9348): 
+12-14 02:58:38.136 F/DEBUG   ( 9348): backtrace:
+12-14 02:58:38.136 F/DEBUG   ( 9348):     #00 pc 00000ac4  [vdso:b1f52000] (__kernel_vsyscall+16)
+12-14 02:58:38.136 F/DEBUG   ( 9348):     #01 pc 00075b3c  /system/lib/libc.so (tgkill+28)
+12-14 02:58:38.136 F/DEBUG   ( 9348):     #02 pc 0001f04e  /system/lib/libc.so (abort+110)
+12-14 02:58:38.136 F/DEBUG   ( 9348):     #03 pc 00006a06  /system/lib/liblog.so (__android_log_assert+294)
+12-14 02:58:38.136 F/DEBUG   ( 9348):     #04 pc 00040419  /system/lib/libhwui.so (_ZN7android10uirenderer12TextureStateC1Ev+185)
+12-14 02:58:38.136 F/DEBUG   ( 9348):     #05 pc 0005f5f0  /system/lib/libhwui.so (_ZN7android10uirenderer6Caches4initEv+176)
+12-14 02:58:38.136 F/DEBUG   ( 9348):     #06 pc 0005f4bc  /system/lib/libhwui.so (_ZN7android10uirenderer6CachesC2ERNS0_11RenderStateE+316)
+12-14 02:58:38.136 F/DEBUG   ( 9348):     #07 pc 0003ee57  /system/lib/libhwui.so (_ZN7android10uirenderer11RenderState18onGLContextCreatedEv+215)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #08 pc 00046d9b  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread10EglManager10initializeEv+427)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #09 pc 0004743d  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread10EglManager13createSurfaceEP13ANativeWindow+45)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #10 pc 00045380  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread14OpenGLPipeline10setSurfaceEPNS_7SurfaceENS1_12SwapBehaviorE+80)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #11 pc 00041a9d  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread13CanvasContext10setSurfaceEPNS_7SurfaceE+157)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #12 pc 00041d53  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread13CanvasContext10initializeEPNS_7SurfaceE+35)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #13 pc 0004a6c5  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthreadL17Bridge_initializeEPNS1_14initializeArgsE+37)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #14 pc 0004c9d2  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread22MethodInvokeRenderTask3runEv+34)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #15 pc 0004dde9  /system/lib/libhwui.so (_ZN7android10uirenderer12renderthread12RenderThread10threadLoopEv+489)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #16 pc 000104a4  /system/lib/libutils.so (_ZN7android6Thread11_threadLoopEPv+292)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #17 pc 000841b6  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime15javaThreadShellEPv+166)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #18 pc 0000fca6  /system/lib/libutils.so (_ZN13thread_data_t10trampolineEPKS_+246)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #19 pc 000709b5  /system/lib/libc.so (_ZL15__pthread_startPv+53)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #20 pc 0002050b  /system/lib/libc.so (__start_thread+75)
+12-14 02:58:38.137 F/DEBUG   ( 9348):     #21 pc 0001eda6  /system/lib/libc.so (__bionic_clone+70)
+12-14 02:58:41.891 E//system/bin/tombstoned( 1493): Tombstone written to: /data/tombstones//tombstone_03
+12-14 02:58:41.967 E/GnssHAL_GnssInterface( 1488): gpsSvStatusCb: Unable to invoke callback
+12-14 02:58:41.973 I/lowmemorykiller( 1412): ActivityManager disconnected
+12-14 02:58:41.973 I/lowmemorykiller( 1412): Closing Activity Manager data connection
+12-14 02:58:41.973 W/GnssHAL_GnssInterface( 1488): GNSS service noticed HIDL death. Stopping all GNSS operations.
+12-14 02:58:41.973 E/GnssHAL_GnssInterface( 1488): gpsSvStatusCb: Unable to invoke callback
+12-14 02:58:41.974 E/GnssHAL_GnssInterface( 1488): gpsSvStatusCb: Unable to invoke callback
+12-14 02:58:42.014 E/AndroidRuntime( 9156): FATAL EXCEPTION: CellBroadcastHandler
+12-14 02:58:42.014 E/AndroidRuntime( 9156): Process: com.android.phone, PID: 9156
+12-14 02:58:42.014 E/AndroidRuntime( 9156): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:58:42.015 E/AndroidRuntime( 9156): FATAL EXCEPTION: CdmaInboundSmsHandler
+12-14 02:58:42.015 E/AndroidRuntime( 9156): Process: com.android.phone, PID: 9156
+12-14 02:58:42.015 E/AndroidRuntime( 9156): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:58:42.015 I/Process ( 9156): Sending signal. PID: 9156 SIG: 9
+12-14 02:58:42.017 D/AndroidRuntime( 9308): Shutting down VM
+12-14 02:58:42.017 D/AndroidRuntime( 9074): Shutting down VM
+12-14 02:58:42.017 E/AndroidRuntime( 9074): FATAL EXCEPTION: main
+12-14 02:58:42.017 E/AndroidRuntime( 9074): Process: com.android.systemui, PID: 9074
+12-14 02:58:42.017 E/AndroidRuntime( 9074): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:58:42.017 E/AndroidRuntime( 9308): FATAL EXCEPTION: main
+12-14 02:58:42.017 E/AndroidRuntime( 9308): Process: com.google.android.gms.persistent, PID: 9308
+12-14 02:58:42.017 E/AndroidRuntime( 9308): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:58:42.024 W/Sensors ( 9074): sensorservice died [0xa425f400]
+12-14 02:58:42.024 E/GCore-Chimera-Crash( 9308): Hit an exception while processing the UncaughtExceptionHandler:
+12-14 02:58:42.024 E/GCore-Chimera-Crash( 9308): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:58:42.024 I/ServiceManager( 1334): service 'usb' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'hardware_properties' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'jobscheduler' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'soundtrigger' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'trust' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'backup' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'appwidget' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'voiceinteraction' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'diskstats' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'samplingprofiler' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'network_time_update_service' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'commontime_management' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'dreams' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'graphicsstats' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'print' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'restrictions' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'media_session' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'media_resource_monitor' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'media_router' died
+12-14 02:58:42.025 E/BaseUncaughtHandler( 9308): Hit an exception while processing the UncaughtExceptionHandler. Original exception: 
+12-14 02:58:42.025 E/BaseUncaughtHandler( 9308): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'fingerprint' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'launcherapps' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'shortcut' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'media_projection' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'imms' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'autofill' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'connmetrics' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'netd_listener' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'contexthub' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'telecom' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'netstats' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'netpolicy' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'wifi' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'wifiscanner' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'rttmanager' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'connectivity' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'servicediscovery' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'updatelock' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'notification' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'devicestoragemonitor' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'location' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'country_detector' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'search' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'wallpaper' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'audio' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'DockObserver' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'midi' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'scheduling_policy' died
+12-14 02:58:42.025 I/ServiceManager( 1334): service 'telephony.registry' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'media.camera.proxy' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'account' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'content' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'settings' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'vibrator' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'consumer_ir' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'alarm' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'serial' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'window' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'input' died
+12-14 02:58:42.026 I/Process ( 9308): Sending signal. PID: 9308 SIG: 9
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'vrmanager' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'pinner' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'input_method' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'accessibility' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'mount' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'storagestats' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'uimode' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'lock_settings' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'deviceidle' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'device_policy' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'statusbar' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'clipboard' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'network_management' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'textservices' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'network_score' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'meminfo' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'gfxinfo' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'dbinfo' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'cpuinfo' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'permission' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'processinfo' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'procstats' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'activity' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'user' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'otadexopt' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'package' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'dropbox' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'battery' died
+12-14 02:58:42.026 I/ServiceManager( 1334): service 'overlay' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'usagestats' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'webviewupdate' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'sec_key_att_app_id_provider' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'sensorservice' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'device_identifiers' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'batterystats' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'appops' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'power' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'recovery' died
+12-14 02:58:42.027 I/ServiceManager( 1334): service 'display' died
+12-14 02:58:42.027 I/Process ( 9074): Sending signal. PID: 9074 SIG: 9
+12-14 02:58:42.028 I/app_process( 9154): System.exit called, status: 1
+12-14 02:58:42.028 I/AndroidRuntime( 9154): VM exiting with result code 1.
+12-14 02:58:42.072 I/ServiceManager( 1334): service 'carrier_config' died
+12-14 02:58:42.074 I/ServiceManager( 1334): service 'isub' died
+12-14 02:58:42.074 I/ServiceManager( 1334): service 'simphonebook' died
+12-14 02:58:42.074 I/ServiceManager( 1334): service 'iphonesubinfo' died
+12-14 02:58:42.074 I/ServiceManager( 1334): service 'isms' died
+12-14 02:58:42.074 I/ServiceManager( 1334): service 'phone' died
+12-14 02:58:42.181 E/hw-IPCThreadState( 1488): binder thread pool (1 threads) starved for 207 ms

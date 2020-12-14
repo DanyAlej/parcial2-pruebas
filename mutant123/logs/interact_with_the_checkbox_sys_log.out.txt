@@ -1,0 +1,460 @@
+--------- beginning of main
+12-14 02:56:45.679 I/System.out( 3895): URI: //map
+12-14 02:56:45.679 I/System.out( 3895): params: {json={"query":"android.widget.Button index:2","operation":{"method_name":"query","arguments":[]}}
+12-14 02:56:45.679 I/System.out( 3895): }
+12-14 02:56:45.704 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:45.709 I/chatty  ( 1724): uid=10028(u0_a28) com.android.systemui identical 1 line
+12-14 02:56:45.722 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:45.735 W/SurfaceFlinger( 1413): couldn't log to binary event log: overflow.
+12-14 02:56:45.735 W/SurfaceFlinger( 1413): couldn't log to binary event log: overflow.
+12-14 02:56:45.824 I/PBSessionCacheImpl( 2174): Deleted sessionId[9980403452433] from persistence.
+12-14 02:56:45.843 W/SearchService( 2174): Abort, client detached.
+12-14 02:56:45.846 E/WorkerRegistryImpl( 2174): getWorker() is called after WorkerRegistry disposal.
+12-14 02:56:45.846 E/WorkerRegistryImpl( 2174): getWorker() is called after WorkerRegistry disposal.
+12-14 02:56:45.853 I/System.out( 3895): URI: //gesture
+12-14 02:56:45.853 I/System.out( 3895): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.Button index:2","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-14 02:56:45.853 I/System.out( 3895): }
+12-14 02:56:45.946 I/zygote  ( 3895): Do partial code cache collection, code=117KB, data=59KB
+12-14 02:56:45.946 I/zygote  ( 3895): After code cache collection, code=117KB, data=59KB
+12-14 02:56:45.946 I/zygote  ( 3895): Increasing code cache capacity to 512KB
+12-14 02:56:46.130 I/AudioTrack( 1626): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 4512 -> 4512
+12-14 02:56:46.206 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:46.208 I/chatty  ( 1724): uid=10028(u0_a28) com.android.systemui identical 1 line
+12-14 02:56:46.212 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:46.213 I/zygote  ( 1936): Deoptimizing void tma.c(java.lang.Runnable) due to JIT inline cache
+12-14 02:56:46.226 W/View    ( 3895): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-14 02:56:46.232 W/Binder  ( 1626): Outgoing transactions from this process must be FLAG_ONEWAY
+12-14 02:56:46.232 W/Binder  ( 1626): java.lang.Throwable
+12-14 02:56:46.232 W/Binder  ( 1626): 	at android.os.BinderProxy.transact(Binder.java:736)
+12-14 02:56:46.232 W/Binder  ( 1626): 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+12-14 02:56:46.232 W/Binder  ( 1626): 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+12-14 02:56:46.232 W/Binder  ( 1626): 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2096)
+12-14 02:56:46.232 W/Binder  ( 1626): 	at com.android.server.autofill.Session$1.send(Session.java:200)
+12-14 02:56:46.232 W/Binder  ( 1626): 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13137)
+12-14 02:56:46.232 W/Binder  ( 1626): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2466)
+12-14 02:56:46.232 W/Binder  ( 1626): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-14 02:56:46.232 W/Binder  ( 1626): 	at android.os.Binder.execTransact(Binder.java:674)
+12-14 02:56:46.236 I/AssistStructure( 3895): Flattened final assist data: 5024 bytes, containing 2 windows, 19 views
+12-14 02:56:46.242 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 303104
+12-14 02:56:46.252 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:46.255 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:46.749 W/audio_hw_generic( 1391): Not supplying enough data to HAL, expected position 23203 , only wrote 2880
+12-14 02:56:46.750 W/audio_hw_generic( 1391): Not supplying enough data to HAL, expected position 2898 , only wrote 2880
+12-14 02:56:46.750 W/audio_hw_generic( 1391): Hardware backing HAL too slow, could only write 0 of 720 frames
+12-14 02:56:46.750 W/AudioFlinger( 1476): write blocked for 488 msecs, 1 delayed writes, thread 0xb0103680
+12-14 02:56:46.759 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:46.767 W/audio_hw_generic( 1391): Hardware backing HAL too slow, could only write 0 of 720 frames
+12-14 02:56:46.781 D/AudioFlinger( 1476): mixer(0xb0103680) throttle end: throttle time(10)
+12-14 02:56:46.853 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 02:56:46.872 I/AssistStructure( 1626): Flattened final assist data: 4496 bytes, containing 2 windows, 19 views
+12-14 02:56:46.873 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+12-14 02:56:46.874 D/PermissionCache( 1413): checking android.permission.READ_FRAME_BUFFER for uid=2000 => granted (214 us)
+12-14 02:56:46.883 W/lgq     ( 1936): Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+12-14 02:56:46.919 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:46.932 D/        ( 3940): HostConnection::get() New Host Connection established 0xb222f800, tid 3940
+12-14 02:56:47.004 E/memtrack( 1626): Couldn't load memtrack module
+12-14 02:56:47.004 W/android.os.Debug( 1626): failed to get memory consumption info: -1
+12-14 02:56:47.087 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:47.153 I/zygote  ( 1936): Background concurrent copying GC freed 83998(4MB) AllocSpace objects, 4(88KB) LOS objects, 45% free, 7MB/13MB, paused 478us total 166.094ms
+12-14 02:56:47.233 I/zygote  ( 1936): Deoptimizing bpvb bpuz.i(bpva) due to JIT inline cache
+12-14 02:56:47.457 D/BoundBrokerSvc( 1936): onUnbind: Intent { act=com.google.android.gms.auth.account.workaccount.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-14 02:56:47.464 D/BoundBrokerSvc( 2220): onUnbind: Intent { act=com.google.android.gms.auth.cryptauth.cryptauthservice.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+12-14 02:56:47.468 D/BoundBrokerSvc( 1936): onUnbind: Intent { act=com.google.android.gms.auth.proximity.START cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+12-14 02:56:47.573 I/System.out( 3895): URI: //kill
+12-14 02:56:47.573 I/System.out( 3895): params: {json={}
+12-14 02:56:47.573 I/System.out( 3895): }
+12-14 02:56:47.573 I/System.out( 3895): Stopping test server
+12-14 02:56:47.579 E/adbd    ( 1372): failed to connect to socket 'tcp:7102': Connection refused
+12-14 02:56:47.582 E/adbd    ( 1372): failed to connect to socket 'tcp:7102': Connection refused
+12-14 02:56:47.671 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:47.688 I/chatty  ( 1724): uid=10028(u0_a28) com.android.systemui identical 2 lines
+12-14 02:56:47.690 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:47.696 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:47.697 V/StatusBar( 1724): setLightsOn(true)
+12-14 02:56:47.707 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:47.728 D/SurfaceFlinger( 1413): duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+12-14 02:56:47.729 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:47.739 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:47.744 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:47.766 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:47.861 D/EGL_emulation( 2174): eglMakeCurrent: 0xa3b84b40: ver 3 0 (tinfo 0xa3b83680)
+12-14 02:56:47.862 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:47.961 D/EGL_emulation( 2147): eglMakeCurrent: 0xa157d080: ver 3 0 (tinfo 0xa157fb20)
+12-14 02:56:47.964 I/zygote  ( 2174): Do full code cache collection, code=251KB, data=199KB
+12-14 02:56:47.965 I/zygote  ( 2174): After code cache collection, code=237KB, data=152KB
+12-14 02:56:47.983 I/zygote  ( 2174): Deoptimizing void com.google.android.apps.gsa.search.core.service.worker.a.a.a(com.google.android.apps.gsa.search.core.state.qc) due to JIT inline cache
+12-14 02:56:47.993 W/SessionLifecycleManager( 2174): Handover failed. Creating new session controller.
+12-14 02:56:47.993 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 7753728
+12-14 02:56:47.994 E/GmsClient( 2174): unable to connect to service: com.google.android.gms.speech.service.START on com.google.android.gms
+12-14 02:56:48.010 I/OptInState( 2174): There is a new client and it does not support opt-in. Dropping request.
+12-14 02:56:48.033 I/zygote  ( 2174): Deoptimizing int[] com.google.common.collect.gx.b(java.lang.Object[], int, int, int) due to JIT inline cache
+12-14 02:56:48.068 I/zygote  ( 2174): Do partial code cache collection, code=246KB, data=166KB
+12-14 02:56:48.071 I/zygote  ( 2174): After code cache collection, code=240KB, data=163KB
+12-14 02:56:48.071 I/zygote  ( 2174): Increasing code cache capacity to 1024KB
+12-14 02:56:48.113 D/        ( 1724): HostConnection::get() New Host Connection established 0x8efbe040, tid 1747
+12-14 02:56:48.120 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.145 I/MicroDetectionWorker( 2174): #updateMicroDetector [detectionMode: [mDetectionMode: [1]]]
+12-14 02:56:48.145 I/MicroDetectionWorker( 2174): #startMicroDetector [speakerMode: 0]
+12-14 02:56:48.147 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.148 I/AudioController( 2174): Using mInputStreamFactoryBuilder
+12-14 02:56:48.155 I/MicroRecognitionRunner( 2174): Starting detection.
+12-14 02:56:48.156 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.159 I/MicrophoneInputStream( 2174): mic_starting com.google.android.apps.gsa.staticplugins.aa.c@eeeaee9
+12-14 02:56:48.161 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.172 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.174 I/MicrophoneInputStream( 2174): mic_started com.google.android.apps.gsa.staticplugins.aa.c@eeeaee9
+12-14 02:56:48.178 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.179 I/AudioFlinger( 1476): AudioFlinger's thread 0xaea03100 tid=3958 ready to run
+12-14 02:56:48.181 I/MicroDetectionWorker( 2174): onReady
+12-14 02:56:48.183 I/MicroDetectionWorker( 2174): onReady
+12-14 02:56:48.184 W/SpeechLevelGenerator( 2174): Really low audio levels detected. The audio input may have issues.
+12-14 02:56:48.192 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.195 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.199 I/MicrophoneInputStream( 2174): mic_close com.google.android.apps.gsa.staticplugins.aa.c@eeeaee9
+12-14 02:56:48.200 I/MicroRecognitionRunner( 2174): Detection finished
+12-14 02:56:48.200 W/ErrorReporter( 2174): reportError [type: 211, code: 524300]: Error reading from input stream
+12-14 02:56:48.200 D/        ( 1724): HostConnection::get() New Host Connection established 0xa3ba00c0, tid 1743
+12-14 02:56:48.203 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.204 I/MicroRecognitionRunner( 2174): Stopping hotword detection.
+12-14 02:56:48.204 W/ErrorProcessor( 2174): onFatalError, processing error from engine(4)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): com.google.android.apps.gsa.shared.speech.b.g: Error reading from input stream
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.staticplugins.recognizer.j.a.a(SourceFile:28)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.staticplugins.recognizer.j.b.run(SourceFile:15)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:14)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.shared.util.concurrent.a.bl.run(SourceFile:4)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.shared.util.concurrent.a.bl.run(SourceFile:4)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at java.lang.Thread.run(Thread.java:764)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.shared.util.concurrent.a.ai.run(SourceFile:6)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.speech.audio.Tee.f(SourceFile:103)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.speech.audio.au.read(SourceFile:2)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at java.io.InputStream.read(InputStream.java:101)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.speech.audio.ao.run(SourceFile:18)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	at com.google.android.apps.gsa.speech.audio.an.run(SourceFile:2)
+12-14 02:56:48.204 W/ErrorProcessor( 2174): 	... 9 more
+12-14 02:56:48.204 I/AudioController( 2174): internalShutdown
+12-14 02:56:48.211 I/MicroDetector( 2174): Keeping mic open: false
+12-14 02:56:48.211 I/DeviceStateChecker( 2174): DeviceStateChecker cancelled
+12-14 02:56:48.211 I/MicroDetectionWorker( 2174): #onError(false)
+12-14 02:56:48.212 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.343 I/chatty  ( 1724): uid=10028(u0_a28) RenderThread identical 14 lines
+12-14 02:56:48.352 D/EGL_emulation( 1724): eglMakeCurrent: 0x9f5e3340: ver 3 0 (tinfo 0x9f5f8b30)
+12-14 02:56:48.365 D/BoundBrokerSvc( 1936): onUnbind: Intent { act=com.google.android.contextmanager.service.ContextManagerService.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+12-14 02:56:48.438 W/OpenGLRenderer( 2147): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-14 02:56:48.545 D/OpenGLRenderer( 1626): HWUI GL Pipeline
+12-14 02:56:48.552 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+12-14 02:56:48.571 D/        ( 1626): HostConnection::get() New Host Connection established 0x933c2340, tid 3959
+12-14 02:56:48.572 I/OpenGLRenderer( 1626): Initialized EGL, version 1.4
+12-14 02:56:48.572 D/OpenGLRenderer( 1626): Swap behavior 1
+12-14 02:56:48.572 W/OpenGLRenderer( 1626): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-14 02:56:48.572 D/OpenGLRenderer( 1626): Swap behavior 0
+12-14 02:56:48.581 D/EGL_emulation( 1626): eglCreateContext: 0xa3b86e20: maj 3 min 0 rcv 3
+12-14 02:56:48.583 D/EGL_emulation( 1626): eglMakeCurrent: 0xa3b86e20: ver 3 0 (tinfo 0x933a9e60)
+12-14 02:56:48.584 E/eglCodecCommon( 1626): glUtilsParamSize: unknow param 0x00008cdf
+12-14 02:56:48.584 E/eglCodecCommon( 1626): glUtilsParamSize: unknow param 0x00008cdf
+12-14 02:56:48.584 E/eglCodecCommon( 1626): glUtilsParamSize: unknow param 0x00008824
+12-14 02:56:48.584 E/eglCodecCommon( 1626): glUtilsParamSize: unknow param 0x00008824
+12-14 02:56:48.587 F/OpenGLRenderer( 1626): At least 4 texture units are required!
+12-14 02:56:48.623 I/crash_dump32( 3962): obtaining output fd from tombstoned
+12-14 02:56:48.624 I//system/bin/tombstoned( 1493): received crash request for pid 1626
+12-14 02:56:48.626 I/crash_dump32( 3962): performing dump of process 1626 (target tid = 3959)
+12-14 02:56:49.961 W/audio_hw_generic( 1391): Not supplying enough data to HAL, expected position 309081 , only wrote 156960
+12-14 02:56:52.284 E//system/bin/tombstoned( 1493): Tombstone written to: /data/tombstones//tombstone_09
+--------- beginning of system
+12-14 02:56:52.288 I/BootReceiver( 1626): Copying /data/tombstones/tombstone_09 to DropBox (SYSTEM_TOMBSTONE)
+12-14 02:56:52.348 I/lowmemorykiller( 1412): ActivityManager disconnected
+12-14 02:56:52.348 I/lowmemorykiller( 1412): Closing Activity Manager data connection
+12-14 02:56:52.349 D/AndroidRuntime( 3613): Shutting down VM
+--------- beginning of crash
+12-14 02:56:52.349 E/AndroidRuntime( 3613): FATAL EXCEPTION: main
+12-14 02:56:52.349 E/AndroidRuntime( 3613): Process: com.google.android.gms.unstable, PID: 3613
+12-14 02:56:52.349 E/AndroidRuntime( 3613): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.351 D/AndroidRuntime( 1936): Shutting down VM
+12-14 02:56:52.351 E/AndroidRuntime( 1936): FATAL EXCEPTION: main
+12-14 02:56:52.351 E/AndroidRuntime( 1936): Process: com.google.android.gms.persistent, PID: 1936
+12-14 02:56:52.351 E/AndroidRuntime( 1936): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.351 E/GCore-Chimera-Crash( 1936): Hit an exception while processing the UncaughtExceptionHandler:
+12-14 02:56:52.351 E/GCore-Chimera-Crash( 1936): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.352 E/BaseUncaughtHandler( 1936): Hit an exception while processing the UncaughtExceptionHandler. Original exception: 
+12-14 02:56:52.352 E/BaseUncaughtHandler( 1936): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.354 D/AndroidRuntime( 2220): Shutting down VM
+12-14 02:56:52.354 E/AndroidRuntime( 2220): FATAL EXCEPTION: main
+12-14 02:56:52.354 E/AndroidRuntime( 2220): Process: com.google.android.gms, PID: 2220
+12-14 02:56:52.354 E/AndroidRuntime( 2220): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.355 I/GCore-Chimera-Crash( 2220): ChsKB2Fkc19mZHIQraXczQcYgQIggMPjxZun0AMKKgoJY29udG
+12-14 02:56:52.355 I/GCore-Chimera-Crash( 2220): FpbmVyELDfzmEYQCC8m_uXyjsqA3BheSoKdmlzaW9uLm9jcgob
+12-14 02:56:52.355 I/GCore-Chimera-Crash( 2220): CgdlbnByb21vEKutw9EHGIECIIC6zby7j9IDIAA=
+12-14 02:56:52.355 I/GCore-Chimera-Crash( 2220): GCore-Chimera-Crash
+12-14 02:56:52.356 W/Sensors ( 1936): sensorservice died [0x9f5b9c00]
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'telecom' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'audio' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'DockObserver' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'midi' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'usb' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'serial' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'hardware_properties' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'jobscheduler' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'soundtrigger' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'trust' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'backup' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'appwidget' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'voiceinteraction' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'diskstats' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'samplingprofiler' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'network_time_update_service' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'commontime_management' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'dreams' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'graphicsstats' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'print' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'restrictions' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'media_session' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'media_resource_monitor' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'media_router' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'fingerprint' died
+12-14 02:56:52.356 I/ServiceManager( 1334): service 'launcherapps' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'shortcut' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'media_projection' died
+12-14 02:56:52.357 W/AudioFlinger( 1476): power manager service died !!!
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'imms' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'autofill' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'lock_settings' died
+12-14 02:56:52.357 W/AudioFlinger( 1476): power manager service died !!!
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'deviceidle' died
+12-14 02:56:52.357 W/AudioFlinger( 1476): power manager service died !!!
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'device_policy' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'statusbar' died
+12-14 02:56:52.357 W/AudioFlinger( 1476): power manager service died !!!
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'clipboard' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'network_management' died
+12-14 02:56:52.357 W/AudioFlinger( 1476): power manager service died !!!
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'textservices' died
+12-14 02:56:52.357 W/AudioFlinger( 1476): power manager service died !!!
+12-14 02:56:52.357 W/AudioFlinger( 1476): power manager service died !!!
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'network_score' died
+12-14 02:56:52.357 W/AudioFlinger( 1476): power manager service died !!!
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'netstats' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'netpolicy' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'wifi' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'wifiscanner' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'rttmanager' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'connectivity' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'servicediscovery' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'updatelock' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'notification' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'devicestoragemonitor' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'location' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'country_detector' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'search' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'wallpaper' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'connmetrics' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'netd_listener' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'contexthub' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'usagestats' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'webviewupdate' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'sec_key_att_app_id_provider' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'scheduling_policy' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'telephony.registry' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'media.camera.proxy' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'account' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'content' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'settings' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'vibrator' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'consumer_ir' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'alarm' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'window' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'input' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'vrmanager' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'pinner' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'input_method' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'accessibility' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'mount' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'storagestats' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'uimode' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'gfxinfo' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'dbinfo' died
+12-14 02:56:52.357 I/ServiceManager( 1334): service 'cpuinfo' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'permission' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'processinfo' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'meminfo' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'procstats' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'activity' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'user' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'otadexopt' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'package' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'dropbox' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'sensorservice' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'battery' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'overlay' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'device_identifiers' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'batterystats' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'appops' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'power' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'recovery' died
+12-14 02:56:52.358 I/ServiceManager( 1334): service 'display' died
+12-14 02:56:52.359 I/DeviceDrDatabaseHelper( 2220): Cleaning stale data from database!
+12-14 02:56:52.362 E/GnssHAL_GnssInterface( 1488): gpsSvStatusCb: Unable to invoke callback
+12-14 02:56:52.362 D/DcNetworkAgent( 1799): NetworkAgent: NetworkAgent channel lost
+12-14 02:56:52.363 W/Sensors ( 1724): sensorservice died [0xa3b64c80]
+12-14 02:56:52.363 W/GnssHAL_GnssInterface( 1488): GNSS service noticed HIDL death. Stopping all GNSS operations.
+12-14 02:56:52.364 D/SurfaceFlinger( 1413): Set power mode=2, type=0 flinger=0xa80c9000
+12-14 02:56:52.364 E/GnssHAL_GnssInterface( 1488): gpsSvStatusCb: Unable to invoke callback
+12-14 02:56:52.364 E/GnssHAL_GnssInterface( 1488): gpsSvStatusCb: Unable to invoke callback
+12-14 02:56:52.366 D/AndroidRuntime( 1799): Shutting down VM
+12-14 02:56:52.366 E/AndroidRuntime( 1799): FATAL EXCEPTION: main
+12-14 02:56:52.366 E/AndroidRuntime( 1799): Process: com.android.phone, PID: 1799
+12-14 02:56:52.366 E/AndroidRuntime( 1799): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.366 D/DcNetworkAgent( 1799): NetworkAgent: DcNetworkAgent: [unwanted]: disconnect apnContext={mApnType=default mState=CONNECTED mWaitingApns={[[ApnSettingV3] T-Mobile US, 1, 310260, epc.tmobile.com, , http://mms.msg.eng.t-mobile.com/mms/wapenc, , , , -1, *, IP, IP, true, 0, 0, 0, false, 0, 0, 0, 0, , , false]} mApnSetting={[ApnSettingV3] T-Mobile US, 1, 310260, epc.tmobile.com, , http://mms.msg.eng.t-mobile.com/mms/wapenc, , , , -1, *, IP, IP, true, 0, 0, 0, false, 0, 0, 0, 0, , , false} mReason=connected mDataEnabled=true mDependencyMet=true}
+12-14 02:56:52.367 I/Process ( 1799): Sending signal. PID: 1799 SIG: 9
+12-14 02:56:52.368 D/hwcomposer( 1398): hw_composer sent 38 syncs in 60s
+12-14 02:56:52.370 I/GCore-Chimera-Crash( 3613): ChsKB2Fkc19mZHIQraXczQcYgQIggMPjxZun0AMKKgoJY29udG
+12-14 02:56:52.370 I/GCore-Chimera-Crash( 3613): FpbmVyELDfzmEYQCC8m_uXyjsqA3BheSoKdmlzaW9uLm9jcgob
+12-14 02:56:52.370 I/GCore-Chimera-Crash( 3613): CgdlbnByb21vEKutw9EHGIECIIC6zby7j9IDIAA=
+12-14 02:56:52.370 I/GCore-Chimera-Crash( 3613): GCore-Chimera-Crash
+12-14 02:56:52.372 I/Process ( 1936): Sending signal. PID: 1936 SIG: 9
+12-14 02:56:52.378 W/SurfaceFlinger( 1413): couldn't log to binary event log: overflow.
+12-14 02:56:52.380 I/DeviceDrDatabaseHelper( 3613): Cleaning stale data from database!
+12-14 02:56:52.402 W/DeviceDoctorHandler( 3613): Crash Hash: c75722bcd3c5966e173f7522d0881c7f3c6d8824
+12-14 02:56:52.404 W/DeviceDoctorHandler( 3613): Shushing crash.
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): FATAL EXCEPTION: main
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): Process: com.google.android.gms.unstable, PID: 3613
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): java.lang.RuntimeException: android.os.DeadSystemException
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at android.app.ContextImpl.unbindService(ContextImpl.java:1627)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:697)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:697)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:697)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at tiv.i(:com.google.android.gms@204713022@20.47.13 (040700-344095733):4)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at tiv.d(:com.google.android.gms@204713022@20.47.13 (040700-344095733):2)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at szo.handleMessage(:com.google.android.gms@204713022@20.47.13 (040700-344095733):9)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at android.os.Handler.dispatchMessage(Handler.java:101)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at aftj.iF(:com.google.android.gms@204713022@20.47.13 (040700-344095733):0)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at aftj.dispatchMessage(:com.google.android.gms@204713022@20.47.13 (040700-344095733):11)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at android.os.Looper.loop(Looper.java:164)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at java.lang.reflect.Method.invoke(Native Method)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	Suppressed: bptl: 
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 		at tk_trace.droidguard-DroidGuardChimeraService_onCreate_handler(Unknown Source:0)
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): Caused by: android.os.DeadSystemException
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 	... 15 more
+12-14 02:56:52.404 E/DeviceDoctorHandler( 3613): 
+12-14 02:56:52.404 W/SystemServiceRegistry( 3613): No service published for: dropbox
+12-14 02:56:52.404 I/Process ( 3613): Sending signal. PID: 3613 SIG: 9
+12-14 02:56:52.418 W/DeviceDoctorHandler( 2220): Crash Hash: a262ac73ce73b6fb0c3ef3cc52ae5831636103e7
+12-14 02:56:52.419 W/DeviceDoctorHandler( 2220): Shushing crash.
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): FATAL EXCEPTION: main
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): Process: com.google.android.gms, PID: 2220
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): java.lang.RuntimeException: android.os.DeadSystemException
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at android.app.ContextImpl.unbindService(ContextImpl.java:1627)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at android.content.ContextWrapper.unbindService(ContextWrapper.java:697)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at tiv.i(:com.google.android.gms@204713022@20.47.13 (040700-344095733):4)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at tiv.d(:com.google.android.gms@204713022@20.47.13 (040700-344095733):2)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at szo.handleMessage(:com.google.android.gms@204713022@20.47.13 (040700-344095733):9)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at android.os.Handler.dispatchMessage(Handler.java:101)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at aftj.iF(:com.google.android.gms@204713022@20.47.13 (040700-344095733):0)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at aftj.dispatchMessage(:com.google.android.gms@204713022@20.47.13 (040700-344095733):11)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at android.os.Looper.loop(Looper.java:164)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at java.lang.reflect.Method.invoke(Native Method)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	Suppressed: bptl: 
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 		at tk_trace.mdi_download-MddModuleInitIntentOperation_onHandleIntentWithRedelivery_handler(Unknown Source:0)
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): Caused by: android.os.DeadSystemException
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 	... 13 more
+12-14 02:56:52.419 E/DeviceDoctorHandler( 2220): 
+12-14 02:56:52.420 W/SystemServiceRegistry( 2220): No service published for: dropbox
+12-14 02:56:52.420 I/Process ( 2220): Sending signal. PID: 2220 SIG: 9
+12-14 02:56:52.479 E/AndroidRuntime( 2174): FATAL EXCEPTION: GcoreGoogleApiClient
+12-14 02:56:52.479 E/AndroidRuntime( 2174): Process: com.google.android.googlequicksearchbox:search, PID: 2174
+12-14 02:56:52.479 E/AndroidRuntime( 2174): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.480 D/AndroidRuntime( 3501): Shutting down VM
+12-14 02:56:52.480 E/AndroidRuntime( 3501): FATAL EXCEPTION: main
+12-14 02:56:52.480 E/AndroidRuntime( 3501): Process: com.google.android.apps.docs, PID: 3501
+12-14 02:56:52.480 E/AndroidRuntime( 3501): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.480 D/AndroidRuntime( 1717): Shutting down VM
+12-14 02:56:52.481 E/AndroidRuntime( 1717): FATAL EXCEPTION: main
+12-14 02:56:52.481 E/AndroidRuntime( 1717): Process: com.google.android.inputmethod.latin, PID: 1717
+12-14 02:56:52.481 E/AndroidRuntime( 1717): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.482 D/AndroidRuntime( 2147): Shutting down VM
+12-14 02:56:52.482 E/AndroidRuntime( 2147): FATAL EXCEPTION: main
+12-14 02:56:52.482 E/AndroidRuntime( 2147): Process: com.google.android.apps.nexuslauncher, PID: 2147
+12-14 02:56:52.482 E/AndroidRuntime( 2147): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.482 W/CrashMetricService( 1717): Failed to get process stats.
+12-14 02:56:52.482 W/CrashMetricService( 1717): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.482 I/Process ( 2147): Sending signal. PID: 2147 SIG: 9
+12-14 02:56:52.487 W/CrashMetricService( 1717): Failed to get process stats.
+12-14 02:56:52.487 W/CrashMetricService( 1717): DeadSystemException: The system died; earlier logs will point to the root cause
+12-14 02:56:52.487 I/Process ( 1717): Sending signal. PID: 1717 SIG: 9
+12-14 02:56:52.488 I/Process ( 2174): Sending signal. PID: 2174 SIG: 9
+12-14 02:56:52.496 E/GAv4    ( 3501): Job execution failed: java.lang.RuntimeException: android.os.DeadSystemException
+12-14 02:56:52.497 E/GAv4    ( 3501): Sync local dispatch failed: java.lang.RuntimeException: android.os.DeadSystemException
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): java.lang.RuntimeException: android.os.DeadSystemException
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1426)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1378)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1366)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:603)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at ifk.a(Unknown Source:4)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at ise.a(Unknown Source:106)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at irw.a(Unknown Source:11)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at ish.a(Unknown Source:7)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at irp.a(Unknown Source:8)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at iha$d.handleMessage(Unknown Source:12)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at android.os.Handler.dispatchMessage(Handler.java:105)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at android.os.Looper.loop(Looper.java:164)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at android.app.ActivityThread.main(ActivityThread.java:6541)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at java.lang.reflect.Method.invoke(Native Method)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): Caused by: android.os.DeadSystemException
+12-14 02:56:52.498 E/CAKEMIX_CRASHED( 3501): 	... 16 more
+12-14 02:56:52.562 W/AudioFlinger( 1476): Thread AudioIn_2E cannot connect to the power manager service
+12-14 02:56:52.562 W/AudioFlinger( 1476): Thread AudioIn_2E cannot connect to the power manager service
+12-14 02:56:52.562 E/AudioFlinger( 1476): no wake lock to update, but system ready!
+12-14 02:56:52.563 W/AudioFlinger( 1476): Thread AudioIn_4E cannot connect to the power manager service
+12-14 02:56:52.563 W/AudioFlinger( 1476): Thread AudioIn_4E cannot connect to the power manager service
+12-14 02:56:52.563 E/AudioFlinger( 1476): no wake lock to update, but system ready!
+12-14 02:56:52.564 W/AudioFlinger( 1476): Thread AudioIn_46 cannot connect to the power manager service
+12-14 02:56:52.564 W/AudioFlinger( 1476): Thread AudioIn_46 cannot connect to the power manager service
+12-14 02:56:52.564 E/AudioFlinger( 1476): no wake lock to update, but system ready!
+12-14 02:56:52.564 W/AudioFlinger( 1476): Thread AudioIn_36 cannot connect to the power manager service
+12-14 02:56:52.564 W/AudioFlinger( 1476): Thread AudioIn_36 cannot connect to the power manager service
+12-14 02:56:52.564 E/AudioFlinger( 1476): no wake lock to update, but system ready!
+12-14 02:56:52.565 W/AudioFlinger( 1476): Thread AudioIn_3E cannot connect to the power manager service
+12-14 02:56:52.565 W/AudioFlinger( 1476): Thread AudioIn_3E cannot connect to the power manager service
+12-14 02:56:52.565 E/AudioFlinger( 1476): no wake lock to update, but system ready!
+12-14 02:56:52.566 W/AudioFlinger( 1476): Thread AudioIn_1E cannot connect to the power manager service
+12-14 02:56:52.566 W/AudioFlinger( 1476): Thread AudioIn_1E cannot connect to the power manager service
+12-14 02:56:52.566 E/AudioFlinger( 1476): no wake lock to update, but system ready!
+12-14 02:56:52.567 W/AudioFlinger( 1476): Thread AudioIn_26 cannot connect to the power manager service
+12-14 02:56:52.567 W/AudioFlinger( 1476): Thread AudioIn_26 cannot connect to the power manager service
+12-14 02:56:52.567 E/AudioFlinger( 1476): no wake lock to update, but system ready!
+12-14 02:56:52.631 E/hw-IPCThreadState( 1488): binder thread pool (1 threads) starved for 268 ms
+12-14 02:56:52.632 I/ServiceManager( 1334): service 'carrier_config' died
+12-14 02:56:52.633 I/ServiceManager( 1334): service 'isub' died
+12-14 02:56:52.633 I/ServiceManager( 1334): service 'simphonebook' died
+12-14 02:56:52.633 I/ServiceManager( 1334): service 'iphonesubinfo' died
+12-14 02:56:52.633 I/ServiceManager( 1334): service 'isms' died
+12-14 02:56:52.633 I/ServiceManager( 1334): service 'phone' died
+12-14 02:56:52.635 E/SurfaceFlinger( 1413): ro.sf.lcd_density must be defined as a build property
+12-14 02:56:52.640 D/libEGL  ( 3968): Emulator has host GPU support, qemu.gles is set to 1.
+12-14 02:56:52.642 E/vndksupport( 3968): Could not load /vendor/lib/egl/libGLES_emulation.so from sphal namespace: dlopen failed: library "/vendor/lib/egl/libGLES_emulation.so" not found.
+12-14 02:56:52.642 E/libEGL  ( 3968): load_driver(/vendor/lib/egl/libGLES_emulation.so): unknown
+12-14 02:56:52.646 D/libEGL  ( 3968): loaded /vendor/lib/egl/libEGL_emulation.so
+12-14 02:56:52.647 D/libEGL  ( 3968): loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+12-14 02:56:52.665 D/libEGL  ( 3968): loaded /vendor/lib/egl/libGLESv2_emulation.so
+12-14 02:56:52.675 D/        ( 3968): HostConnection::get() New Host Connection established 0xb260c100, tid 3974
+12-14 02:56:52.678 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:52.700 D/EGL_emulation( 3968): eglCreateContext: 0xb2613420: maj 1 min 0 rcv 1
+12-14 02:56:52.703 D/AndroidRuntime( 3969): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-14 02:56:52.716 D/EGL_emulation( 3968): eglMakeCurrent: 0xb2613420: ver 1 0 (tinfo 0xb260b0b0)
+12-14 02:56:52.750 D/BootAnimation( 3968): BootAnimationShownTiming start time: 62589ms
+12-14 02:56:52.764 W/app_process( 3969): Unexpected CPU variant for X86 using defaults: x86
+12-14 02:56:52.778 D/gralloc_ranchu( 1397): gralloc_alloc: Creating ashmem region of size 8298496
+12-14 02:56:52.792 D/AndroidRuntime( 3969): Calling main entry com.android.commands.am.Am
+12-14 02:56:52.798 I/app_process( 3969): System.exit called, status: 1
+12-14 02:56:52.798 I/AndroidRuntime( 3969): VM exiting with result code 1.
