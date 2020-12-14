@@ -1,0 +1,1423 @@
+--------- beginning of main
+12-13 23:49:51.280 I/zygote  ( 2044): Do full code cache collection, code=125KB, data=84KB
+12-13 23:49:51.281 I/zygote  ( 2044): After code cache collection, code=117KB, data=71KB
+12-13 23:49:51.301 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:51.304 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:51.408 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:51.439 D/EGL_emulation( 2093): eglMakeCurrent: 0xa37fdc80: ver 3 0 (tinfo 0xa37ff5a0)
+12-13 23:49:51.531 E/hw-IPCThreadState( 1395): binder thread pool (1 threads) starved for 122 ms
+12-13 23:49:51.533 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:51.635 D/EGL_emulation( 2093): eglMakeCurrent: 0xa37fdc80: ver 3 0 (tinfo 0xa37ff5a0)
+12-13 23:49:51.636 E/hw-IPCThreadState( 1395): binder thread pool (1 threads) starved for 103 ms
+12-13 23:49:51.647 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:51.699 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:51.734 D/EGL_emulation( 2093): eglMakeCurrent: 0xa37fdc80: ver 3 0 (tinfo 0xa37ff5a0)
+12-13 23:49:51.742 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:51.784 D/EGL_emulation( 2044): eglMakeCurrent: 0xa5d849c0: ver 3 0 (tinfo 0xa5d83790)
+12-13 23:49:51.796 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+--------- beginning of system
+12-13 23:49:51.852 W/ActivityManager( 1627): Unable to start service Intent { act=com.google.android.gms.speech.service.START pkg=com.google.android.gms } U=0: not found
+12-13 23:49:51.860 W/ActivityManager( 1627): Unbind failed: could not find connection for android.os.BinderProxy@5c65b3f
+12-13 23:49:51.861 W/SessionLifecycleManager( 2093): Handover failed. Creating new session controller.
+12-13 23:49:51.869 I/OptInState( 2093): There is a new client and it does not support opt-in. Dropping request.
+12-13 23:49:51.884 E/GmsClient( 2093): unable to connect to service: com.google.android.gms.speech.service.START on com.google.android.gms
+12-13 23:49:51.891 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 23:49:51.952 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:51.969 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:51.983 I/MicroDetectionWorker( 2093): #updateMicroDetector [detectionMode: [mDetectionMode: [1]]]
+12-13 23:49:51.983 I/MicroDetectionWorker( 2093): #startMicroDetector [speakerMode: 0]
+12-13 23:49:51.984 I/AudioController( 2093): Using mInputStreamFactoryBuilder
+12-13 23:49:51.999 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.014 I/MicroRecognitionRunner( 2093): Starting detection.
+12-13 23:49:52.015 I/MicrophoneInputStream( 2093): mic_starting com.google.android.apps.gsa.staticplugins.aa.c@88cf732
+12-13 23:49:52.024 I/AudioFlinger( 1475): AudioFlinger's thread 0xace92b80 tid=4542 ready to run
+12-13 23:49:52.025 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.063 I/MicroDetectionWorker( 2093): onReady
+12-13 23:49:52.064 I/MicrophoneInputStream( 2093): mic_started com.google.android.apps.gsa.staticplugins.aa.c@88cf732
+12-13 23:49:52.065 E/ActivityThread( 2093): Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+12-13 23:49:52.067 I/MicroDetectionWorker( 2093): onReady
+12-13 23:49:52.068 I/MicrophoneInputStream( 2093): mic_close com.google.android.apps.gsa.staticplugins.aa.c@88cf732
+12-13 23:49:52.070 I/MicroRecognitionRunner( 2093): Detection finished
+12-13 23:49:52.073 W/ErrorReporter( 2093): reportError [type: 211, code: 524300]: Error reading from input stream
+12-13 23:49:52.078 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.088 I/MicroRecognitionRunner( 2093): Stopping hotword detection.
+12-13 23:49:52.089 W/ErrorProcessor( 2093): onFatalError, processing error from engine(4)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): com.google.android.apps.gsa.shared.speech.b.g: Error reading from input stream
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.staticplugins.recognizer.j.a.a(SourceFile:28)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.staticplugins.recognizer.j.b.run(SourceFile:15)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:14)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.shared.util.concurrent.a.bl.run(SourceFile:4)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.shared.util.concurrent.a.bl.run(SourceFile:4)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at java.lang.Thread.run(Thread.java:764)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.shared.util.concurrent.a.ai.run(SourceFile:6)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.speech.audio.Tee.f(SourceFile:103)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.speech.audio.au.read(SourceFile:2)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at java.io.InputStream.read(InputStream.java:101)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.speech.audio.ao.run(SourceFile:18)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	at com.google.android.apps.gsa.speech.audio.an.run(SourceFile:2)
+12-13 23:49:52.089 W/ErrorProcessor( 2093): 	... 9 more
+12-13 23:49:52.090 I/AudioController( 2093): internalShutdown
+12-13 23:49:52.090 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.103 I/MicroDetector( 2093): Keeping mic open: false
+12-13 23:49:52.104 I/MicroDetectionWorker( 2093): #onError(false)
+12-13 23:49:52.106 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.110 I/DeviceStateChecker( 2093): DeviceStateChecker cancelled
+12-13 23:49:52.123 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.132 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.137 I/zygote  ( 2093): Background concurrent copying GC freed 7418(508KB) AllocSpace objects, 7(188KB) LOS objects, 50% free, 4MB/8MB, paused 27.195ms total 115.572ms
+12-13 23:49:52.139 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.156 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:52.200 W/OpenGLRenderer( 2044): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-13 23:49:52.206 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:52.310 E/hw-IPCThreadState( 1395): binder thread pool (1 threads) starved for 103 ms
+12-13 23:49:52.314 I/zygote  ( 1730): NativeAllocBackground concurrent copying GC freed 11137(738KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4MB/9MB, paused 1.025ms total 362.010ms
+12-13 23:49:52.368 I/OpenGLRenderer( 1627): Initialized EGL, version 1.4
+12-13 23:49:52.368 D/OpenGLRenderer( 1627): Swap behavior 1
+12-13 23:49:52.368 W/OpenGLRenderer( 1627): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-13 23:49:52.368 D/OpenGLRenderer( 1627): Swap behavior 0
+12-13 23:49:52.372 D/EGL_emulation( 1627): eglCreateContext: 0xa5d2fd60: maj 3 min 0 rcv 3
+12-13 23:49:52.375 D/EGL_emulation( 1627): eglMakeCurrent: 0xa5d2fd60: ver 3 0 (tinfo 0x941caf20)
+12-13 23:49:52.378 E/eglCodecCommon( 1627): glUtilsParamSize: unknow param 0x00008cdf
+12-13 23:49:52.378 E/eglCodecCommon( 1627): glUtilsParamSize: unknow param 0x00008cdf
+12-13 23:49:52.379 E/eglCodecCommon( 1627): glUtilsParamSize: unknow param 0x00008824
+12-13 23:49:52.379 E/eglCodecCommon( 1627): glUtilsParamSize: unknow param 0x00008824
+12-13 23:49:52.391 W/OpenGLRenderer( 1627): glEGLImageTargetTexture2DOES failed (0x502)
+12-13 23:49:52.421 I/zygote  ( 1627): NativeAllocBackground concurrent copying GC freed 4030(575KB) AllocSpace objects, 2(40KB) LOS objects, 38% free, 9MB/15MB, paused 6.784ms total 62.987ms
+12-13 23:49:52.516 D/AndroidRuntime( 4537): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-13 23:49:52.558 W/app_process( 4537): Unexpected CPU variant for X86 using defaults: x86
+12-13 23:49:52.577 D/AndroidRuntime( 4537): Calling main entry com.android.commands.am.Am
+12-13 23:49:52.581 I/ActivityManager( 1627): Force stopping com.evancharlton.mileage appid=10188 user=0: start instr
+12-13 23:49:52.581 I/ActivityManager( 1627): Killing 4452:com.evancharlton.mileage/u0a188 (adj 0): stop com.evancharlton.mileage
+12-13 23:49:52.582 W/ActivityManager( 1627): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner}
+12-13 23:49:52.582 I/ActivityManager( 1627): Force stopping com.evancharlton.mileage appid=10188 user=0: finished inst
+12-13 23:49:52.594 I/ActivityManager( 1627): Start proc 4551:com.evancharlton.mileage/u0a188 for added application com.evancharlton.mileage
+12-13 23:49:52.595 D/AndroidRuntime( 4537): Shutting down VM
+12-13 23:49:52.598 I/zygote  ( 4551): Not late-enabling -Xcheck:jni (already on)
+12-13 23:49:52.606 W/zygote  ( 4551): Unexpected CPU variant for X86 using defaults: x86
+12-13 23:49:52.634 W/zygote  ( 4551): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-vQdPE9vukQnRnH3M6PXcug==/base.apk
+12-13 23:49:52.634 W/zygote  ( 4551): NOTE: This wastes RAM and hurts startup performance.
+12-13 23:49:52.634 W/zygote  ( 4551): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-vQdPE9vukQnRnH3M6PXcug==/base.apk and /system/framework/android.test.runner.jar
+12-13 23:49:52.634 W/zygote  ( 4551): 
+12-13 23:49:52.639 E/adbd    ( 1382): failed to connect to socket 'tcp:7102': Connection refused
+12-13 23:49:52.643 W/ActivityManager( 1627): setHasOverlayUi called on unknown pid: 4452
+12-13 23:49:52.645 E/adbd    ( 1382): failed to connect to socket 'tcp:7102': Connection refused
+12-13 23:49:52.677 W/System  ( 4551): ClassLoader referenced unknown path: 
+12-13 23:49:52.692 I/System.out( 4551): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+12-13 23:49:52.695 I/System.out( 4551): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+12-13 23:49:52.695 I/calabash( 4551): Test server port: 7102
+12-13 23:49:52.697 I/InstrumentationBackend( 4551): Added:'GetPreferences', with key:'get_preferences'
+12-13 23:49:52.762 E/adbd    ( 1382): failed to connect to socket 'tcp:7102': Connection refused
+12-13 23:49:52.764 E/adbd    ( 1382): failed to connect to socket 'tcp:7102': Connection refused
+12-13 23:49:52.775 I/InstrumentationBackend( 4551): Added:'SetPreferences', with key:'set_preferences'
+12-13 23:49:52.775 I/InstrumentationBackend( 4551): Added:'ClearPreferences', with key:'clear_preferences'
+12-13 23:49:52.775 I/InstrumentationBackend( 4551): Added:'PressElement', with key:'press_l10n_element'
+12-13 23:49:52.777 I/InstrumentationBackend( 4551): Added:'WaitForElement', with key:'wait_for_l10n_element'
+12-13 23:49:52.778 I/InstrumentationBackend( 4551): Added:'NullAction', with key:'nullAction'
+12-13 23:49:52.778 I/InstrumentationBackend( 4551): Added:'PressKey', with key:'press_key'
+12-13 23:49:52.779 I/InstrumentationBackend( 4551): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+12-13 23:49:52.779 I/InstrumentationBackend( 4551): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+12-13 23:49:52.780 I/InstrumentationBackend( 4551): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+12-13 23:49:52.780 I/InstrumentationBackend( 4551): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+12-13 23:49:52.783 I/InstrumentationBackend( 4551): Added:'GetUrl', with key:'get_url'
+12-13 23:49:52.785 I/InstrumentationBackend( 4551): Added:'ScrollTo', with key:'scroll_to'
+12-13 23:49:52.786 I/InstrumentationBackend( 4551): Added:'GetLoadProgress', with key:'get_load_progress'
+12-13 23:49:52.786 I/InstrumentationBackend( 4551): Added:'DumpHtml', with key:'dump_html'
+12-13 23:49:52.787 I/InstrumentationBackend( 4551): Added:'DumpBodyHtml', with key:'dump_body_html'
+12-13 23:49:52.787 I/InstrumentationBackend( 4551): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+12-13 23:49:52.791 I/InstrumentationBackend( 4551): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+12-13 23:49:52.792 I/InstrumentationBackend( 4551): Added:'Version', with key:'version'
+12-13 23:49:52.794 I/InstrumentationBackend( 4551): Added:'Drag', with key:'drag'
+12-13 23:49:52.795 I/InstrumentationBackend( 4551): Added:'TouchCoordinates', with key:'touch_coordinate'
+12-13 23:49:52.795 I/InstrumentationBackend( 4551): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+12-13 23:49:52.795 I/InstrumentationBackend( 4551): Added:'DragCoordinates', with key:'drag_coordinates'
+12-13 23:49:52.796 I/InstrumentationBackend( 4551): Added:'ResumeApplication', with key:'resume_application'
+12-13 23:49:52.796 I/InstrumentationBackend( 4551): Added:'Swipe', with key:'swipe'
+12-13 23:49:52.796 I/InstrumentationBackend( 4551): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+12-13 23:49:52.797 I/InstrumentationBackend( 4551): Added:'ClickOnScreen', with key:'click_on_screen'
+12-13 23:49:52.798 I/InstrumentationBackend( 4551): Added:'GetActivityName', with key:'get_activity_name'
+12-13 23:49:52.798 I/InstrumentationBackend( 4551): Added:'ScrollToView', with key:'scroll_to_view'
+12-13 23:49:52.799 I/InstrumentationBackend( 4551): Added:'ViewConfiguration', with key:'view_configuration'
+12-13 23:49:52.799 I/InstrumentationBackend( 4551): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+12-13 23:49:52.799 I/InstrumentationBackend( 4551): Added:'SendTcp', with key:'send_tcp'
+12-13 23:49:52.800 I/InstrumentationBackend( 4551): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+12-13 23:49:52.801 I/InstrumentationBackend( 4551): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+12-13 23:49:52.802 I/InstrumentationBackend( 4551): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+12-13 23:49:52.802 I/InstrumentationBackend( 4551): Added:'SetComposingRegion', with key:'set_composing_region'
+12-13 23:49:52.803 I/InstrumentationBackend( 4551): Added:'SetSelection', with key:'set_selection'
+12-13 23:49:52.803 I/InstrumentationBackend( 4551): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+12-13 23:49:52.804 I/InstrumentationBackend( 4551): Added:'PressUserActionButton', with key:'press_user_action_button'
+12-13 23:49:52.804 I/InstrumentationBackend( 4551): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+12-13 23:49:52.806 I/InstrumentationBackend( 4551): Added:'ListActions', with key:'list_actions'
+12-13 23:49:52.806 I/calabash( 4551): Instantiating http server at 7102
+12-13 23:49:52.807 I/System.out( 4551): HTTP Daemon listening on: 7102
+12-13 23:49:52.889 I/System.out( 4551): URI: //ping
+12-13 23:49:52.890 I/System.out( 4551): params: {json={}
+12-13 23:49:52.890 I/System.out( 4551): }
+12-13 23:49:52.905 I/System.out( 4551): URI: //ping
+12-13 23:49:52.905 I/System.out( 4551): params: {json={}
+12-13 23:49:52.905 I/System.out( 4551): }
+12-13 23:49:52.914 I/System.out( 4551): URI: //ready
+12-13 23:49:52.914 I/System.out( 4551): params: {json={}
+12-13 23:49:52.914 I/System.out( 4551): }
+12-13 23:49:52.922 I/System.out( 4551): URI: //
+12-13 23:49:52.922 I/System.out( 4551): params: {json={"command":"version","arguments":[]}
+12-13 23:49:52.923 I/System.out( 4551): }
+12-13 23:49:52.923 I/System.out( 4551): header: {content-type=application/json;charset=utf-8, date=Mon, 14 Dec 2020 04:49:53 GMT, accept=*/*, host=127.0.0.1:34777, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.8 (2020-03-31))}
+12-13 23:49:52.923 I/System.out( 4551): params: {json={"command":"version","arguments":[]}
+12-13 23:49:52.923 I/System.out( 4551): }
+12-13 23:49:52.923 I/System.out( 4551): ProP json = {"command":"version","arguments":[]}
+12-13 23:49:52.923 I/System.out( 4551): files: {}
+12-13 23:49:52.923 I/System.out( 4551): command: {"command":"version","arguments":[]}
+12-13 23:49:52.957 I/InstrumentationBackend( 4551): Got command:'Command:'Line:null,version', arguments:'[]'
+12-13 23:49:52.994 I/System.out( 4551): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+12-13 23:49:53.000 I/System.out( 4551): URI: //start-application
+12-13 23:49:53.000 I/System.out( 4551): params: {json={"intent":null}
+12-13 23:49:53.000 I/System.out( 4551): }
+12-13 23:49:53.041 I/ActivityManager( 1627): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 10188
+12-13 23:49:53.064 I/calabash( 4551): newActivity1
+12-13 23:49:53.070 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 23:49:53.158 I/zygote  ( 1627): NativeAllocBackground concurrent copying GC freed 1362(423KB) AllocSpace objects, 0(0B) LOS objects, 37% free, 9MB/15MB, paused 684us total 111.978ms
+12-13 23:49:53.167 E/ContentStoreEUAS( 2093): Failed to commit the deferred actions
+12-13 23:49:53.173 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@180224b
+12-13 23:49:53.173 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:53.173 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:53.173 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:53.173 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:49:53.173 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 23:49:53.173 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 23:49:53.173 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:53.173 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:53.174 I/calabash( 4551): newActivity1
+12-13 23:49:53.181 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@180224b
+12-13 23:49:53.181 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:53.181 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:53.181 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:53.181 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 23:49:53.181 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 23:49:53.181 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:53.181 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:53.183 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@180224b
+12-13 23:49:53.183 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:53.183 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:53.183 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:53.183 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:49:53.183 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 23:49:53.183 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 23:49:53.183 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:53.183 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:53.199 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.201 D/EGL_emulation( 2093): eglMakeCurrent: 0xa37fdc80: ver 3 0 (tinfo 0xa37ff5a0)
+12-13 23:49:53.208 D/EGL_emulation( 2044): eglMakeCurrent: 0xa5d849c0: ver 3 0 (tinfo 0xa5d83790)
+12-13 23:49:53.219 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:53.220 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.237 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:53.281 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@180224b
+12-13 23:49:53.281 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:53.281 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:53.281 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:53.281 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:49:53.281 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:49:53.281 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:53.281 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:53.282 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@180224b
+12-13 23:49:53.282 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:53.282 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:53.282 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:53.282 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:49:53.282 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:49:53.282 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:53.282 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:53.366 I/chatty  ( 1730): uid=10028(u0_a28) RenderThread identical 14 lines
+12-13 23:49:53.374 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:53.375 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.383 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:53.402 I/chatty  ( 1730): uid=10028(u0_a28) RenderThread identical 2 lines
+12-13 23:49:53.407 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:53.417 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.423 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:49:53.428 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.473 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 23:49:53.474 I/zygote  ( 4551): Do partial code cache collection, code=26KB, data=30KB
+12-13 23:49:53.479 I/zygote  ( 4551): After code cache collection, code=26KB, data=30KB
+12-13 23:49:53.479 I/zygote  ( 4551): Increasing code cache capacity to 128KB
+12-13 23:49:53.480 I/zygote  ( 4551): Do partial code cache collection, code=26KB, data=48KB
+12-13 23:49:53.480 I/zygote  ( 4551): After code cache collection, code=26KB, data=48KB
+12-13 23:49:53.480 I/zygote  ( 4551): Increasing code cache capacity to 256KB
+12-13 23:49:53.480 I/zygote  ( 4551): JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-13 23:49:53.480 I/zygote  ( 4551): Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-13 23:49:53.520 D/        ( 4551): HostConnection::get() New Host Connection established 0xa342fd40, tid 4551
+12-13 23:49:53.587 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.588 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.594 I/ActivityManager( 1627): Displayed com.evancharlton.mileage/.Mileage: +537ms
+12-13 23:49:53.602 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.604 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 23:49:53.605 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.627 I/chatty  ( 1627): uid=1000(system) RenderThread identical 49 lines
+12-13 23:49:53.627 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.627 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.628 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.797 I/chatty  ( 1627): uid=1000(system) RenderThread identical 468 lines
+12-13 23:49:53.798 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.798 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.798 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.831 I/chatty  ( 1627): uid=1000(system) RenderThread identical 112 lines
+12-13 23:49:53.832 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.832 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.833 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.884 I/chatty  ( 1627): uid=1000(system) RenderThread identical 165 lines
+12-13 23:49:53.884 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.884 I/System.out( 4551): URI: //gesture
+12-13 23:49:53.884 I/System.out( 4551): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:1","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-13 23:49:53.884 I/System.out( 4551): }
+12-13 23:49:53.884 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.919 I/chatty  ( 1627): uid=1000(system) RenderThread identical 127 lines
+12-13 23:49:53.919 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.921 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.922 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.922 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.938 I/chatty  ( 1627): uid=1000(system) RenderThread identical 42 lines
+12-13 23:49:53.938 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.939 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:49:53.940 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.955 I/chatty  ( 1627): uid=1000(system) RenderThread identical 46 lines
+12-13 23:49:53.955 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.955 W/SurfaceFlinger( 1410): couldn't log to binary event log: overflow.
+12-13 23:49:53.956 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:53.956 W/SurfaceFlinger( 1410): couldn't log to binary event log: overflow.
+12-13 23:49:53.956 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.018 I/chatty  ( 1627): uid=1000(system) RenderThread identical 228 lines
+12-13 23:49:54.018 I/zygote  ( 4551): Do full code cache collection, code=124KB, data=74KB
+12-13 23:49:54.019 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.019 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.021 I/chatty  ( 1627): uid=1000(system) RenderThread identical 6 lines
+12-13 23:49:54.021 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.021 I/zygote  ( 4551): After code cache collection, code=114KB, data=48KB
+12-13 23:49:54.021 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.031 I/chatty  ( 1627): uid=1000(system) RenderThread identical 34 lines
+12-13 23:49:54.032 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.033 I/PBSessionCacheImpl( 2093): Deleted sessionId[3383333573983] from persistence.
+12-13 23:49:54.033 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.079 I/chatty  ( 1627): uid=1000(system) RenderThread identical 137 lines
+12-13 23:49:54.080 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.081 W/SearchService( 2093): Abort, client detached.
+12-13 23:49:54.083 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.122 I/chatty  ( 1627): uid=1000(system) RenderThread identical 110 lines
+12-13 23:49:54.123 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.124 I/zygote  ( 2093): Do full code cache collection, code=507KB, data=352KB
+12-13 23:49:54.124 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.124 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1 line
+12-13 23:49:54.125 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.125 I/zygote  ( 2093): After code cache collection, code=501KB, data=315KB
+12-13 23:49:54.125 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.310 I/chatty  ( 1627): uid=1000(system) RenderThread identical 578 lines
+12-13 23:49:54.310 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.316 W/audio_hw_generic( 1389): Not supplying enough data to HAL, expected position 596972 , only wrote 596880
+12-13 23:49:54.319 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@6b7f6ed
+12-13 23:49:54.319 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:54.319 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:54.319 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:54.319 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:49:54.319 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 23:49:54.319 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 23:49:54.319 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:54.319 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:54.322 I/calabash( 4551): newActivity1
+12-13 23:49:54.324 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@6b7f6ed
+12-13 23:49:54.324 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:54.324 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:54.324 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:54.324 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 23:49:54.324 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 23:49:54.324 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:54.324 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:54.325 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@6b7f6ed
+12-13 23:49:54.325 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:54.325 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:54.325 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:54.325 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:49:54.325 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 23:49:54.325 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 23:49:54.325 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:54.325 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:54.326 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.412 I/chatty  ( 1627): uid=1000(system) RenderThread identical 250 lines
+12-13 23:49:54.412 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.413 E/memtrack( 1627): Couldn't load memtrack module
+12-13 23:49:54.413 W/android.os.Debug( 1627): failed to get memory consumption info: -1
+12-13 23:49:54.414 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@6b7f6ed
+12-13 23:49:54.414 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:54.414 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.414 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@6b7f6ed
+12-13 23:49:54.414 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:54.414 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:54.458 I/chatty  ( 1627): uid=1000(system) RenderThread identical 112 lines
+12-13 23:49:54.459 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.459 I/zygote  ( 4551): Background concurrent copying GC freed 25686(1120KB) AllocSpace objects, 4(80KB) LOS objects, 50% free, 1873KB/3MB, paused 1.038ms total 132.178ms
+12-13 23:49:54.459 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.527 I/chatty  ( 1627): uid=1000(system) RenderThread identical 189 lines
+12-13 23:49:54.527 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.527 D/Mileage ( 4551): Not enough fillups to calculate economy
+12-13 23:49:54.527 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.564 I/chatty  ( 1627): uid=1000(system) RenderThread identical 72 lines
+12-13 23:49:54.565 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.565 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 23:49:54.566 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.580 I/chatty  ( 1627): uid=1000(system) RenderThread identical 31 lines
+12-13 23:49:54.580 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.580 I/zygote  ( 4551): Do partial code cache collection, code=122KB, data=66KB
+12-13 23:49:54.580 I/zygote  ( 4551): After code cache collection, code=122KB, data=66KB
+12-13 23:49:54.580 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.580 I/zygote  ( 4551): Increasing code cache capacity to 512KB
+12-13 23:49:54.581 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.974 I/chatty  ( 1627): uid=1000(system) RenderThread identical 886 lines
+12-13 23:49:54.975 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.975 E/SurfaceFlinger( 1410): ro.sf.lcd_density must be defined as a build property
+12-13 23:49:54.975 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.987 I/chatty  ( 1627): uid=1000(system) RenderThread identical 39 lines
+12-13 23:49:54.987 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.987 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:54.987 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.998 I/chatty  ( 1627): uid=1000(system) RenderThread identical 35 lines
+12-13 23:49:54.998 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:54.998 D/        ( 4594): HostConnection::get() New Host Connection established 0xaca2f800, tid 4594
+12-13 23:49:54.999 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:55.549 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1136 lines
+12-13 23:49:55.549 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:55.549 I/System.out( 4551): URI: //gesture
+12-13 23:49:55.549 I/System.out( 4551): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:3","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-13 23:49:55.549 I/System.out( 4551): }
+12-13 23:49:55.549 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:55.996 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@a667821
+12-13 23:49:55.996 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:55.996 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:55.996 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:55.996 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:49:55.996 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 23:49:55.996 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 23:49:55.996 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:55.996 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:55.997 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1092 lines
+12-13 23:49:55.998 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:55.999 I/calabash( 4551): newActivity1
+12-13 23:49:55.999 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:56.003 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@a667821
+12-13 23:49:56.003 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:56.003 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:56.003 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:56.003 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 23:49:56.003 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 23:49:56.003 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:56.003 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:56.004 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@a667821
+12-13 23:49:56.004 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:56.004 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:56.004 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:56.004 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:49:56.004 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 23:49:56.004 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 23:49:56.004 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:56.004 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:56.012 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@a667821
+12-13 23:49:56.012 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:56.012 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@a667821
+12-13 23:49:56.012 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:56.012 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:56.224 E/TaskPersister( 1627): File error accessing recents directory (directory doesn't exist?).
+12-13 23:49:56.387 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1169 lines
+12-13 23:49:56.387 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:56.388 E/SurfaceFlinger( 1410): ro.sf.lcd_density must be defined as a build property
+12-13 23:49:56.389 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:56.403 I/chatty  ( 1627): uid=1000(system) RenderThread identical 52 lines
+12-13 23:49:56.403 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:56.404 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:56.404 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:56.420 I/chatty  ( 1627): uid=1000(system) RenderThread identical 25 lines
+12-13 23:49:56.420 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:56.422 D/        ( 4600): HostConnection::get() New Host Connection established 0xb572f800, tid 4600
+12-13 23:49:56.422 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:56.943 I/chatty  ( 1627): uid=1000(system) RenderThread identical 745 lines
+12-13 23:49:56.944 I/System.out( 4551): URI: //gesture
+12-13 23:49:56.944 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:56.944 I/System.out( 4551): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:2","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-13 23:49:56.944 I/System.out( 4551): }
+12-13 23:49:56.944 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.433 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1040 lines
+12-13 23:49:57.433 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.437 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@5756ea0
+12-13 23:49:57.437 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:57.437 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:57.437 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:57.437 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:49:57.437 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 23:49:57.437 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 23:49:57.437 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:57.437 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:57.438 I/calabash( 4551): newActivity1
+12-13 23:49:57.438 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.532 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@5756ea0
+12-13 23:49:57.532 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:57.532 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@5756ea0
+12-13 23:49:57.532 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:57.532 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:57.565 E/BatteryStatsService( 1627): modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+12-13 23:49:57.595 I/chatty  ( 1627): uid=1000(system) RenderThread identical 237 lines
+12-13 23:49:57.595 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.595 D/VehicleStatisticsActivity( 4551): Checking recalculation ...
+12-13 23:49:57.596 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.599 I/chatty  ( 1627): uid=1000(system) RenderThread identical 9 lines
+12-13 23:49:57.600 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.600 D/VehicleStatisticsActivity( 4551): Recalculating statistics
+12-13 23:49:57.600 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.600 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.601 D/VehicleStatisticsTask( 4551): Calculation starting...
+12-13 23:49:57.601 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.601 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1 line
+12-13 23:49:57.601 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.601 D/VehicleStatisticsActivity( 4551): Recalculation started!
+12-13 23:49:57.602 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.608 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@5756ea0
+12-13 23:49:57.608 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:57.608 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:57.608 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:57.608 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:49:57.608 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:49:57.608 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:57.608 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:57.613 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@5756ea0
+12-13 23:49:57.613 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:49:57.613 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:49:57.613 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:49:57.613 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:49:57.613 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:49:57.613 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:57.613 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:57.621 I/chatty  ( 1627): uid=1000(system) RenderThread identical 44 lines
+12-13 23:49:57.622 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.624 D/VehicleStatisticsActivity( 4551): Checking recalculation ...
+12-13 23:49:57.624 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.628 I/chatty  ( 1627): uid=1000(system) RenderThread identical 9 lines
+12-13 23:49:57.628 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.628 D/VehicleStatisticsActivity( 4551): Recalculating statistics
+12-13 23:49:57.628 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.628 D/VehicleStatisticsTask( 4551): Calculation starting...
+12-13 23:49:57.629 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.629 D/VehicleStatisticsActivity( 4551): Recalculation started!
+12-13 23:49:57.629 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.671 I/chatty  ( 1627): uid=1000(system) RenderThread identical 96 lines
+12-13 23:49:57.672 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.672 I/zygote  ( 4551): Waiting for a blocking GC ProfileSaver
+12-13 23:49:57.674 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.678 I/chatty  ( 1627): uid=1000(system) RenderThread identical 9 lines
+12-13 23:49:57.678 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.679 D/VehicleStatisticsTask( 4551): Not enough fillups to calculate statistics
+12-13 23:49:57.679 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.693 I/chatty  ( 1627): uid=1000(system) RenderThread identical 31 lines
+12-13 23:49:57.694 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.694 D/VehicleStatisticsTask( 4551): Not enough fillups to calculate statistics
+12-13 23:49:57.695 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.715 I/chatty  ( 1627): uid=1000(system) RenderThread identical 40 lines
+12-13 23:49:57.715 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.715 I/zygote  ( 4551): Background concurrent copying GC freed 36095(1337KB) AllocSpace objects, 3(60KB) LOS objects, 49% free, 1710KB/3MB, paused 3.603ms total 109.767ms
+12-13 23:49:57.715 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.715 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.716 I/zygote  ( 4551): WaitForGcToComplete blocked for 43.543ms for cause ProfileSaver
+12-13 23:49:57.721 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.964 I/chatty  ( 1627): uid=1000(system) RenderThread identical 478 lines
+12-13 23:49:57.964 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.965 D/VehicleStatisticsTask( 4551): Done recalculating!
+12-13 23:49:57.965 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.968 I/chatty  ( 1627): uid=1000(system) RenderThread identical 9 lines
+12-13 23:49:57.968 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:57.968 D/VehicleStatisticsTask( 4551): Done recalculating!
+12-13 23:49:57.969 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.010 I/chatty  ( 1627): uid=1000(system) RenderThread identical 132 lines
+12-13 23:49:58.011 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.011 D/VehicleStatisticsAdapter( 4551): Erasing the cache ...
+12-13 23:49:58.011 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.013 I/chatty  ( 1627): uid=1000(system) RenderThread identical 6 lines
+12-13 23:49:58.013 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.013 D/VehicleStatisticsAdapter( 4551): Erasing the cache ...
+12-13 23:49:58.013 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.018 I/chatty  ( 1627): uid=1000(system) RenderThread identical 5 lines
+12-13 23:49:58.019 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.019 D/VehicleStatisticsAdapter( 4551): Building new values ...
+12-13 23:49:58.019 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.019 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1 line
+12-13 23:49:58.020 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.020 D/VehicleStatisticsAdapter( 4551): Writing 29 records to the database ...
+12-13 23:49:58.020 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.021 I/chatty  ( 1627): uid=1000(system) RenderThread identical 3 lines
+12-13 23:49:58.022 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.023 D/VehicleStatisticsAdapter( 4551): Building new values ...
+12-13 23:49:58.025 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.033 I/chatty  ( 1627): uid=1000(system) RenderThread identical 18 lines
+12-13 23:49:58.033 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.034 D/Mileage.ABS( 4551): Finished backup
+12-13 23:49:58.034 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.036 I/chatty  ( 1627): uid=1000(system) RenderThread identical 2 lines
+12-13 23:49:58.037 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.037 D/VehicleStatisticsAdapter( 4551): Writing 29 records to the database ...
+12-13 23:49:58.037 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.037 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1 line
+12-13 23:49:58.037 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.039 D/Mileage.ABS( 4551): Not backing up; 28
+12-13 23:49:58.040 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.040 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.041 E/SurfaceFlinger( 1410): ro.sf.lcd_density must be defined as a build property
+12-13 23:49:58.042 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.043 I/zygote  ( 4551): Do full code cache collection, code=229KB, data=154KB
+12-13 23:49:58.043 I/zygote  ( 4551): After code cache collection, code=229KB, data=129KB
+12-13 23:49:58.047 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.129 I/chatty  ( 1627): uid=1000(system) RenderThread identical 192 lines
+12-13 23:49:58.129 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.130 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:49:58.130 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.141 I/chatty  ( 1627): uid=1000(system) RenderThread identical 27 lines
+12-13 23:49:58.141 D/        ( 4607): HostConnection::get() New Host Connection established 0xa66af800, tid 4607
+12-13 23:49:58.141 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.141 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.164 I/chatty  ( 1627): uid=1000(system) RenderThread identical 54 lines
+12-13 23:49:58.165 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.166 D/Mileage.ABS( 4551): Not backing up; 155
+12-13 23:49:58.166 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.167 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.168 D/Mileage.ABS( 4551): Not backing up; 157
+12-13 23:49:58.168 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.169 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.169 D/Mileage.ABS( 4551): Not backing up; 158
+12-13 23:49:58.169 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.170 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1 line
+12-13 23:49:58.171 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.171 D/Mileage.ABS( 4551): Not backing up; 160
+12-13 23:49:58.172 D/Mileage.ABS( 4551): Not backing up; 161
+12-13 23:49:58.174 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.180 I/chatty  ( 1627): uid=1000(system) RenderThread identical 4 lines
+12-13 23:49:58.180 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.181 D/Mileage.ABS( 4551): Not backing up; 170
+12-13 23:49:58.187 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.246 I/chatty  ( 1627): uid=1000(system) RenderThread identical 83 lines
+12-13 23:49:58.246 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.246 D/Mileage.ABS( 4551): Not backing up; 235
+12-13 23:49:58.246 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.253 I/chatty  ( 1627): uid=1000(system) RenderThread identical 8 lines
+12-13 23:49:58.253 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.253 D/Mileage.ABS( 4551): Not backing up; 242
+12-13 23:49:58.254 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.254 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.258 D/Mileage.ABS( 4551): Not backing up; 247
+12-13 23:49:58.259 I/chatty  ( 1627): uid=1000(system) RenderThread expire 4 lines
+12-13 23:49:58.260 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.261 D/Mileage.ABS( 4551): Not backing up; 250
+12-13 23:49:58.261 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.267 I/chatty  ( 1627): uid=1000(system) RenderThread identical 6 lines
+12-13 23:49:58.271 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.273 D/Mileage.ABS( 4551): Not backing up; 262
+12-13 23:49:58.273 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.293 I/chatty  ( 1627): uid=1000(system) RenderThread identical 6 lines
+12-13 23:49:58.294 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.296 D/Mileage.ABS( 4551): Not backing up; 285
+12-13 23:49:58.297 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.297 I/chatty  ( 1627): uid=1000(system) RenderThread identical 3 lines
+12-13 23:49:58.300 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.301 D/Mileage.ABS( 4551): Not backing up; 290
+12-13 23:49:58.301 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.316 I/chatty  ( 1627): uid=1000(system) RenderThread identical 11 lines
+12-13 23:49:58.317 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.318 D/Mileage.ABS( 4551): Not backing up; 306
+12-13 23:49:58.318 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.318 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.319 D/Mileage.ABS( 4551): Not backing up; 308
+12-13 23:49:58.319 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.352 I/chatty  ( 1627): uid=1000(system) RenderThread identical 37 lines
+12-13 23:49:58.352 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.352 D/Mileage.ABS( 4551): Not backing up; 341
+12-13 23:49:58.353 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.356 I/chatty  ( 1627): uid=1000(system) RenderThread identical 4 lines
+12-13 23:49:58.356 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.356 D/Mileage.ABS( 4551): Not backing up; 345
+12-13 23:49:58.357 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.384 I/chatty  ( 1627): uid=1000(system) RenderThread identical 41 lines
+12-13 23:49:58.389 D/Mileage.ABS( 4551): Not backing up; 378
+12-13 23:49:58.389 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.390 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.394 D/Mileage.ABS( 4551): Not backing up; 382
+12-13 23:49:58.395 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.411 I/chatty  ( 1627): uid=1000(system) RenderThread identical 17 lines
+12-13 23:49:58.412 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.417 D/Mileage.ABS( 4551): Not backing up; 406
+12-13 23:49:58.418 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.419 I/chatty  ( 1627): uid=1000(system) RenderThread identical 4 lines
+12-13 23:49:58.420 D/Mileage.ABS( 4551): Not backing up; 409
+12-13 23:49:58.420 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.421 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.449 I/chatty  ( 1627): uid=1000(system) RenderThread identical 40 lines
+12-13 23:49:58.450 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.451 D/Mileage.ABS( 4551): Not backing up; 440
+12-13 23:49:58.452 D/Mileage.ABS( 4551): Not backing up; 441
+12-13 23:49:58.453 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.483 I/chatty  ( 1627): uid=1000(system) RenderThread identical 23 lines
+12-13 23:49:58.484 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.485 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.486 D/Mileage.ABS( 4551): Not backing up; 475
+12-13 23:49:58.486 I/chatty  ( 1627): uid=1000(system) RenderThread expire 2 lines
+12-13 23:49:58.487 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.492 D/Mileage.ABS( 4551): Not backing up; 481
+12-13 23:49:58.494 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.510 I/chatty  ( 1627): uid=1000(system) RenderThread identical 12 lines
+12-13 23:49:58.510 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.512 D/Mileage.ABS( 4551): Not backing up; 501
+12-13 23:49:58.512 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.513 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1 line
+12-13 23:49:58.514 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.514 D/Mileage.ABS( 4551): Not backing up; 503
+12-13 23:49:58.515 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.517 I/chatty  ( 1627): uid=1000(system) RenderThread identical 3 lines
+12-13 23:49:58.517 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.518 D/Mileage.ABS( 4551): Not backing up; 507
+12-13 23:49:58.519 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.541 I/chatty  ( 1627): uid=1000(system) RenderThread identical 14 lines
+12-13 23:49:58.543 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.545 D/Mileage.ABS( 4551): Not backing up; 534
+12-13 23:49:58.546 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.550 I/chatty  ( 1627): uid=1000(system) RenderThread identical 3 lines
+12-13 23:49:58.554 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.558 D/Mileage.ABS( 4551): Not backing up; 547
+12-13 23:49:58.558 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.559 I/chatty  ( 1627): uid=1000(system) RenderThread identical 2 lines
+12-13 23:49:58.559 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.561 D/Mileage.ABS( 4551): Not backing up; 550
+12-13 23:49:58.563 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.594 I/chatty  ( 1627): uid=1000(system) RenderThread identical 9 lines
+12-13 23:49:58.594 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.595 D/Mileage.ABS( 4551): Not backing up; 584
+12-13 23:49:58.596 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.597 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.598 D/Mileage.ABS( 4551): Not backing up; 587
+12-13 23:49:58.598 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.600 I/chatty  ( 1627): uid=1000(system) RenderThread identical 2 lines
+12-13 23:49:58.601 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.601 D/Mileage.ABS( 4551): Not backing up; 590
+12-13 23:49:58.601 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.642 I/chatty  ( 1627): uid=1000(system) RenderThread identical 67 lines
+12-13 23:49:58.643 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.644 D/Mileage.ABS( 4551): Not backing up; 632
+12-13 23:49:58.644 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.675 I/chatty  ( 1627): uid=1000(system) RenderThread identical 45 lines
+12-13 23:49:58.676 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.676 D/Mileage.ABS( 4551): Not backing up; 652
+12-13 23:49:58.676 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.678 I/chatty  ( 1627): uid=1000(system) RenderThread identical 4 lines
+12-13 23:49:58.679 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.679 D/Mileage.ABS( 4551): Not backing up; 668
+12-13 23:49:58.679 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.686 I/chatty  ( 1627): uid=1000(system) RenderThread identical 11 lines
+12-13 23:49:58.686 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.686 D/Mileage.ABS( 4551): Not backing up; 674
+12-13 23:49:58.686 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.701 I/chatty  ( 1627): uid=1000(system) RenderThread identical 30 lines
+12-13 23:49:58.701 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.701 D/Mileage.ABS( 4551): Not backing up; 690
+12-13 23:49:58.701 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.708 I/chatty  ( 1627): uid=1000(system) RenderThread identical 4 lines
+12-13 23:49:58.709 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.710 I/zygote  ( 4551): Do partial code cache collection, code=248KB, data=139KB
+12-13 23:49:58.710 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.715 I/chatty  ( 1627): uid=1000(system) RenderThread identical 3 lines
+12-13 23:49:58.716 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.719 I/zygote  ( 4551): After code cache collection, code=248KB, data=140KB
+12-13 23:49:58.719 I/zygote  ( 4551): Increasing code cache capacity to 1024KB
+12-13 23:49:58.719 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.734 I/chatty  ( 1627): uid=1000(system) RenderThread identical 23 lines
+12-13 23:49:58.736 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.736 D/Mileage.ABS( 4551): Not backing up; 725
+12-13 23:49:58.736 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.739 I/chatty  ( 1627): uid=1000(system) RenderThread identical 5 lines
+12-13 23:49:58.739 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.740 D/Mileage.ABS( 4551): Not backing up; 729
+12-13 23:49:58.740 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.765 I/chatty  ( 1627): uid=1000(system) RenderThread identical 63 lines
+12-13 23:49:58.766 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.766 D/Mileage.ABS( 4551): Not backing up; 754
+12-13 23:49:58.766 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.783 I/chatty  ( 1627): uid=1000(system) RenderThread identical 29 lines
+12-13 23:49:58.784 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.786 D/Mileage.ABS( 4551): Not backing up; 775
+12-13 23:49:58.799 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.821 I/chatty  ( 1627): uid=1000(system) RenderThread identical 19 lines
+12-13 23:49:58.824 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.825 D/Mileage.ABS( 4551): Not backing up; 814
+12-13 23:49:58.825 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.851 I/chatty  ( 1627): uid=1000(system) RenderThread identical 32 lines
+12-13 23:49:58.851 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.851 D/Mileage.ABS( 4551): Not backing up; 840
+12-13 23:49:58.851 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.869 I/chatty  ( 1627): uid=1000(system) RenderThread identical 34 lines
+12-13 23:49:58.869 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.870 D/Mileage.ABS( 4551): Not backing up; 859
+12-13 23:49:58.873 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.895 I/chatty  ( 1627): uid=1000(system) RenderThread identical 44 lines
+12-13 23:49:58.896 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.896 D/Mileage.ABS( 4551): Not backing up; 884
+12-13 23:49:58.896 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.896 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1 line
+12-13 23:49:58.897 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.897 D/Mileage.ABS( 4551): Not backing up; 886
+12-13 23:49:58.897 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.917 I/chatty  ( 1627): uid=1000(system) RenderThread identical 34 lines
+12-13 23:49:58.918 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.918 D/Mileage.ABS( 4551): Not backing up; 906
+12-13 23:49:58.919 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.959 I/chatty  ( 1627): uid=1000(system) RenderThread identical 45 lines
+12-13 23:49:58.959 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.962 D/Mileage.ABS( 4551): Not backing up; 951
+12-13 23:49:58.963 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.975 D/Mileage.ABS( 4551): Not backing up; 962
+12-13 23:49:58.975 I/chatty  ( 1627): uid=1000(system) RenderThread expire 8 lines
+12-13 23:49:58.975 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.981 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.983 D/Mileage.ABS( 4551): Not backing up; 970
+12-13 23:49:58.986 I/chatty  ( 1627): uid=1000(system) RenderThread expire 4 lines
+12-13 23:49:58.986 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.988 I/System.out( 4551): URI: //gesture
+12-13 23:49:58.989 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.989 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.991 I/System.out( 4551): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:0","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-13 23:49:58.991 I/System.out( 4551): }
+12-13 23:49:58.991 D/Mileage.ABS( 4551): Not backing up; 980
+12-13 23:49:58.992 D/Mileage.ABS( 4551): Not backing up; 981
+12-13 23:49:58.993 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.994 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:58.994 D/Mileage.ABS( 4551): Not backing up; 983
+12-13 23:49:58.994 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.002 I/chatty  ( 1627): uid=1000(system) RenderThread identical 18 lines
+12-13 23:49:59.002 D/VehicleStatisticsAdapter( 4551): Caching of 29 records complete! (0.982 seconds)
+12-13 23:49:59.002 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.003 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.004 I/chatty  ( 1627): uid=1000(system) RenderThread identical 3 lines
+12-13 23:49:59.006 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.006 D/Mileage.ABS( 4551): Not backing up; 995
+12-13 23:49:59.006 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.048 I/chatty  ( 1627): uid=1000(system) RenderThread identical 96 lines
+12-13 23:49:59.049 D/Mileage.ABS( 4551): Finished backup
+12-13 23:49:59.049 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.049 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.052 I/chatty  ( 1627): uid=1000(system) RenderThread identical 5 lines
+12-13 23:49:59.052 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.052 D/Mileage.ABS( 4551): Not backing up; 34
+12-13 23:49:59.053 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.054 I/chatty  ( 1627): uid=1000(system) RenderThread identical 3 lines
+12-13 23:49:59.056 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.056 D/Mileage.ABS( 4551): Not backing up; 38
+12-13 23:49:59.057 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.061 I/chatty  ( 1627): uid=1000(system) RenderThread identical 11 lines
+12-13 23:49:59.062 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.063 D/VehicleStatisticsAdapter( 4551): Caching of 29 records complete! (1.026 seconds)
+12-13 23:49:59.063 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.067 I/chatty  ( 1627): uid=1000(system) RenderThread identical 7 lines
+12-13 23:49:59.068 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.068 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.068 D/Mileage.ABS( 4551): Not backing up; 50
+12-13 23:49:59.098 I/chatty  ( 1627): uid=1000(system) RenderThread expire 57 lines
+12-13 23:49:59.098 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.098 I/EventLogSendingHelper( 2093): Sending log events.
+12-13 23:49:59.099 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.666 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1379 lines
+12-13 23:49:59.667 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.667 W/View    ( 4551): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-13 23:49:59.667 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.671 I/chatty  ( 1627): uid=1000(system) RenderThread identical 8 lines
+12-13 23:49:59.672 W/View    ( 4551): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-13 23:49:59.672 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.672 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.676 I/chatty  ( 1627): uid=1000(system) RenderThread identical 6 lines
+12-13 23:49:59.676 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.676 W/View    ( 4551): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-13 23:49:59.677 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.691 I/chatty  ( 1627): uid=1000(system) RenderThread identical 33 lines
+12-13 23:49:59.691 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.692 W/Binder  ( 1627): Outgoing transactions from this process must be FLAG_ONEWAY
+12-13 23:49:59.692 W/Binder  ( 1627): java.lang.Throwable
+12-13 23:49:59.692 W/Binder  ( 1627): 	at android.os.BinderProxy.transact(Binder.java:736)
+12-13 23:49:59.692 W/Binder  ( 1627): 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+12-13 23:49:59.692 W/Binder  ( 1627): 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+12-13 23:49:59.692 W/Binder  ( 1627): 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2096)
+12-13 23:49:59.692 W/Binder  ( 1627): 	at com.android.server.autofill.Session$1.send(Session.java:200)
+12-13 23:49:59.692 W/Binder  ( 1627): 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13137)
+12-13 23:49:59.692 W/Binder  ( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2466)
+12-13 23:49:59.692 W/Binder  ( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:49:59.692 W/Binder  ( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:49:59.692 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.706 I/chatty  ( 1627): uid=1000(system) RenderThread identical 26 lines
+12-13 23:49:59.716 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.716 I/AssistStructure( 4551): Flattened final assist data: 15312 bytes, containing 1 windows, 69 views
+12-13 23:49:59.717 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.732 I/chatty  ( 1627): uid=1000(system) RenderThread identical 33 lines
+12-13 23:49:59.733 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.733 I/AssistStructure( 1627): Flattened final assist data: 13988 bytes, containing 1 windows, 69 views
+12-13 23:49:59.734 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.740 I/chatty  ( 1627): uid=1000(system) RenderThread identical 6 lines
+12-13 23:49:59.740 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.740 W/lgq     ( 1941): Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+12-13 23:49:59.741 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.936 I/chatty  ( 1627): uid=1000(system) RenderThread identical 206 lines
+12-13 23:49:59.937 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:49:59.938 I/zygote  ( 1941): Background concurrent copying GC freed 96419(5MB) AllocSpace objects, 5(212KB) LOS objects, 42% free, 8MB/14MB, paused 1.860ms total 178.931ms
+12-13 23:49:59.942 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.113 I/chatty  ( 1627): uid=1000(system) RenderThread identical 360 lines
+12-13 23:50:00.113 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.113 E/SurfaceFlinger( 1410): ro.sf.lcd_density must be defined as a build property
+12-13 23:50:00.113 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.146 I/chatty  ( 1627): uid=1000(system) RenderThread identical 88 lines
+12-13 23:50:00.147 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.147 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:50:00.147 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.153 I/chatty  ( 1627): uid=1000(system) RenderThread identical 12 lines
+12-13 23:50:00.156 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.156 D/        ( 4641): HostConnection::get() New Host Connection established 0xae52f800, tid 4641
+12-13 23:50:00.157 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.765 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1311 lines
+12-13 23:50:00.765 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.765 I/System.out( 4551): URI: //
+12-13 23:50:00.766 I/System.out( 4551): params: {json={"command":"set_activity_orientation","arguments":["landscape"]}
+12-13 23:50:00.766 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.766 I/System.out( 4551): }
+12-13 23:50:00.766 I/System.out( 4551): header: {content-type=application/json;charset=utf-8, date=Mon, 14 Dec 2020 04:50:01 GMT, accept=*/*, host=127.0.0.1:34777, content-length=64, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.8 (2020-03-31))}
+12-13 23:50:00.766 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.766 I/System.out( 4551): params: {json={"command":"set_activity_orientation","arguments":["landscape"]}
+12-13 23:50:00.766 I/System.out( 4551): }
+12-13 23:50:00.766 I/System.out( 4551): ProP json = {"command":"set_activity_orientation","arguments":["landscape"]}
+12-13 23:50:00.766 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.766 I/System.out( 4551): files: {}
+12-13 23:50:00.766 I/System.out( 4551): command: {"command":"set_activity_orientation","arguments":["landscape"]}
+12-13 23:50:00.767 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.771 I/chatty  ( 1627): uid=1000(system) RenderThread identical 11 lines
+12-13 23:50:00.771 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.772 I/InstrumentationBackend( 4551): Got command:'Command:'Line:null,set_activity_orientation', arguments:'[landscape]'
+12-13 23:50:00.772 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.775 I/chatty  ( 1627): uid=1000(system) RenderThread identical 10 lines
+12-13 23:50:00.775 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.775 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:50:00.776 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.877 W/LocalDisplayAdapter( 1627): Unable to find color mode 0, ignoring request.
+12-13 23:50:00.882 I/chatty  ( 1627): uid=1000(system) RenderThread identical 186 lines
+12-13 23:50:00.882 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.887 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.888 I/InputReader( 1627): Reconfiguring input devices.  changes=0x00000004
+12-13 23:50:00.888 I/InputReader( 1627): Device reconfigured: id=0, name='qwerty2', size 1080x1920, orientation 1, mode 1, display id 0
+12-13 23:50:00.888 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:00.889 I/ActivityManager( 1627): Config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w683dp h387dp 420dpi nrml land finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1794, 1080) s.9}
+12-13 23:50:00.956 I/ActivityManager( 1627): Override config changes=480 {1.0 310mcc260mnc [en_US] ldltr sw411dp w683dp h387dp 420dpi nrml land finger qwerty/v/v -nav/h appBounds=Rect(0, 0 - 1794, 1080) s.9} for displayId=0
+12-13 23:50:01.000 I/chatty  ( 1627): uid=1000(system) RenderThread identical 119 lines
+12-13 23:50:01.001 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 544768
+12-13 23:50:01.001 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.001 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.031 I/chatty  ( 1627): uid=1000(system) RenderThread identical 45 lines
+12-13 23:50:01.032 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.032 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:50:01.033 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.048 I/chatty  ( 1627): uid=1000(system) RenderThread identical 42 lines
+12-13 23:50:01.049 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.049 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 544768
+12-13 23:50:01.049 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.129 I/chatty  ( 1627): uid=1000(system) RenderThread identical 181 lines
+12-13 23:50:01.129 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.130 I/calabash( 4551): newActivity1
+12-13 23:50:01.130 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.169 I/chatty  ( 1627): uid=1000(system) RenderThread identical 101 lines
+12-13 23:50:01.172 I/System.out( 4551): result:{"bonusInformation":[],"message":"","success":true}
+12-13 23:50:01.172 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.174 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.196 I/chatty  ( 1627): uid=1000(system) RenderThread identical 6 lines
+12-13 23:50:01.196 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.198 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@c9df1eb
+12-13 23:50:01.198 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:01.198 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:01.198 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:01.198 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:50:01.198 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 23:50:01.198 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 23:50:01.198 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:01.198 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:01.198 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 544768
+12-13 23:50:01.201 I/calabash( 4551): newActivity1
+12-13 23:50:01.201 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.217 I/chatty  ( 1627): uid=1000(system) RenderThread identical 42 lines
+12-13 23:50:01.218 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.218 W/AutofillManager( 4551): Session -511595323 could not be restored
+12-13 23:50:01.218 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.222 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@c9df1eb
+12-13 23:50:01.222 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:01.222 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:01.222 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:01.222 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 23:50:01.222 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 23:50:01.222 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:01.222 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:01.224 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@c9df1eb
+12-13 23:50:01.224 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:01.224 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:01.224 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:01.224 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:50:01.224 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 23:50:01.224 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 23:50:01.224 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:01.224 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:01.292 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@c9df1eb
+12-13 23:50:01.292 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:01.292 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:01.292 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:01.292 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:50:01.292 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:50:01.292 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:01.292 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:01.293 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@c9df1eb
+12-13 23:50:01.293 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:01.293 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:01.293 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:01.293 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:50:01.293 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:50:01.293 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:01.293 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:01.320 I/chatty  ( 1627): uid=1000(system) RenderThread identical 274 lines
+12-13 23:50:01.320 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.320 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 487424
+12-13 23:50:01.321 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.356 I/chatty  ( 1627): uid=1000(system) RenderThread identical 114 lines
+12-13 23:50:01.356 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.356 W/PhoneWindow( 4551): Previously focused view reported id 2131296279 during save, but can't be found during restore.
+12-13 23:50:01.356 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.407 I/chatty  ( 1627): uid=1000(system) RenderThread identical 169 lines
+12-13 23:50:01.407 D/StatusBar( 1730): disable<e i a s b h r c s q >
+12-13 23:50:01.407 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.407 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.420 I/chatty  ( 1627): uid=1000(system) RenderThread identical 46 lines
+12-13 23:50:01.420 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.421 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:50:01.421 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.439 I/chatty  ( 1627): uid=1000(system) RenderThread identical 27 lines
+12-13 23:50:01.440 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.440 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 487424
+12-13 23:50:01.440 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.492 I/chatty  ( 1627): uid=1000(system) RenderThread identical 143 lines
+12-13 23:50:01.492 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.492 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 487424
+12-13 23:50:01.493 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.496 I/chatty  ( 1627): uid=1000(system) RenderThread identical 8 lines
+12-13 23:50:01.496 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.496 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 23:50:01.496 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.508 I/chatty  ( 1627): uid=1000(system) RenderThread identical 23 lines
+12-13 23:50:01.508 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.509 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:50:01.509 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.542 I/chatty  ( 1627): uid=1000(system) RenderThread identical 73 lines
+12-13 23:50:01.542 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.542 D/EGL_emulation( 1730): eglMakeCurrent: 0x927696a0: ver 3 0 (tinfo 0xa187cda0)
+12-13 23:50:01.542 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.542 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1 line
+12-13 23:50:01.543 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.543 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:50:01.544 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.591 I/chatty  ( 1627): uid=1000(system) RenderThread identical 106 lines
+12-13 23:50:01.591 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.592 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 23:50:01.592 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.593 I/WindowManager( 1627): Screen frozen for +820ms due to Window{14b363 u0 com.evancharlton.mileage/com.evancharlton.mileage.Mileage}
+12-13 23:50:01.600 I/chatty  ( 1627): uid=1000(system) RenderThread identical 2 lines
+12-13 23:50:01.601 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.628 W/audio_hw_generic( 1389): Not supplying enough data to HAL, expected position 947851 , only wrote 947520
+12-13 23:50:01.641 W/audio_hw_generic( 1389): Not supplying enough data to HAL, expected position 948132 , only wrote 947520
+12-13 23:50:01.642 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.664 I/chatty  ( 1627): uid=1000(system) RenderThread identical 46 lines
+12-13 23:50:01.667 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.675 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:50:01.675 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.677 D/SurfaceFlinger( 1410): duplicate layer name: changing BlackSurface to BlackSurface#1
+12-13 23:50:01.678 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.715 I/chatty  ( 1627): uid=1000(system) RenderThread identical 26 lines
+12-13 23:50:01.715 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.715 D/SurfaceFlinger( 1410): duplicate layer name: changing BlackSurface to BlackSurface#1
+12-13 23:50:01.721 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.727 I/chatty  ( 1627): uid=1000(system) RenderThread identical 2 lines
+12-13 23:50:01.729 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:01.739 D/SurfaceFlinger( 1410): duplicate layer name: changing BlackSurface to BlackSurface#2
+12-13 23:50:01.739 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:02.173 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1173 lines
+12-13 23:50:02.173 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:02.174 V/StatusBar( 1730): setLightsOn(true)
+12-13 23:50:02.174 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:02.639 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1338 lines
+12-13 23:50:02.639 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:02.640 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 23:50:02.640 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:02.707 I/chatty  ( 1627): uid=1000(system) RenderThread identical 125 lines
+12-13 23:50:02.708 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:02.708 W/audio_hw_generic( 1389): Not supplying enough data to HAL, expected position 998735 , only wrote 998640
+12-13 23:50:02.708 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.183 I/chatty  ( 1627): uid=1000(system) RenderThread identical 2076 lines
+12-13 23:50:03.184 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.184 I/System.out( 4551): URI: //gesture
+12-13 23:50:03.184 I/System.out( 4551): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:1","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-13 23:50:03.184 I/System.out( 4551): }
+12-13 23:50:03.184 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.441 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7502d8c
+12-13 23:50:03.441 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:03.441 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:03.441 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:03.441 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:50:03.441 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 23:50:03.441 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 23:50:03.441 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:03.441 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:03.443 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1240 lines
+12-13 23:50:03.443 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.443 I/calabash( 4551): newActivity1
+12-13 23:50:03.443 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.443 I/chatty  ( 1627): uid=1000(system) RenderThread identical 4 lines
+12-13 23:50:03.444 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.444 W/audio_hw_generic( 1389): Not supplying enough data to HAL, expected position 998724 , only wrote 998640
+12-13 23:50:03.444 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.447 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7502d8c
+12-13 23:50:03.447 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:03.447 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7502d8c
+12-13 23:50:03.447 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:03.447 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:03.478 I/chatty  ( 1627): uid=1000(system) RenderThread identical 182 lines
+12-13 23:50:03.478 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.479 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.480 E/memtrack( 1627): Couldn't load memtrack module
+12-13 23:50:03.480 W/android.os.Debug( 1627): failed to get memory consumption info: -1
+12-13 23:50:03.480 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7502d8c
+12-13 23:50:03.480 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:03.480 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:03.480 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:03.480 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:50:03.480 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:50:03.480 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:03.480 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:03.482 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7502d8c
+12-13 23:50:03.482 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:03.482 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:03.482 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:03.482 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:50:03.482 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:50:03.482 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:03.482 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:03.599 D/Mileage ( 4551): Not enough fillups to calculate economy
+12-13 23:50:03.599 I/chatty  ( 1627): uid=1000(system) RenderThread expire 291 lines
+12-13 23:50:03.600 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.603 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.865 I/chatty  ( 1627): uid=1000(system) RenderThread identical 654 lines
+12-13 23:50:03.866 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.866 E/SurfaceFlinger( 1410): ro.sf.lcd_density must be defined as a build property
+12-13 23:50:03.867 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.885 I/chatty  ( 1627): uid=1000(system) RenderThread identical 49 lines
+12-13 23:50:03.885 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.885 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:50:03.885 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.891 I/chatty  ( 1627): uid=1000(system) RenderThread identical 28 lines
+12-13 23:50:03.894 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.895 D/        ( 4653): HostConnection::get() New Host Connection established 0xa732f800, tid 4653
+12-13 23:50:03.895 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.921 I/chatty  ( 1627): uid=1000(system) RenderThread identical 74 lines
+12-13 23:50:03.922 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:03.923 I/zygote  ( 1627): Explicit concurrent copying GC freed 20628(1612KB) AllocSpace objects, 4(112KB) LOS objects, 38% free, 9MB/15MB, paused 588us total 179.140ms
+12-13 23:50:03.931 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.281 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1142 lines
+12-13 23:50:04.281 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.282 I/System.out( 4551): URI: //gesture
+12-13 23:50:04.282 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.282 I/System.out( 4551): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:3","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-13 23:50:04.282 I/System.out( 4551): }
+12-13 23:50:04.282 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.542 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@b73bc90
+12-13 23:50:04.542 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:04.542 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:04.542 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:04.542 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:50:04.542 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 23:50:04.542 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 23:50:04.542 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:04.542 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:04.543 I/chatty  ( 1627): uid=1000(system) RenderThread identical 990 lines
+12-13 23:50:04.543 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.543 I/calabash( 4551): newActivity1
+12-13 23:50:04.543 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.545 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@b73bc90
+12-13 23:50:04.545 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:04.545 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@b73bc90
+12-13 23:50:04.545 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:04.545 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:04.553 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@b73bc90
+12-13 23:50:04.553 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:04.553 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@b73bc90
+12-13 23:50:04.553 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:04.553 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:04.896 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1307 lines
+12-13 23:50:04.896 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.896 E/SurfaceFlinger( 1410): ro.sf.lcd_density must be defined as a build property
+12-13 23:50:04.896 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.910 I/chatty  ( 1627): uid=1000(system) RenderThread identical 63 lines
+12-13 23:50:04.911 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.911 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.911 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:50:04.919 I/chatty  ( 1627): uid=1000(system) RenderThread expire 22 lines
+12-13 23:50:04.921 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.921 D/        ( 4659): HostConnection::get() New Host Connection established 0xb0d2f800, tid 4659
+12-13 23:50:04.921 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:04.931 W/RemoteFillService( 1627): Not handling { when=-1ms what=3 target=com.android.internal.os.HandlerCaller$MyHandler } as service for ComponentInfo{com.google.android.gms/com.google.android.gms.autofill.service.AutofillService} is already destroyed
+12-13 23:50:05.472 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1511 lines
+12-13 23:50:05.473 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.473 I/System.out( 4551): URI: //gesture
+12-13 23:50:05.473 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.473 I/System.out( 4551): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:2","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-13 23:50:05.473 I/System.out( 4551): }
+12-13 23:50:05.473 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.727 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7e2c1cb
+12-13 23:50:05.727 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:05.727 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:05.727 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:05.727 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:50:05.727 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 23:50:05.727 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 23:50:05.727 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:05.727 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:05.727 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1021 lines
+12-13 23:50:05.727 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.728 I/calabash( 4551): newActivity1
+12-13 23:50:05.728 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.742 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7e2c1cb
+12-13 23:50:05.742 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:05.742 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:05.742 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:05.742 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 23:50:05.742 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 23:50:05.742 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:05.742 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:05.744 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7e2c1cb
+12-13 23:50:05.744 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:05.744 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:05.744 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:05.744 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 23:50:05.744 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 23:50:05.744 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 23:50:05.744 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:05.744 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:05.771 I/chatty  ( 1627): uid=1000(system) RenderThread identical 135 lines
+12-13 23:50:05.771 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.772 D/VehicleStatisticsActivity( 4551): Checking recalculation ...
+12-13 23:50:05.772 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.774 I/chatty  ( 1627): uid=1000(system) RenderThread identical 10 lines
+12-13 23:50:05.774 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.774 D/VehicleStatisticsActivity( 4551): Recalculation not necessary.
+12-13 23:50:05.774 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.779 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7e2c1cb
+12-13 23:50:05.779 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:05.779 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:05.779 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:05.779 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:50:05.779 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:50:05.779 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:05.779 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:05.780 W/ActivityManager( 1627): Bad activity token: android.os.BinderProxy@7e2c1cb
+12-13 23:50:05.780 W/ActivityManager( 1627): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 23:50:05.780 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 23:50:05.780 W/ActivityManager( 1627): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 23:50:05.780 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 23:50:05.780 W/ActivityManager( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 23:50:05.780 W/ActivityManager( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:05.780 W/ActivityManager( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:05.786 I/chatty  ( 1627): uid=1000(system) RenderThread identical 40 lines
+12-13 23:50:05.786 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.786 D/VehicleStatisticsActivity( 4551): Checking recalculation ...
+12-13 23:50:05.786 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.788 I/chatty  ( 1627): uid=1000(system) RenderThread identical 4 lines
+12-13 23:50:05.788 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.788 D/VehicleStatisticsActivity( 4551): Recalculation not necessary.
+12-13 23:50:05.789 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.992 I/chatty  ( 1627): uid=1000(system) RenderThread identical 678 lines
+12-13 23:50:05.992 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.992 I/zygote  ( 4551): Do full code cache collection, code=445KB, data=313KB
+12-13 23:50:05.992 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.993 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:05.993 I/zygote  ( 4551): After code cache collection, code=429KB, data=257KB
+12-13 23:50:05.993 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.023 I/chatty  ( 1627): uid=1000(system) RenderThread identical 121 lines
+12-13 23:50:06.023 I/zygote  ( 4551): Background concurrent copying GC freed 84579(2MB) AllocSpace objects, 8(160KB) LOS objects, 49% free, 2MB/4MB, paused 1.983ms total 164.412ms
+12-13 23:50:06.023 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.023 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.167 I/chatty  ( 1627): uid=1000(system) RenderThread identical 539 lines
+12-13 23:50:06.167 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.168 E/SurfaceFlinger( 1410): ro.sf.lcd_density must be defined as a build property
+12-13 23:50:06.168 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.180 I/chatty  ( 1627): uid=1000(system) RenderThread identical 63 lines
+12-13 23:50:06.181 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.182 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:50:06.182 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.192 I/chatty  ( 1627): uid=1000(system) RenderThread identical 28 lines
+12-13 23:50:06.192 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.192 D/        ( 4665): HostConnection::get() New Host Connection established 0xacf2f800, tid 4665
+12-13 23:50:06.192 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.657 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1499 lines
+12-13 23:50:06.658 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:06.658 I/System.out( 4551): URI: //gesture
+12-13 23:50:06.658 I/System.out( 4551): params: {json={"query_timeout":5.0,"gestures":[{"query_string":"android.widget.TabWidget descendant TextView index:0","touches":[{"x":50,"y":50,"offset_x":0,"offset_y":0,"wait":0.0,"time":0.2,"release":true,"query_string":null}]}]}
+12-13 23:50:06.658 I/System.out( 4551): }
+12-13 23:50:06.658 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.023 I/chatty  ( 1627): uid=1000(system) RenderThread identical 1445 lines
+12-13 23:50:07.024 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.024 W/View    ( 4551): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-13 23:50:07.024 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.026 I/chatty  ( 1627): uid=1000(system) RenderThread identical 7 lines
+12-13 23:50:07.026 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.026 W/View    ( 4551): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-13 23:50:07.026 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.027 I/chatty  ( 1627): uid=1000(system) RenderThread identical 2 lines
+12-13 23:50:07.027 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.027 W/View    ( 4551): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-13 23:50:07.027 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.029 I/chatty  ( 1627): uid=1000(system) RenderThread identical 11 lines
+12-13 23:50:07.029 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.029 W/View    ( 4551): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-13 23:50:07.029 W/View    ( 4551): dispatchProvideAutofillStructure(): not laid out, ignoring
+12-13 23:50:07.029 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.029 I/chatty  ( 1627): uid=1000(system) RenderThread identical 2 lines
+12-13 23:50:07.029 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.029 W/Binder  ( 1627): Outgoing transactions from this process must be FLAG_ONEWAY
+12-13 23:50:07.029 W/Binder  ( 1627): java.lang.Throwable
+12-13 23:50:07.029 W/Binder  ( 1627): 	at android.os.BinderProxy.transact(Binder.java:736)
+12-13 23:50:07.029 W/Binder  ( 1627): 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+12-13 23:50:07.029 W/Binder  ( 1627): 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+12-13 23:50:07.029 W/Binder  ( 1627): 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2096)
+12-13 23:50:07.029 W/Binder  ( 1627): 	at com.android.server.autofill.Session$1.send(Session.java:200)
+12-13 23:50:07.029 W/Binder  ( 1627): 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13137)
+12-13 23:50:07.029 W/Binder  ( 1627): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2466)
+12-13 23:50:07.029 W/Binder  ( 1627): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 23:50:07.029 W/Binder  ( 1627): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 23:50:07.029 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.036 I/chatty  ( 1627): uid=1000(system) RenderThread identical 18 lines
+12-13 23:50:07.037 I/AssistStructure( 4551): Flattened final assist data: 10960 bytes, containing 1 windows, 49 views
+12-13 23:50:07.037 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.037 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.052 I/chatty  ( 1627): uid=1000(system) RenderThread identical 18 lines
+12-13 23:50:07.052 I/AssistStructure( 1627): Flattened final assist data: 9988 bytes, containing 1 windows, 49 views
+12-13 23:50:07.052 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.052 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.054 I/chatty  ( 1627): uid=1000(system) RenderThread identical 9 lines
+12-13 23:50:07.054 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.055 W/lgq     ( 1941): Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+12-13 23:50:07.055 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.260 I/chatty  ( 1627): uid=1000(system) RenderThread identical 680 lines
+12-13 23:50:07.260 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.261 E/SurfaceFlinger( 1410): ro.sf.lcd_density must be defined as a build property
+12-13 23:50:07.261 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.271 I/chatty  ( 1627): uid=1000(system) RenderThread identical 33 lines
+12-13 23:50:07.272 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.272 D/gralloc_ranchu( 1395): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 23:50:07.272 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.280 I/chatty  ( 1627): uid=1000(system) RenderThread identical 29 lines
+12-13 23:50:07.283 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.283 D/        ( 4671): HostConnection::get() New Host Connection established 0xae0af800, tid 4671
+12-13 23:50:07.283 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.561 I/chatty  ( 1627): uid=1000(system) RenderThread identical 625 lines
+12-13 23:50:07.561 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.561 I/Dialer  ( 2038): OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+12-13 23:50:07.561 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.562 I/Dialer  ( 2038): RetryPolicy - discarding deferred status: configuration_state=4
+12-13 23:50:07.562 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.565 I/chatty  ( 1627): uid=1000(system) RenderThread identical 3 lines
+12-13 23:50:07.566 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.566 I/Dialer  ( 2038): VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+12-13 23:50:07.566 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.574 I/chatty  ( 1627): uid=1000(system) RenderThread identical 26 lines
+12-13 23:50:07.574 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.574 I/Dialer  ( 2038): VvmTaskReceiver - task received
+12-13 23:50:07.575 I/Dialer  ( 2038): VvmTaskReceiver - TaskExecutor already running
+12-13 23:50:07.575 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.589 I/chatty  ( 1627): uid=1000(system) RenderThread identical 38 lines
+12-13 23:50:07.589 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.589 I/Dialer  ( 2038): Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+12-13 23:50:07.590 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.590 I/Dialer  ( 2038): RetryPolicy - retry #1 for com.android.voicemail.impl.ActivationTask@a995 queued, executing in 5000
+12-13 23:50:07.590 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.590 I/Dialer  ( 2038): VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@a995 added
+12-13 23:50:07.590 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.590 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.590 I/Dialer  ( 2038): VvmTaskExecutor - minimal wait time:4999
+12-13 23:50:07.590 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
+12-13 23:50:07.591 I/Dialer  ( 2038): VvmTaskExecutor - sleep for 4999 millis
+12-13 23:50:07.591 E/OpenGLRenderer( 1627): GL error:  GL_INVALID_OPERATION
