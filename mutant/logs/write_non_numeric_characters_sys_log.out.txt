@@ -1,0 +1,244 @@
+--------- beginning of main
+12-13 22:36:57.263 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:57.270 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 22:36:57.372 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 8298496
+12-13 22:36:57.396 D/EGL_emulation( 2227): eglMakeCurrent: 0x9b685a20: ver 3 0 (tinfo 0x9b683830)
+12-13 22:36:57.487 E/hw-IPCThreadState( 1396): binder thread pool (1 threads) starved for 115 ms
+12-13 22:36:57.522 W/SessionLifecycleManager( 2227): Handover failed. Creating new session controller.
+12-13 22:36:57.537 D/EGL_emulation( 2186): eglMakeCurrent: 0x98dc77a0: ver 3 0 (tinfo 0x98f7f850)
+12-13 22:36:57.572 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 22:36:57.599 I/MicroDetectionWorker( 2227): #updateMicroDetector [detectionMode: [mDetectionMode: [1]]]
+12-13 22:36:57.601 I/MicroDetectionWorker( 2227): #startMicroDetector [speakerMode: 0]
+12-13 22:36:57.602 I/AudioController( 2227): Using mInputStreamFactoryBuilder
+12-13 22:36:57.607 I/MicroRecognitionRunner( 2227): Starting detection.
+12-13 22:36:57.607 I/MicrophoneInputStream( 2227): mic_starting com.google.android.apps.gsa.staticplugins.aa.c@7367e6
+12-13 22:36:57.607 I/MicroDetectionWorker( 2227): onReady
+12-13 22:36:57.616 I/AudioFlinger( 1476): AudioFlinger's thread 0xb3603b80 tid=4033 ready to run
+12-13 22:36:57.618 I/MicrophoneInputStream( 2227): mic_started com.google.android.apps.gsa.staticplugins.aa.c@7367e6
+--------- beginning of system
+12-13 22:36:57.622 E/ActivityThread( 2227): Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+12-13 22:36:57.626 I/MicrophoneInputStream( 2227): mic_close com.google.android.apps.gsa.staticplugins.aa.c@7367e6
+12-13 22:36:57.631 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:57.631 I/MicroRecognitionRunner( 2227): Detection finished
+12-13 22:36:57.632 W/ErrorReporter( 2227): reportError [type: 211, code: 524300]: Error reading from input stream
+12-13 22:36:57.633 I/MicroRecognitionRunner( 2227): Stopping hotword detection.
+12-13 22:36:57.635 I/ActivityManager( 1629): Killing 3387:com.android.externalstorage/u0a8 (adj 906): empty #17
+12-13 22:36:57.636 W/ErrorProcessor( 2227): onFatalError, processing error from engine(4)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): com.google.android.apps.gsa.shared.speech.b.g: Error reading from input stream
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.staticplugins.recognizer.j.a.a(SourceFile:28)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.staticplugins.recognizer.j.b.run(SourceFile:15)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:457)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.shared.util.concurrent.a.ax.run(SourceFile:14)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.shared.util.concurrent.a.bl.run(SourceFile:4)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.shared.util.concurrent.a.bl.run(SourceFile:4)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at java.lang.Thread.run(Thread.java:764)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.shared.util.concurrent.a.ai.run(SourceFile:6)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.speech.audio.Tee.f(SourceFile:103)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.speech.audio.au.read(SourceFile:2)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at java.io.InputStream.read(InputStream.java:101)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.speech.audio.ao.run(SourceFile:18)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	at com.google.android.apps.gsa.speech.audio.an.run(SourceFile:2)
+12-13 22:36:57.636 W/ErrorProcessor( 2227): 	... 9 more
+12-13 22:36:57.636 I/AudioController( 2227): internalShutdown
+12-13 22:36:57.637 I/MicroDetectionWorker( 2227): onReady
+12-13 22:36:57.647 I/MicroDetector( 2227): Keeping mic open: false
+12-13 22:36:57.648 I/MicroDetectionWorker( 2227): #onError(false)
+12-13 22:36:57.649 I/DeviceStateChecker( 2227): DeviceStateChecker cancelled
+12-13 22:36:57.662 I/zygote  ( 2227): Do partial code cache collection, code=235KB, data=170KB
+12-13 22:36:57.662 I/zygote  ( 2227): After code cache collection, code=235KB, data=170KB
+12-13 22:36:57.662 I/zygote  ( 2227): Increasing code cache capacity to 1024KB
+12-13 22:36:57.669 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:57.723 I/chatty  ( 1732): uid=10028(u0_a28) RenderThread identical 5 lines
+12-13 22:36:57.726 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:57.737 I/zygote  ( 1732): NativeAllocBackground concurrent copying GC freed 1013(165KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 4MB/9MB, paused 6.072ms total 101ms
+12-13 22:36:57.743 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:57.839 I/chatty  ( 1732): uid=10028(u0_a28) RenderThread identical 11 lines
+12-13 22:36:57.858 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:58.015 W/OpenGLRenderer( 2186): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-13 22:36:58.030 D/AndroidRuntime( 4028): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-13 22:36:58.055 I/OpenGLRenderer( 1629): Initialized EGL, version 1.4
+12-13 22:36:58.055 D/OpenGLRenderer( 1629): Swap behavior 1
+12-13 22:36:58.056 W/OpenGLRenderer( 1629): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-13 22:36:58.056 D/OpenGLRenderer( 1629): Swap behavior 0
+12-13 22:36:58.063 D/EGL_emulation( 1629): eglCreateContext: 0x98a7e220: maj 3 min 0 rcv 3
+12-13 22:36:58.066 D/EGL_emulation( 1629): eglMakeCurrent: 0x98a7e220: ver 3 0 (tinfo 0x7df49000)
+12-13 22:36:58.068 E/eglCodecCommon( 1629): glUtilsParamSize: unknow param 0x00008cdf
+12-13 22:36:58.068 E/eglCodecCommon( 1629): glUtilsParamSize: unknow param 0x00008cdf
+12-13 22:36:58.069 E/eglCodecCommon( 1629): glUtilsParamSize: unknow param 0x00008824
+12-13 22:36:58.069 E/eglCodecCommon( 1629): glUtilsParamSize: unknow param 0x00008824
+12-13 22:36:58.107 W/app_process( 4028): Unexpected CPU variant for X86 using defaults: x86
+12-13 22:36:58.129 D/AndroidRuntime( 4028): Calling main entry com.android.commands.am.Am
+12-13 22:36:58.131 I/ActivityManager( 1629): Force stopping com.evancharlton.mileage appid=10118 user=0: start instr
+12-13 22:36:58.131 I/ActivityManager( 1629): Killing 3957:com.evancharlton.mileage/u0a118 (adj 0): stop com.evancharlton.mileage
+12-13 22:36:58.135 W/ActivityManager( 1629): Crash of app com.evancharlton.mileage running instrumentation ComponentInfo{com.evancharlton.mileage.test/sh.calaba.instrumentationbackend.CalabashInstrumentationTestRunner}
+12-13 22:36:58.135 I/ActivityManager( 1629): Force stopping com.evancharlton.mileage appid=10118 user=0: finished inst
+12-13 22:36:58.150 I/ActivityManager( 1629): Start proc 4042:com.evancharlton.mileage/u0a118 for added application com.evancharlton.mileage
+12-13 22:36:58.151 W/ActivityManager( 1629): setHasOverlayUi called on unknown pid: 3957
+12-13 22:36:58.151 D/AndroidRuntime( 4028): Shutting down VM
+12-13 22:36:58.152 I/zygote  ( 4042): Not late-enabling -Xcheck:jni (already on)
+12-13 22:36:58.163 W/zygote  ( 4042): Unexpected CPU variant for X86 using defaults: x86
+12-13 22:36:58.177 E/adbd    ( 1372): failed to connect to socket 'tcp:7102': Connection refused
+12-13 22:36:58.187 E/adbd    ( 1372): failed to connect to socket 'tcp:7102': Connection refused
+12-13 22:36:58.208 W/zygote  ( 4042): Found duplicate classes, falling back to extracting from APK : /data/app/com.evancharlton.mileage.test-nEb3YTU2DIw2sDeoF2Wwww==/base.apk
+12-13 22:36:58.208 W/zygote  ( 4042): NOTE: This wastes RAM and hurts startup performance.
+12-13 22:36:58.208 W/zygote  ( 4042): Found duplicated class when checking oat files: 'Ljunit/runner/BaseTestRunner;' in /data/app/com.evancharlton.mileage.test-nEb3YTU2DIw2sDeoF2Wwww==/base.apk and /system/framework/android.test.runner.jar
+12-13 22:36:58.208 W/zygote  ( 4042): 
+12-13 22:36:58.252 W/System  ( 4042): ClassLoader referenced unknown path: 
+12-13 22:36:58.266 I/System.out( 4042): Main activity name automatically set to: com.evancharlton.mileage.Mileage
+12-13 22:36:58.267 I/System.out( 4042): Calabash did not load Mono. This is only a problem if you are trying to test a Mono application
+12-13 22:36:58.267 I/calabash( 4042): Test server port: 7102
+12-13 22:36:58.269 I/InstrumentationBackend( 4042): Added:'GetPreferences', with key:'get_preferences'
+12-13 22:36:58.290 E/adbd    ( 1372): failed to connect to socket 'tcp:7102': Connection refused
+12-13 22:36:58.293 E/adbd    ( 1372): failed to connect to socket 'tcp:7102': Connection refused
+12-13 22:36:58.341 I/InstrumentationBackend( 4042): Added:'SetPreferences', with key:'set_preferences'
+12-13 22:36:58.341 I/InstrumentationBackend( 4042): Added:'ClearPreferences', with key:'clear_preferences'
+12-13 22:36:58.342 I/InstrumentationBackend( 4042): Added:'PressElement', with key:'press_l10n_element'
+12-13 22:36:58.342 I/InstrumentationBackend( 4042): Added:'WaitForElement', with key:'wait_for_l10n_element'
+12-13 22:36:58.343 I/InstrumentationBackend( 4042): Added:'NullAction', with key:'nullAction'
+12-13 22:36:58.343 I/InstrumentationBackend( 4042): Added:'PressKey', with key:'press_key'
+12-13 22:36:58.343 I/InstrumentationBackend( 4042): Added:'SetActivityOrientation', with key:'set_activity_orientation'
+12-13 22:36:58.344 I/InstrumentationBackend( 4042): Added:'GetActivityOrientation', with key:'get_activity_orientation'
+12-13 22:36:58.344 I/InstrumentationBackend( 4042): Added:'FakeGPSLocation', with key:'set_gps_coordinates'
+12-13 22:36:58.345 I/InstrumentationBackend( 4042): Added:'SetPropertyByCssSelector', with key:'set_property_by_css_selector'
+12-13 22:36:58.346 I/InstrumentationBackend( 4042): Added:'GetUrl', with key:'get_url'
+12-13 22:36:58.348 I/InstrumentationBackend( 4042): Added:'ScrollTo', with key:'scroll_to'
+12-13 22:36:58.348 I/InstrumentationBackend( 4042): Added:'GetLoadProgress', with key:'get_load_progress'
+12-13 22:36:58.349 I/InstrumentationBackend( 4042): Added:'DumpHtml', with key:'dump_html'
+12-13 22:36:58.350 I/InstrumentationBackend( 4042): Added:'DumpBodyHtml', with key:'dump_body_html'
+12-13 22:36:58.350 I/InstrumentationBackend( 4042): Added:'EnterTextByCssSelector', with key:'enter_text_by_selector'
+12-13 22:36:58.355 I/InstrumentationBackend( 4042): Added:'AndroidSDKVersion', with key:'android_sdk_version'
+12-13 22:36:58.355 I/InstrumentationBackend( 4042): Added:'Version', with key:'version'
+12-13 22:36:58.355 I/InstrumentationBackend( 4042): Added:'Drag', with key:'drag'
+12-13 22:36:58.356 I/InstrumentationBackend( 4042): Added:'TouchCoordinates', with key:'touch_coordinate'
+12-13 22:36:58.356 I/InstrumentationBackend( 4042): Added:'LongPressCoordinate', with key:'long_press_coordinate'
+12-13 22:36:58.356 I/InstrumentationBackend( 4042): Added:'DragCoordinates', with key:'drag_coordinates'
+12-13 22:36:58.357 I/InstrumentationBackend( 4042): Added:'ResumeApplication', with key:'resume_application'
+12-13 22:36:58.357 I/InstrumentationBackend( 4042): Added:'Swipe', with key:'swipe'
+12-13 22:36:58.357 I/InstrumentationBackend( 4042): Added:'DoubleTapCoordinate', with key:'double_tap_coordinate'
+12-13 22:36:58.358 I/InstrumentationBackend( 4042): Added:'ClickOnScreen', with key:'click_on_screen'
+12-13 22:36:58.359 I/InstrumentationBackend( 4042): Added:'GetActivityName', with key:'get_activity_name'
+12-13 22:36:58.359 I/InstrumentationBackend( 4042): Added:'ScrollToView', with key:'scroll_to_view'
+12-13 22:36:58.359 I/InstrumentationBackend( 4042): Added:'ViewConfiguration', with key:'view_configuration'
+12-13 22:36:58.360 I/InstrumentationBackend( 4042): Added:'IsCurrentActivityFocused', with key:'is_current_activity_focused'
+12-13 22:36:58.360 I/InstrumentationBackend( 4042): Added:'SendTcp', with key:'send_tcp'
+12-13 22:36:58.360 I/InstrumentationBackend( 4042): Added:'DpToDevicePixel', with key:'dp_to_device_pixel'
+12-13 22:36:58.362 I/InstrumentationBackend( 4042): Added:'KeyboardEnterText', with key:'keyboard_enter_text'
+12-13 22:36:58.363 I/InstrumentationBackend( 4042): Added:'DeleteSurroundingText', with key:'delete_surrounding_text'
+12-13 22:36:58.363 I/InstrumentationBackend( 4042): Added:'SetComposingRegion', with key:'set_composing_region'
+12-13 22:36:58.363 I/InstrumentationBackend( 4042): Added:'SetSelection', with key:'set_selection'
+12-13 22:36:58.364 I/InstrumentationBackend( 4042): Added:'KeyboardKeyEvent', with key:'keyboard_key_event'
+12-13 22:36:58.364 I/InstrumentationBackend( 4042): Added:'PressUserActionButton', with key:'press_user_action_button'
+12-13 22:36:58.365 I/InstrumentationBackend( 4042): Added:'HideSoftKeyboard', with key:'hide_soft_keyboard'
+12-13 22:36:58.368 I/InstrumentationBackend( 4042): Added:'ListActions', with key:'list_actions'
+12-13 22:36:58.368 I/calabash( 4042): Instantiating http server at 7102
+12-13 22:36:58.368 I/System.out( 4042): HTTP Daemon listening on: 7102
+12-13 22:36:58.420 I/System.out( 4042): URI: //ping
+12-13 22:36:58.421 I/System.out( 4042): params: {json={}
+12-13 22:36:58.421 I/System.out( 4042): }
+12-13 22:36:58.450 I/System.out( 4042): URI: //ping
+12-13 22:36:58.450 I/System.out( 4042): params: {json={}
+12-13 22:36:58.451 I/System.out( 4042): }
+12-13 22:36:58.463 I/System.out( 4042): URI: //ready
+12-13 22:36:58.463 I/System.out( 4042): params: {json={}
+12-13 22:36:58.463 I/System.out( 4042): }
+12-13 22:36:58.473 I/System.out( 4042): URI: //
+12-13 22:36:58.473 I/System.out( 4042): params: {json={"command":"version","arguments":[]}
+12-13 22:36:58.473 I/System.out( 4042): }
+12-13 22:36:58.473 I/System.out( 4042): header: {content-type=application/json;charset=utf-8, date=Mon, 14 Dec 2020 03:36:59 GMT, accept=*/*, host=127.0.0.1:34777, content-length=36, user-agent=HTTPClient/1.0 (2.8.3, ruby 2.5.8 (2020-03-31))}
+12-13 22:36:58.473 I/System.out( 4042): params: {json={"command":"version","arguments":[]}
+12-13 22:36:58.473 I/System.out( 4042): }
+12-13 22:36:58.473 I/System.out( 4042): ProP json = {"command":"version","arguments":[]}
+12-13 22:36:58.473 I/System.out( 4042): files: {}
+12-13 22:36:58.473 I/System.out( 4042): command: {"command":"version","arguments":[]}
+12-13 22:36:58.503 I/InstrumentationBackend( 4042): Got command:'Command:'Line:null,version', arguments:'[]'
+12-13 22:36:58.541 I/System.out( 4042): result:{"bonusInformation":[],"message":"0.9.8","success":true}
+12-13 22:36:58.548 I/System.out( 4042): URI: //start-application
+12-13 22:36:58.549 I/System.out( 4042): params: {json={"intent":null}
+12-13 22:36:58.549 I/System.out( 4042): }
+12-13 22:36:58.590 I/ActivityManager( 1629): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.evancharlton.mileage/.Mileage} from uid 10118
+12-13 22:36:58.608 I/calabash( 4042): newActivity1
+12-13 22:36:58.635 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@7a56018
+12-13 22:36:58.635 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 22:36:58.635 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 22:36:58.635 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 22:36:58.635 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 22:36:58.635 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.getActivityDisplayId(ActivityManagerService.java:10406)
+12-13 22:36:58.635 W/ActivityManager( 1629): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2738)
+12-13 22:36:58.635 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 22:36:58.635 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 22:36:58.636 I/calabash( 4042): newActivity1
+12-13 22:36:58.638 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 22:36:58.645 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@7a56018
+12-13 22:36:58.645 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 22:36:58.645 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 22:36:58.645 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 22:36:58.645 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.setTaskDescription(ActivityManagerService.java:9988)
+12-13 22:36:58.645 W/ActivityManager( 1629): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2824)
+12-13 22:36:58.645 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 22:36:58.645 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 22:36:58.647 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@7a56018
+12-13 22:36:58.647 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 22:36:58.647 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 22:36:58.647 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 22:36:58.647 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.getStackLocked(ActivityRecord.java:2090)
+12-13 22:36:58.647 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.getActivityStackId(ActivityManagerService.java:10417)
+12-13 22:36:58.647 W/ActivityManager( 1629): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3548)
+12-13 22:36:58.647 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 22:36:58.647 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 22:36:58.721 E/ContentStoreEUAS( 2227): Failed to commit the deferred actions
+12-13 22:36:58.739 D/EGL_emulation( 2227): eglMakeCurrent: 0x9b685a20: ver 3 0 (tinfo 0x9b683830)
+12-13 22:36:58.739 D/EGL_emulation( 2186): eglMakeCurrent: 0x98dc77a0: ver 3 0 (tinfo 0x98f7f850)
+12-13 22:36:58.761 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:58.762 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:58.773 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:58.794 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@7a56018
+12-13 22:36:58.794 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 22:36:58.794 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 22:36:58.794 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 22:36:58.794 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 22:36:58.794 W/ActivityManager( 1629): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 22:36:58.794 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 22:36:58.794 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 22:36:58.796 W/ActivityManager( 1629): Bad activity token: android.os.BinderProxy@7a56018
+12-13 22:36:58.796 W/ActivityManager( 1629): java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token
+12-13 22:36:58.796 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.forTokenLocked(ActivityRecord.java:778)
+12-13 22:36:58.796 W/ActivityManager( 1629): 	at com.android.server.am.ActivityRecord.isInStackLocked(ActivityRecord.java:2085)
+12-13 22:36:58.796 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.getActivityOptions(ActivityManagerService.java:13302)
+12-13 22:36:58.796 W/ActivityManager( 1629): 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2910)
+12-13 22:36:58.796 W/ActivityManager( 1629): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+12-13 22:36:58.796 W/ActivityManager( 1629): 	at android.os.Binder.execTransact(Binder.java:674)
+12-13 22:36:58.902 I/chatty  ( 1732): uid=10028(u0_a28) RenderThread identical 14 lines
+12-13 22:36:58.912 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:58.914 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:58.928 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:58.948 I/chatty  ( 1732): uid=10028(u0_a28) RenderThread identical 3 lines
+12-13 22:36:58.969 D/EGL_emulation( 1732): eglMakeCurrent: 0x87cd11c0: ver 3 0 (tinfo 0x98be5a20)
+12-13 22:36:58.974 I/zygote  ( 4042): Do partial code cache collection, code=28KB, data=30KB
+12-13 22:36:58.975 I/zygote  ( 4042): After code cache collection, code=28KB, data=30KB
+12-13 22:36:58.975 I/zygote  ( 4042): Increasing code cache capacity to 128KB
+12-13 22:36:58.976 I/zygote  ( 4042): Do partial code cache collection, code=28KB, data=48KB
+12-13 22:36:58.978 I/zygote  ( 4042): After code cache collection, code=28KB, data=48KB
+12-13 22:36:58.978 I/zygote  ( 4042): Increasing code cache capacity to 256KB
+12-13 22:36:58.987 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:58.987 I/zygote  ( 4042): JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-13 22:36:58.987 I/zygote  ( 4042): Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-13 22:36:58.990 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:58.993 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:59.047 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 22:36:59.067 D/        ( 4042): HostConnection::get() New Host Connection established 0x98ab0b40, tid 4042
+12-13 22:36:59.125 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:59.128 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:59.130 I/ActivityManager( 1629): Displayed com.evancharlton.mileage/.Mileage: +526ms
+12-13 22:36:59.134 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:59.167 D/gralloc_ranchu( 1396): gralloc_alloc: Creating ashmem region of size 7753728
+12-13 22:36:59.169 V/StatusBar( 1732): setLightsOn(true)
+12-13 22:36:59.172 I/zygote  ( 4042): Do full code cache collection, code=125KB, data=70KB
+12-13 22:36:59.173 I/zygote  ( 4042): After code cache collection, code=106KB, data=43KB
+12-13 22:36:59.238 I/zygote  ( 4042): Do partial code cache collection, code=107KB, data=48KB
+12-13 22:36:59.242 I/zygote  ( 4042): After code cache collection, code=107KB, data=48KB
+12-13 22:36:59.247 I/zygote  ( 4042): Increasing code cache capacity to 512KB
+12-13 22:36:59.320 V/StatusBar( 1732): setLightsOn(true)
